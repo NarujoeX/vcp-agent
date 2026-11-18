@@ -1,0 +1,13 @@
+2026-11-18 09:51:05 [INFO] backtest series=173 symbols (skipped 22 unaligned)
+2026-11-18 09:51:05 [INFO] window bars 210..369 (159 sessions)
+2026-11-18 09:51:29 [INFO]   jlaw candidate US.AMD 20260416: dv=7,962M heavy=1/30 edges=1 rs63=0.2280861112000780497316636852 base=205 pivot=163
+2026-11-18 09:56:26 [INFO]   jlaw candidate US.GS 20260714: dv=2,340M heavy=1/30 edges=2 rs63=0.1839605459106365515643417641 base=264 pivot=264
+2026-11-18 09:58:17 [INFO]   jlaw candidate US.ISNPY 20260813: dv=7M heavy=6/30 edges=4 rs63=0.1414665146265904981061549963 base=265 pivot=301
+2026-11-18 09:59:18 [INFO]   jlaw candidate US.UBS 20260831: dv=83M heavy=6/30 edges=3 rs63=0.1498563034470872418837257762 base=281 pivot=281
+2026-11-18 09:59:27 [INFO]   jlaw candidate US.VRTX 20260902: dv=606M heavy=3/30 edges=4 rs63=0.2853070671597821127982443853 base=299 pivot=310
+2026-11-18 10:02:59 [INFO] signal funnel: stage2=7377 vcp=1054 breakout=120 volumeOk=5 jlaw=1 fills=1 regimeBlockedDays=22 regimeAllowedDays=137 trims=0
+2026-11-18 10:02:59 [INFO] jlaw sub-funnel (first failing stage): dv<100M=2 heavy<2=2 edges<2=0 rs63<=0=0 pass=1
+2026-11-18 10:03:00 [INFO] ALL: trades=1 win=0.0% exp=-202.38 PF=0 ret=-0.20% maxDD=0.21% sharpe=-1.6
+2026-11-18 10:03:00 [INFO] BENCH: SPY buy & hold 12.93% (655.24 -> 739.95)
+2026-11-18 10:03:00 [INFO] IS:  trades=1 ret=-0.20% maxDD=0.21% sharpe=-1.908
+2026-11-18 10:03:00 [INFO] OOS: trades=0 ret=0.00% maxDD=0.00% sharpe=

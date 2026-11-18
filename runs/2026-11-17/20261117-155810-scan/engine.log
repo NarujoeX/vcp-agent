@@ -1,0 +1,11 @@
+2026-11-17 15:58:23 [INFO] Scan: universe=300 checked=294 stage2=70 vcp=12 breakouts=2 setups=10
+2026-11-17 15:58:23 [INFO]   BREAKOUT US.RSG pivot=255.3896 close=255.56 conv=0.464 depths=[0.0944,0.0507] volRatio=9
+2026-11-17 15:58:23 [INFO]   BREAKOUT US.FRCOY pivot=51.98 close=52.288 conv=0.399 depths=[0.104,0.0676,0.0558] volRatio=9
+2026-11-17 15:58:23 [INFO]   SETUP    US.MRSH pivot=214 close=209.88 conv=0.604 depths=[0.1492,0.0548] volRatio=0.922
+2026-11-17 15:58:23 [INFO]   SETUP    US.ALIZY pivot=52.82 close=52.11 conv=0.532 depths=[0.1274,0.0558] volRatio=0.593
+2026-11-17 15:58:23 [INFO]   SETUP    US.IBN pivot=35 close=34.42 conv=0.529 depths=[0.1174,0.0545] volRatio=9
+2026-11-17 15:58:23 [INFO]   SETUP    US.RHHBY pivot=61.75 close=60.95 conv=0.49 depths=[0.1012,0.0747,0.0535] volRatio=9
+2026-11-17 15:58:23 [INFO]   SETUP    US.BNY pivot=165.84 close=151.69 conv=0.467 depths=[0.1852,0.0564] volRatio=0.785
+2026-11-17 15:58:23 [INFO]   SETUP    US.MAR pivot=433.3 close=425.7 conv=0.452 depths=[0.1210,0.0646,0.0642] volRatio=9
+2026-11-17 15:58:23 [INFO]   SETUP    US.LRLCY pivot=102.5 close=98.81 conv=0.417 depths=[0.0965,0.0517] volRatio=9
+2026-11-17 15:58:23 [INFO]   SETUP    US.MGCLY pivot=13.1 close=13.01 conv=0.397 depths=[0.1275,0.0522] volRatio=9

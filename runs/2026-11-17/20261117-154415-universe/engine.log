@@ -1,0 +1,17 @@
+2026-11-17 15:44:15 [INFO] Universe refresh: top 12 by market cap
+2026-11-17 15:44:16 [INFO] moomoo stock-screen --screen-queries [{\"simple_field_query\":{\"simple_field\":1,\"screen_value_list\":[2]}}] --retrieve-queries [{\"basic_property\":{\"name\":1101}},{\"simple_property\":{\"name\":2301}}] --sort {\"direction\":2,\"simple_property\":{\"name\":2301}} --limit 12 -f json
+2026-11-17 15:44:16 [INFO] Screen returned 12 names
+2026-11-17 15:44:16 [INFO] MaxSymbols cap applied: 12
+2026-11-17 15:44:16 [INFO] moomoo kline US.AAPL -n 370 --ktype 2 -f json
+2026-11-17 15:44:17 [INFO] moomoo kline US.MSFT -n 370 --ktype 2 -f json
+2026-11-17 15:44:17 [INFO] moomoo kline US.NVDA -n 370 --ktype 2 -f json
+2026-11-17 15:44:18 [INFO] moomoo kline US.GOOGL -n 370 --ktype 2 -f json
+2026-11-17 15:44:19 [INFO] moomoo kline US.GOOG -n 370 --ktype 2 -f json
+2026-11-17 15:44:20 [INFO] moomoo kline US.AMZN -n 370 --ktype 2 -f json
+2026-11-17 15:44:21 [INFO] moomoo kline US.TSM -n 370 --ktype 2 -f json
+2026-11-17 15:44:21 [INFO] moomoo kline US.SPCX -n 370 --ktype 2 -f json
+2026-11-17 15:44:22 [INFO] moomoo kline US.META -n 370 --ktype 2 -f json
+2026-11-17 15:44:23 [INFO] moomoo kline US.AVGO -n 370 --ktype 2 -f json
+2026-11-17 15:44:23 [INFO] moomoo kline US.TSLA -n 370 --ktype 2 -f json
+2026-11-17 15:44:24 [INFO] moomoo kline US.LLY -n 370 --ktype 2 -f json
+2026-11-17 15:44:25 [INFO] Universe done: 12 members, 12 cached, 0 fresh, 0 failed

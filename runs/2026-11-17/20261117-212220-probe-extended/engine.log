@@ -1,0 +1,2 @@
+2026-11-17 21:22:20 [INFO] moomoo snapshot US.F
+2026-11-17 21:22:21 [INFO] moomoo sim order sell US.F 1 --account challenge-account --market US --type limit --price 11.59 --session EXTENDED --text probe: extended session resting sell

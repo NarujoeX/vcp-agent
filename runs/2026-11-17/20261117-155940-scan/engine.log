@@ -1,0 +1,5 @@
+2026-11-17 15:59:55 [INFO] Scan: universe=300 checked=294 stage2=70 vcp=4 breakouts=0 setups=4
+2026-11-17 15:59:55 [INFO]   SETUP    US.ALIZY pivot=52.82 close=52.11 conv=0.657 depths=[0.1274,0.0558] volRatio=0.593
+2026-11-17 15:59:55 [INFO]   SETUP    US.MRSH pivot=214 close=209.88 conv=0.636 depths=[0.1492,0.0548] volRatio=0.922
+2026-11-17 15:59:55 [INFO]   SETUP    US.BNY pivot=165.84 close=151.69 conv=0.523 depths=[0.1852,0.0564] volRatio=0.785
+2026-11-17 15:59:55 [INFO]   SETUP    US.CME pivot=321.335 close=319.37 conv=0.387 depths=[0.1070,0.0583] volRatio=0.965

@@ -1,0 +1,16 @@
+2026-11-17 18:14:32 [INFO] backtest series=195 symbols (skipped 1 unaligned)
+2026-11-17 18:14:32 [INFO] window bars 210..369 (159 sessions)
+2026-11-17 18:14:50 [INFO]   jlaw candidate US.AMD 20260416: dv=7,962M heavy=0/10 edges=1 rs63=0.2280861112000780497316636852 base=206 pivot=164
+2026-11-17 18:14:56 [INFO]   jlaw candidate US.ADI 20260417: dv=1,099M heavy=1/10 edges=1 rs63=0.2037016645261359559748427673 base=206 pivot=186
+2026-11-17 18:19:29 [INFO]   jlaw candidate US.GS 20260714: dv=2,340M heavy=1/10 edges=2 rs63=0.1839605459106365515643417641 base=265 pivot=265
+2026-11-17 18:21:10 [INFO]   jlaw candidate US.ISNPY 20260813: dv=7M heavy=4/10 edges=4 rs63=0.1414665146265904981061549963 base=266 pivot=302
+2026-11-17 18:22:10 [INFO]   jlaw candidate US.UBS 20260831: dv=83M heavy=1/10 edges=3 rs63=0.1498563034470872418837257762 base=282 pivot=282
+2026-11-17 18:22:19 [INFO]   jlaw candidate US.VRTX 20260902: dv=606M heavy=1/10 edges=4 rs63=0.2853070671597821127982443853 base=300 pivot=311
+2026-11-17 18:25:39 [INFO] signal funnel: stage2=8545 vcp=1196 breakout=143 volumeOk=6 jlaw=0 fills=0 regimeBlockedDays=22 trims=0
+2026-11-17 18:25:39 [INFO] jlaw sub-funnel (first failing stage): dv<100M=2 heavy<2=4 edges<2=0 rs63<=0=0 pass=0
+2026-11-17 18:25:40 [INFO] ALL: trades=0 win=0.0% exp=0.00 PF= ret=0.00% maxDD=0.00% sharpe=
+2026-11-17 18:25:40 [INFO] BENCH: SPY buy & hold 16.00% (650.34 -> 754.37)
+2026-11-17 18:25:40 [INFO] IS:  trades=0 ret=0.00% maxDD=0.00% sharpe=
+2026-11-17 18:25:40 [INFO] OOS: trades=0 ret=0.00% maxDD=0.00% sharpe=
+BACKTEST trades=0 win=0.0% exp=0.00 ret=0.00% maxDD=0.00% sharpe=
+OOS trades=0 ret=0.00% maxDD=0.00% sharpe= RUNDIR=C:\Users\REDACTED_USER\Documents\Qoder\2026-11-17\6df584d8\runs\2026-11-17\20261117-181428-backtest

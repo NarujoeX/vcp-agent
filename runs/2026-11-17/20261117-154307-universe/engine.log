@@ -1,0 +1,2 @@
+2026-11-17 15:43:07 [INFO] Universe refresh: top 12 by market cap
+2026-11-17 15:43:07 [INFO] moomoo stock-screen --screen-queries [{\"simple_field_query\":{\"simple_field\":1,\"screen_value_list\":[2]}}] --retrieve-queries [{\"basic_property\":{\"name\":1101}},{\"simple_property\":{\"name\":2301}}] --sort {\"direction\":2,\"simple_property\":{\"name\":2301}} --limit 12 -f json

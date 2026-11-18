@@ -1,0 +1,488 @@
+﻿{
+    "generated":  "2026-11-17T15:58:23",
+    "universe":  300,
+    "checked":  294,
+    "missingBars":  1,
+    "tooShort":  5,
+    "stage2Count":  70,
+    "vcpCount":  12,
+    "breakoutCount":  2,
+    "setupCount":  10,
+    "spy126":  0.0018,
+    "candidates":  [
+                       {
+                           "symbol":  "US.MRSH",
+                           "name":  "Marsh",
+                           "marketCap":  99800946950.76,
+                           "close":  209.88,
+                           "rsi":  68.4,
+                           "sma200":  178.52,
+                           "atr":  4.617,
+                           "high52":  214,
+                           "vol50":  2598261,
+                           "rs126":  0.2627,
+                           "vcp":  {
+                                       "state":  "setup",
+                                       "pivot":  214,
+                                       "contractions":  2,
+                                       "depths":  [
+                                                      0.1492,
+                                                      0.0548
+                                                  ],
+                                       "avgVols":  [
+                                                       2639431,
+                                                       2394877
+                                                   ],
+                                       "volDecay":  true,
+                                       "lastVolRatio":  0.922,
+                                       "baseBars":  59,
+                                       "close":  209.88,
+                                       "distPct":  -0.0193,
+                                       "lastVol":  1985180,
+                                       "triggerVol":  3897392,
+                                       "volumeOk":  false,
+                                       "score":  0.532
+                                   },
+                           "rsScore":  0.909,
+                           "conviction":  0.604,
+                           "entryLimit":  214,
+                           "stopPct":  0.07,
+                           "stopPrice":  199.02
+                       },
+                       {
+                           "symbol":  "US.ALIZY",
+                           "name":  "ALLIANZ SE UNSPON ADS EACH REP 1/10 ORD SHARES",
+                           "marketCap":  194888396900.7,
+                           "close":  52.11,
+                           "rsi":  62.5,
+                           "sma200":  46.66,
+                           "atr":  0.872,
+                           "high52":  52.82,
+                           "vol50":  305383,
+                           "rs126":  0.1648,
+                           "vcp":  {
+                                       "state":  "setup",
+                                       "pivot":  52.82,
+                                       "contractions":  2,
+                                       "depths":  [
+                                                      0.1274,
+                                                      0.0558
+                                                  ],
+                                       "avgVols":  [
+                                                       322767,
+                                                       181170
+                                                   ],
+                                       "volDecay":  true,
+                                       "lastVolRatio":  0.593,
+                                       "baseBars":  51,
+                                       "close":  52.11,
+                                       "distPct":  -0.0134,
+                                       "lastVol":  103683,
+                                       "triggerVol":  458075,
+                                       "volumeOk":  false,
+                                       "score":  0.585
+                                   },
+                           "rsScore":  0.364,
+                           "conviction":  0.532,
+                           "entryLimit":  52.82,
+                           "stopPct":  0.07,
+                           "stopPrice":  49.12
+                       },
+                       {
+                           "symbol":  "US.IBN",
+                           "name":  "ICICI Bank",
+                           "marketCap":  123638768670.48,
+                           "close":  34.42,
+                           "rsi":  76.2,
+                           "sma200":  28.7,
+                           "atr":  0.685,
+                           "high52":  35,
+                           "vol50":  5907024,
+                           "rs126":  0.3293,
+                           "vcp":  {
+                                       "state":  "setup",
+                                       "pivot":  35,
+                                       "contractions":  2,
+                                       "depths":  [
+                                                      0.1174,
+                                                      0.0545
+                                                  ],
+                                       "avgVols":  [
+                                                       4716159,
+                                                       7491477
+                                                   ],
+                                       "volDecay":  false,
+                                       "lastVolRatio":  9,
+                                       "baseBars":  51,
+                                       "close":  34.42,
+                                       "distPct":  -0.0166,
+                                       "lastVol":  6236859,
+                                       "triggerVol":  8860536,
+                                       "volumeOk":  false,
+                                       "score":  0.398
+                                   },
+                           "rsScore":  1,
+                           "conviction":  0.529,
+                           "entryLimit":  35,
+                           "stopPct":  0.07,
+                           "stopPrice":  32.55
+                       },
+                       {
+                           "symbol":  "US.RHHBY",
+                           "name":  "ROCHE HOLDING AG",
+                           "marketCap":  388503059178.8,
+                           "close":  60.95,
+                           "rsi":  60.1,
+                           "sma200":  53.98,
+                           "atr":  1.152,
+                           "high52":  61.75,
+                           "vol50":  1382518,
+                           "rs126":  0.191,
+                           "vcp":  {
+                                       "state":  "setup",
+                                       "pivot":  61.75,
+                                       "contractions":  3,
+                                       "depths":  [
+                                                      0.1012,
+                                                      0.0747,
+                                                      0.0535
+                                                  ],
+                                       "avgVols":  [
+                                                       2123353,
+                                                       1399932,
+                                                       1418472
+                                                   ],
+                                       "volDecay":  false,
+                                       "lastVolRatio":  9,
+                                       "baseBars":  60,
+                                       "close":  60.95,
+                                       "distPct":  -0.013,
+                                       "lastVol":  1525024,
+                                       "triggerVol":  2073776,
+                                       "volumeOk":  false,
+                                       "score":  0.395
+                                   },
+                           "rsScore":  0.818,
+                           "conviction":  0.49,
+                           "entryLimit":  61.75,
+                           "stopPct":  0.07,
+                           "stopPrice":  57.43
+                       },
+                       {
+                           "symbol":  "US.BNY",
+                           "name":  "Bank of New York Mellon",
+                           "marketCap":  102071971948.1,
+                           "close":  151.69,
+                           "rsi":  56.3,
+                           "sma200":  141.05,
+                           "atr":  3.181,
+                           "high52":  165.84,
+                           "vol50":  3713031,
+                           "rs126":  0.1089,
+                           "vcp":  {
+                                       "state":  "setup",
+                                       "pivot":  165.84,
+                                       "contractions":  2,
+                                       "depths":  [
+                                                      0.1852,
+                                                      0.0564
+                                                  ],
+                                       "avgVols":  [
+                                                       3834365,
+                                                       2916390
+                                                   ],
+                                       "volDecay":  true,
+                                       "lastVolRatio":  0.785,
+                                       "baseBars":  50,
+                                       "close":  151.69,
+                                       "distPct":  -0.0853,
+                                       "lastVol":  2901505,
+                                       "triggerVol":  5569547,
+                                       "volumeOk":  false,
+                                       "score":  0.544
+                                   },
+                           "rsScore":  0.182,
+                           "conviction":  0.467,
+                           "entryLimit":  165.84,
+                           "stopPct":  0.07,
+                           "stopPrice":  154.23
+                       },
+                       {
+                           "symbol":  "US.RSG",
+                           "name":  "Republic Services",
+                           "marketCap":  77853709720.68,
+                           "close":  255.56,
+                           "rsi":  73.5,
+                           "sma200":  218.64,
+                           "atr":  4.924,
+                           "high52":  256.79,
+                           "vol50":  1455276,
+                           "rs126":  0.1896,
+                           "vcp":  {
+                                       "state":  "breakout",
+                                       "pivot":  255.3896,
+                                       "contractions":  2,
+                                       "depths":  [
+                                                      0.0944,
+                                                      0.0507
+                                                  ],
+                                       "avgVols":  [
+                                                       1432210,
+                                                       1495097
+                                                   ],
+                                       "volDecay":  false,
+                                       "lastVolRatio":  9,
+                                       "baseBars":  45,
+                                       "close":  255.56,
+                                       "distPct":  0.0007,
+                                       "lastVol":  1812226,
+                                       "triggerVol":  2182914,
+                                       "volumeOk":  false,
+                                       "score":  0.384
+                                   },
+                           "rsScore":  0.727,
+                           "conviction":  0.464,
+                           "entryLimit":  255.3896,
+                           "stopPct":  0.07,
+                           "stopPrice":  237.51
+                       },
+                       {
+                           "symbol":  "US.MAR",
+                           "name":  "Marriott International",
+                           "marketCap":  109619621802.9,
+                           "close":  425.7,
+                           "rsi":  69.5,
+                           "sma200":  361.7,
+                           "atr":  9.735,
+                           "high52":  433.3,
+                           "vol50":  1589646,
+                           "rs126":  0.1834,
+                           "vcp":  {
+                                       "state":  "setup",
+                                       "pivot":  433.3,
+                                       "contractions":  3,
+                                       "depths":  [
+                                                      0.1210,
+                                                      0.0646,
+                                                      0.0642
+                                                  ],
+                                       "avgVols":  [
+                                                       1459385,
+                                                       1750448,
+                                                       1844575
+                                                   ],
+                                       "volDecay":  false,
+                                       "lastVolRatio":  9,
+                                       "baseBars":  62,
+                                       "close":  425.7,
+                                       "distPct":  -0.0175,
+                                       "lastVol":  1690605,
+                                       "triggerVol":  2384469,
+                                       "volumeOk":  false,
+                                       "score":  0.393
+                                   },
+                           "rsScore":  0.636,
+                           "conviction":  0.452,
+                           "entryLimit":  433.3,
+                           "stopPct":  0.07,
+                           "stopPrice":  402.97
+                       },
+                       {
+                           "symbol":  "US.LRLCY",
+                           "name":  "L\u0027Oreal SA Unsponsored ADR",
+                           "marketCap":  263484258952.3,
+                           "close":  98.81,
+                           "rsi":  60.4,
+                           "sma200":  88.02,
+                           "atr":  1.693,
+                           "high52":  102.5,
+                           "vol50":  180895,
+                           "rs126":  0.1792,
+                           "vcp":  {
+                                       "state":  "setup",
+                                       "pivot":  102.5,
+                                       "contractions":  2,
+                                       "depths":  [
+                                                      0.0965,
+                                                      0.0517
+                                                  ],
+                                       "avgVols":  [
+                                                       154671,
+                                                       213232
+                                                   ],
+                                       "volDecay":  false,
+                                       "lastVolRatio":  9,
+                                       "baseBars":  59,
+                                       "close":  98.81,
+                                       "distPct":  -0.036,
+                                       "lastVol":  119051,
+                                       "triggerVol":  271342,
+                                       "volumeOk":  false,
+                                       "score":  0.369
+                                   },
+                           "rsScore":  0.545,
+                           "conviction":  0.417,
+                           "entryLimit":  102.5,
+                           "stopPct":  0.07,
+                           "stopPrice":  95.32
+                       },
+                       {
+                           "symbol":  "US.FRCOY",
+                           "name":  "Fast Retailing (ADR)",
+                           "marketCap":  160450729347.2,
+                           "close":  52.288,
+                           "rsi":  66.5,
+                           "sma200":  46.3,
+                           "atr":  1.71,
+                           "high52":  55.65,
+                           "vol50":  196929,
+                           "rs126":  0.168,
+                           "vcp":  {
+                                       "state":  "breakout",
+                                       "pivot":  51.98,
+                                       "contractions":  3,
+                                       "depths":  [
+                                                      0.104,
+                                                      0.0676,
+                                                      0.0558
+                                                  ],
+                                       "avgVols":  [
+                                                       143444,
+                                                       240972,
+                                                       243084
+                                                   ],
+                                       "volDecay":  false,
+                                       "lastVolRatio":  9,
+                                       "baseBars":  16,
+                                       "close":  52.288,
+                                       "distPct":  0.0059,
+                                       "lastVol":  225772,
+                                       "triggerVol":  295393,
+                                       "volumeOk":  false,
+                                       "score":  0.369
+                                   },
+                           "rsScore":  0.455,
+                           "conviction":  0.399,
+                           "entryLimit":  51.98,
+                           "stopPct":  0.07,
+                           "stopPrice":  48.34
+                       },
+                       {
+                           "symbol":  "US.MGCLY",
+                           "name":  "MIDEA GROUP CO LTD UNSPON ADS EACH REP 1 ORD SHS",
+                           "marketCap":  99269149918.56,
+                           "close":  13.01,
+                           "rsi":  70.1,
+                           "sma200":  11.62,
+                           "atr":  0.219,
+                           "high52":  13.1,
+                           "vol50":  30631,
+                           "rs126":  0.1093,
+                           "vcp":  {
+                                       "state":  "setup",
+                                       "pivot":  13.1,
+                                       "contractions":  2,
+                                       "depths":  [
+                                                      0.1275,
+                                                      0.0522
+                                                  ],
+                                       "avgVols":  [
+                                                       15417,
+                                                       53173
+                                                   ],
+                                       "volDecay":  false,
+                                       "lastVolRatio":  9,
+                                       "baseBars":  50,
+                                       "close":  13.01,
+                                       "distPct":  -0.0069,
+                                       "lastVol":  9989,
+                                       "triggerVol":  45946,
+                                       "volumeOk":  false,
+                                       "score":  0.418
+                                   },
+                           "rsScore":  0.273,
+                           "conviction":  0.397,
+                           "entryLimit":  13.1,
+                           "stopPct":  0.07,
+                           "stopPrice":  12.18
+                       },
+                       {
+                           "symbol":  "US.UNP",
+                           "name":  "Union Pacific",
+                           "marketCap":  180479793843.36,
+                           "close":  303.71,
+                           "rsi":  58.4,
+                           "sma200":  274.31,
+                           "atr":  6.062,
+                           "high52":  315.99,
+                           "vol50":  2582365,
+                           "rs126":  0.1021,
+                           "vcp":  {
+                                       "state":  "setup",
+                                       "pivot":  314.1499,
+                                       "contractions":  2,
+                                       "depths":  [
+                                                      0.1461,
+                                                      0.0660
+                                                  ],
+                                       "avgVols":  [
+                                                       2463340,
+                                                       3011684
+                                                   ],
+                                       "volDecay":  false,
+                                       "lastVolRatio":  9,
+                                       "baseBars":  57,
+                                       "close":  303.71,
+                                       "distPct":  -0.0332,
+                                       "lastVol":  4211130,
+                                       "triggerVol":  3873548,
+                                       "volumeOk":  true,
+                                       "score":  0.459
+                                   },
+                           "rsScore":  0.091,
+                           "conviction":  0.389,
+                           "entryLimit":  314.1499,
+                           "stopPct":  0.07,
+                           "stopPrice":  292.16
+                       },
+                       {
+                           "symbol":  "US.CME",
+                           "name":  "CME Group",
+                           "marketCap":  114313344533.08,
+                           "close":  319.37,
+                           "rsi":  72.5,
+                           "sma200":  281.72,
+                           "atr":  6.628,
+                           "high52":  329.16,
+                           "vol50":  1921448,
+                           "rs126":  0.0449,
+                           "vcp":  {
+                                       "state":  "setup",
+                                       "pivot":  321.335,
+                                       "contractions":  2,
+                                       "depths":  [
+                                                      0.1070,
+                                                      0.0583
+                                                  ],
+                                       "avgVols":  [
+                                                       1952110,
+                                                       1853411
+                                                   ],
+                                       "volDecay":  true,
+                                       "lastVolRatio":  0.965,
+                                       "baseBars":  53,
+                                       "close":  319.37,
+                                       "distPct":  -0.0061,
+                                       "lastVol":  2198273,
+                                       "triggerVol":  2882172,
+                                       "volumeOk":  false,
+                                       "score":  0.469
+                                   },
+                           "rsScore":  0,
+                           "conviction":  0.378,
+                           "entryLimit":  321.335,
+                           "stopPct":  0.07,
+                           "stopPrice":  298.84
+                       }
+                   ]
+}

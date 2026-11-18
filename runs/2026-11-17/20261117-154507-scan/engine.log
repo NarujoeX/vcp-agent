@@ -1,0 +1,2 @@
+2026-11-17 15:45:07 [INFO] moomoo kline US.SPY -n 370 --ktype 2 -f json
+2026-11-17 15:45:08 [INFO] Scan: universe=12 checked=11 stage2=0 breakouts=0 setups=0

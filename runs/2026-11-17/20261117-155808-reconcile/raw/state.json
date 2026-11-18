@@ -1,0 +1,26 @@
+﻿{
+    "asOf":  "2026-11-17T15:58:10",
+    "accountId":  "challenge-account",
+    "cash":  100000,
+    "reserved":  0,
+    "hold":  0,
+    "equity":  100000,
+    "longMarketValue":  0,
+    "investedCost":  0,
+    "positions":  [
+
+                  ],
+    "openOrders":  [
+
+                   ],
+    "today":  {
+                  "date":  "2026-11-17",
+                  "executedOrders":  0,
+                  "approvedBuys":  0
+              },
+    "session":  {
+                    "session":  "closed",
+                    "reason":  "outside session",
+                    "open":  false
+                }
+}

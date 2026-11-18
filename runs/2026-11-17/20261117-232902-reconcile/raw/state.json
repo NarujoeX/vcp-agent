@@ -1,0 +1,27 @@
+﻿{
+    "asOf":  "2026-11-17T23:29:04",
+    "accountId":  "challenge-account",
+    "cash":  99998.01,
+    "reserved":  0,
+    "hold":  0,
+    "equity":  99998.01,
+    "longMarketValue":  0,
+    "investedCost":  0,
+    "positions":  [
+
+                  ],
+    "openOrders":  [
+
+                   ],
+    "today":  {
+                  "date":  "2026-11-17",
+                  "executedOrders":  3,
+                  "approvedBuys":  0
+              },
+    "session":  {
+                    "session":  "regular",
+                    "reason":  "RTH",
+                    "open":  true,
+                    "halfDay":  false
+                }
+}

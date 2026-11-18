@@ -1,0 +1,10 @@
+﻿{
+    "ok":  true,
+    "symbol":  "US.SPY",
+    "asOf":  20261117,
+    "close":  732.44,
+    "sma":  763.15,
+    "smaPeriod":  50,
+    "falling":  true,
+    "bearish":  true
+}

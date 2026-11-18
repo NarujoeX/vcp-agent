@@ -1,0 +1,1637 @@
+﻿{
+    "generated":  "2026-11-18T05:23:42",
+    "source":  "moomoo stock-screen: US, top N by market cap (S\u0026P 500 proxy)",
+    "count":  300,
+    "members":  [
+                    {
+                        "symbol":  "US.AAPL",
+                        "name":  "Apple",
+                        "marketCap":  5114020167620
+                    },
+                    {
+                        "symbol":  "US.MSFT",
+                        "name":  "Microsoft",
+                        "marketCap":  3759436730004.48
+                    },
+                    {
+                        "symbol":  "US.NVDA",
+                        "name":  "NVIDIA",
+                        "marketCap":  3746586000000
+                    },
+                    {
+                        "symbol":  "US.GOOGL",
+                        "name":  "Alphabet-A",
+                        "marketCap":  3444778800000
+                    },
+                    {
+                        "symbol":  "US.GOOG",
+                        "name":  "Alphabet-C",
+                        "marketCap":  3412814400000.001
+                    },
+                    {
+                        "symbol":  "US.AMZN",
+                        "name":  "Amazon",
+                        "marketCap":  2788600237734.34
+                    },
+                    {
+                        "symbol":  "US.SPCX",
+                        "name":  "SpaceX",
+                        "marketCap":  1924436727565.3
+                    },
+                    {
+                        "symbol":  "US.TSM",
+                        "name":  "Taiwan Semiconductor",
+                        "marketCap":  1865496216000
+                    },
+                    {
+                        "symbol":  "US.AVGO",
+                        "name":  "Broadcom",
+                        "marketCap":  1630671961884
+                    },
+                    {
+                        "symbol":  "US.META",
+                        "name":  "Meta Platforms",
+                        "marketCap":  1581981024244.11
+                    },
+                    {
+                        "symbol":  "US.TSLA",
+                        "name":  "Tesla",
+                        "marketCap":  1502482822854.06
+                    },
+                    {
+                        "symbol":  "US.LLY",
+                        "name":  "Eli Lilly and Co",
+                        "marketCap":  1331671628632.05
+                    },
+                    {
+                        "symbol":  "US.BRK.B",
+                        "name":  "Berkshire Hathaway-B",
+                        "marketCap":  1246583116975.44
+                    },
+                    {
+                        "symbol":  "US.BRK.A",
+                        "name":  "Berkshire Hathaway-A",
+                        "marketCap":  1244276957152
+                    },
+                    {
+                        "symbol":  "US.WMT",
+                        "name":  "Walmart",
+                        "marketCap":  1011711320652.32
+                    },
+                    {
+                        "symbol":  "US.JPM",
+                        "name":  "JPMorgan",
+                        "marketCap":  876244913589.64
+                    },
+                    {
+                        "symbol":  "US.SKHY",
+                        "name":  "SK hynix",
+                        "marketCap":  864613012556.4
+                    },
+                    {
+                        "symbol":  "US.AMD",
+                        "name":  "Advanced Micro Devices",
+                        "marketCap":  825636323025.91
+                    },
+                    {
+                        "symbol":  "US.MU",
+                        "name":  "Micron Technology",
+                        "marketCap":  804602268635.42
+                    },
+                    {
+                        "symbol":  "US.V",
+                        "name":  "Visa",
+                        "marketCap":  772852971681.88
+                    },
+                    {
+                        "symbol":  "US.XOM",
+                        "name":  "Exxon Mobil",
+                        "marketCap":  682086784861.24
+                    },
+                    {
+                        "symbol":  "US.JNJ",
+                        "name":  "Johnson \u0026 Johnson",
+                        "marketCap":  670917371134.2
+                    },
+                    {
+                        "symbol":  "US.MA",
+                        "name":  "MasterCard",
+                        "marketCap":  562544552093.22
+                    },
+                    {
+                        "symbol":  "US.ASML",
+                        "name":  "ASML Holding",
+                        "marketCap":  531252551000
+                    },
+                    {
+                        "symbol":  "US.ABBV",
+                        "name":  "AbbVie",
+                        "marketCap":  517593406722.92
+                    },
+                    {
+                        "symbol":  "US.COST",
+                        "name":  "Costco",
+                        "marketCap":  491909027737.92
+                    },
+                    {
+                        "symbol":  "US.TCEHY",
+                        "name":  "Tencent",
+                        "marketCap":  425647801299.27
+                    },
+                    {
+                        "symbol":  "US.KO",
+                        "name":  "Coca-Cola",
+                        "marketCap":  424984931674.65
+                    },
+                    {
+                        "symbol":  "US.CVX",
+                        "name":  "Chevron",
+                        "marketCap":  424786588995.18
+                    },
+                    {
+                        "symbol":  "US.PG",
+                        "name":  "Procter \u0026 Gamble",
+                        "marketCap":  398009721315.96
+                    },
+                    {
+                        "symbol":  "US.RHHBY",
+                        "name":  "ROCHE HOLDING AG",
+                        "marketCap":  384041170066
+                    },
+                    {
+                        "symbol":  "US.PLTR",
+                        "name":  "Palantir",
+                        "marketCap":  377230924529.44
+                    },
+                    {
+                        "symbol":  "US.CSCO",
+                        "name":  "Cisco",
+                        "marketCap":  374446177120.78
+                    },
+                    {
+                        "symbol":  "US.IDCBY",
+                        "name":  "Industrial And Commercial Bank Of China (ADR)",
+                        "marketCap":  361395944679.12
+                    },
+                    {
+                        "symbol":  "US.MRK",
+                        "name":  "Merck \u0026 Co",
+                        "marketCap":  353442274288.56
+                    },
+                    {
+                        "symbol":  "US.CICHY",
+                        "name":  "CHINA CONST BK",
+                        "marketCap":  350806111537.86
+                    },
+                    {
+                        "symbol":  "US.UNH",
+                        "name":  "UnitedHealth",
+                        "marketCap":  349162091054.48
+                    },
+                    {
+                        "symbol":  "US.ORCL",
+                        "name":  "Oracle",
+                        "marketCap":  347729640000
+                    },
+                    {
+                        "symbol":  "US.BAC",
+                        "name":  "Bank of America",
+                        "marketCap":  341146333256.64
+                    },
+                    {
+                        "symbol":  "US.HD",
+                        "name":  "Home Depot",
+                        "marketCap":  338226760110.26
+                    },
+                    {
+                        "symbol":  "US.GE",
+                        "name":  "GE Aerospace",
+                        "marketCap":  337286067014.4
+                    },
+                    {
+                        "symbol":  "US.ACGBY",
+                        "name":  "AGRICULTURAL BK CH",
+                        "marketCap":  306165158033.85
+                    },
+                    {
+                        "symbol":  "US.PM",
+                        "name":  "Philip Morris International",
+                        "marketCap":  302971481165.02
+                    },
+                    {
+                        "symbol":  "US.NVS",
+                        "name":  "Novartis AG",
+                        "marketCap":  300536669012.36
+                    },
+                    {
+                        "symbol":  "US.HSBC",
+                        "name":  "HSBC Holdings",
+                        "marketCap":  299229744614.24
+                    },
+                    {
+                        "symbol":  "US.INTC",
+                        "name":  "Intel",
+                        "marketCap":  293228550000
+                    },
+                    {
+                        "symbol":  "US.MS",
+                        "name":  "Morgan Stanley",
+                        "marketCap":  286865440543.45
+                    },
+                    {
+                        "symbol":  "US.AZN",
+                        "name":  "AstraZeneca",
+                        "marketCap":  282685767356.3
+                    },
+                    {
+                        "symbol":  "US.AMAT",
+                        "name":  "Applied Materials",
+                        "marketCap":  277148035018.89
+                    },
+                    {
+                        "symbol":  "US.SHEL",
+                        "name":  "Shell",
+                        "marketCap":  274765500232.08
+                    },
+                    {
+                        "symbol":  "US.RY",
+                        "name":  "Royal Bank of Canada",
+                        "marketCap":  272026611205.51
+                    },
+                    {
+                        "symbol":  "US.TXN",
+                        "name":  "Texas Instruments",
+                        "marketCap":  270348085691.76
+                    },
+                    {
+                        "symbol":  "US.RTX",
+                        "name":  "RTX Corp",
+                        "marketCap":  267189228504
+                    },
+                    {
+                        "symbol":  "US.NSRGY",
+                        "name":  "NESTLE S.A SPONS",
+                        "marketCap":  264758604600
+                    },
+                    {
+                        "symbol":  "US.LRCX",
+                        "name":  "Lam Research",
+                        "marketCap":  263187837990
+                    },
+                    {
+                        "symbol":  "US.LRLCY",
+                        "name":  "L\u0027Oreal SA Unsponsored ADR",
+                        "marketCap":  261377664836.6
+                    },
+                    {
+                        "symbol":  "US.CAT",
+                        "name":  "Caterpillar",
+                        "marketCap":  261190178577.46
+                    },
+                    {
+                        "symbol":  "US.BACHY",
+                        "name":  "BANK OF CHINA LTD",
+                        "marketCap":  257512159530.54
+                    },
+                    {
+                        "symbol":  "US.SAP",
+                        "name":  "SAP SE",
+                        "marketCap":  256821042000
+                    },
+                    {
+                        "symbol":  "US.TMO",
+                        "name":  "Thermo Fisher Scientific",
+                        "marketCap":  254466592983.72
+                    },
+                    {
+                        "symbol":  "US.PANW",
+                        "name":  "Palo Alto Networks",
+                        "marketCap":  253237877751.99
+                    },
+                    {
+                        "symbol":  "US.GS",
+                        "name":  "Goldman Sachs",
+                        "marketCap":  253107115274.16
+                    },
+                    {
+                        "symbol":  "US.TM",
+                        "name":  "Toyota Motor",
+                        "marketCap":  250118662861.44
+                    },
+                    {
+                        "symbol":  "US.WFC",
+                        "name":  "Wells Fargo \u0026 Co",
+                        "marketCap":  248223002712.73
+                    },
+                    {
+                        "symbol":  "US.AMGN",
+                        "name":  "Amgen",
+                        "marketCap":  247699598615.7
+                    },
+                    {
+                        "symbol":  "US.NFLX",
+                        "name":  "Netflix",
+                        "marketCap":  245065529891.04
+                    },
+                    {
+                        "symbol":  "US.LIN",
+                        "name":  "Linde",
+                        "marketCap":  236478645400.69
+                    },
+                    {
+                        "symbol":  "US.ANET",
+                        "name":  "Arista Networks",
+                        "marketCap":  235523463290.7
+                    },
+                    {
+                        "symbol":  "US.MUFG",
+                        "name":  "Mitsubishi UFJ Financial Group",
+                        "marketCap":  230462407777.77
+                    },
+                    {
+                        "symbol":  "US.SIEGY",
+                        "name":  "SIEMENS AG",
+                        "marketCap":  226895376792.1
+                    },
+                    {
+                        "symbol":  "US.CRWD",
+                        "name":  "CrowdStrike",
+                        "marketCap":  224835612606.36
+                    },
+                    {
+                        "symbol":  "US.IBM",
+                        "name":  "IBM Corp",
+                        "marketCap":  218407966827.45
+                    },
+                    {
+                        "symbol":  "US.BABA",
+                        "name":  "Alibaba",
+                        "marketCap":  215563098964.35
+                    },
+                    {
+                        "symbol":  "US.CYATY",
+                        "name":  "CONTEMPORARY AMPEREX TECHNOLOGY CO UNSPON ADS EACH REP 0.4 ORD",
+                        "marketCap":  213408755518.32
+                    },
+                    {
+                        "symbol":  "US.LVMUY",
+                        "name":  "LVMH Moet Hennessy Louis Vuitton",
+                        "marketCap":  212074892711.5
+                    },
+                    {
+                        "symbol":  "US.AXP",
+                        "name":  "American Express",
+                        "marketCap":  211746916244.04
+                    },
+                    {
+                        "symbol":  "US.GILD",
+                        "name":  "Gilead Sciences",
+                        "marketCap":  211180052419.64
+                    },
+                    {
+                        "symbol":  "US.GEV",
+                        "name":  "GE Vernova",
+                        "marketCap":  206424290544.06
+                    },
+                    {
+                        "symbol":  "US.DELL",
+                        "name":  "Dell Technologies",
+                        "marketCap":  205233997572.5
+                    },
+                    {
+                        "symbol":  "US.IDEXY",
+                        "name":  "INDITEX (IND.DE DISENO TEXTIL SA) UNSP ADR EACH REP 0.50 ORD",
+                        "marketCap":  203846202702.4
+                    },
+                    {
+                        "symbol":  "US.DIS",
+                        "name":  "Disney",
+                        "marketCap":  201918766319.88
+                    },
+                    {
+                        "symbol":  "US.C",
+                        "name":  "Citigroup",
+                        "marketCap":  198525230008.86
+                    },
+                    {
+                        "symbol":  "US.TTE",
+                        "name":  "TotalEnergies",
+                        "marketCap":  198255332022.4
+                    },
+                    {
+                        "symbol":  "US.ARM",
+                        "name":  "Arm Holdings",
+                        "marketCap":  196227300000
+                    },
+                    {
+                        "symbol":  "US.TD",
+                        "name":  "The Toronto-Dominion Bank",
+                        "marketCap":  195439441767.68
+                    },
+                    {
+                        "symbol":  "US.MCD",
+                        "name":  "McDonald\u0027s",
+                        "marketCap":  194669548090.08
+                    },
+                    {
+                        "symbol":  "US.PEP",
+                        "name":  "PepsiCo",
+                        "marketCap":  193536489885.84
+                    },
+                    {
+                        "symbol":  "US.ALIZY",
+                        "name":  "ALLIANZ SE UNSPON ADS EACH REP 1/10 ORD SHARES",
+                        "marketCap":  192195638394.3
+                    },
+                    {
+                        "symbol":  "US.CMWAY",
+                        "name":  "COMMONWEALTH BANK OF AUSTRALIA SPON ADR EACH REPR 1 ORD",
+                        "marketCap":  191792407235.04
+                    },
+                    {
+                        "symbol":  "US.VZ",
+                        "name":  "Verizon",
+                        "marketCap":  190361401572.48
+                    },
+                    {
+                        "symbol":  "US.APH",
+                        "name":  "Amphenol",
+                        "marketCap":  188552784315.68
+                    },
+                    {
+                        "symbol":  "US.KLAC",
+                        "name":  "KLA Corp",
+                        "marketCap":  188356249603.6
+                    },
+                    {
+                        "symbol":  "US.BHP",
+                        "name":  "BHP Group Ltd",
+                        "marketCap":  187815142983.9
+                    },
+                    {
+                        "symbol":  "US.ADI",
+                        "name":  "Analog Devices",
+                        "marketCap":  185913231956.55
+                    },
+                    {
+                        "symbol":  "US.SHOP",
+                        "name":  "Shopify",
+                        "marketCap":  182557473644.7
+                    },
+                    {
+                        "symbol":  "US.BLK",
+                        "name":  "Blackrock",
+                        "marketCap":  182323100472.07
+                    },
+                    {
+                        "symbol":  "US.NVO",
+                        "name":  "Novo-Nordisk A/S",
+                        "marketCap":  181725500000
+                    },
+                    {
+                        "symbol":  "US.ABT",
+                        "name":  "Abbott Laboratories",
+                        "marketCap":  181351605040.71
+                    },
+                    {
+                        "symbol":  "US.WELL",
+                        "name":  "Welltower",
+                        "marketCap":  180291959930.88
+                    },
+                    {
+                        "symbol":  "US.QCOM",
+                        "name":  "Qualcomm",
+                        "marketCap":  178336900000
+                    },
+                    {
+                        "symbol":  "US.TMUS",
+                        "name":  "T-Mobile US",
+                        "marketCap":  177851864670.9
+                    },
+                    {
+                        "symbol":  "US.NEE",
+                        "name":  "NextEra Energy",
+                        "marketCap":  177054576656.58
+                    },
+                    {
+                        "symbol":  "US.UNP",
+                        "name":  "Union Pacific",
+                        "marketCap":  176510201064.48
+                    },
+                    {
+                        "symbol":  "US.DE",
+                        "name":  "Deere",
+                        "marketCap":  175048906232.76
+                    },
+                    {
+                        "symbol":  "US.EADSY",
+                        "name":  "AIRBUS SE",
+                        "marketCap":  174873689698.4
+                    },
+                    {
+                        "symbol":  "US.CIHKY",
+                        "name":  "CHINA MERCHANTS BK",
+                        "marketCap":  174334704694.56
+                    },
+                    {
+                        "symbol":  "US.SAN",
+                        "name":  "Banco Santander",
+                        "marketCap":  170709769256.85
+                    },
+                    {
+                        "symbol":  "US.IBDRY",
+                        "name":  "IBERDROLA SA SPON ADR EACH REP 4 ORD",
+                        "marketCap":  166982517049.14
+                    },
+                    {
+                        "symbol":  "US.COP",
+                        "name":  "ConocoPhillips",
+                        "marketCap":  164912093750.36
+                    },
+                    {
+                        "symbol":  "US.BUD",
+                        "name":  "Anheuser-Busch Inbev",
+                        "marketCap":  164594224686.84
+                    },
+                    {
+                        "symbol":  "US.PFE",
+                        "name":  "Pfizer",
+                        "marketCap":  162274835778.51
+                    },
+                    {
+                        "symbol":  "US.FRCOY",
+                        "name":  "Fast Retailing (ADR)",
+                        "marketCap":  161960478407
+                    },
+                    {
+                        "symbol":  "US.CRM",
+                        "name":  "Salesforce",
+                        "marketCap":  160089960000
+                    },
+                    {
+                        "symbol":  "US.DHR",
+                        "name":  "Danaher",
+                        "marketCap":  158836152102.55
+                    },
+                    {
+                        "symbol":  "US.SCHW",
+                        "name":  "Charles Schwab",
+                        "marketCap":  158516547627.2
+                    },
+                    {
+                        "symbol":  "US.RCRUY",
+                        "name":  "Recruit Holdings (ADR)",
+                        "marketCap":  157649333718.35
+                    },
+                    {
+                        "symbol":  "US.SONY",
+                        "name":  "Sony",
+                        "marketCap":  155497813304.96
+                    },
+                    {
+                        "symbol":  "US.SBGSY",
+                        "name":  "SCHNEIDER ELECTRIC SE UNSPON ADR EA REPR 0.20 ORD SHS",
+                        "marketCap":  153460394772.15
+                    },
+                    {
+                        "symbol":  "US.T",
+                        "name":  "AT\u0026T",
+                        "marketCap":  150155992821.57
+                    },
+                    {
+                        "symbol":  "US.ISRG",
+                        "name":  "Intuitive Surgical",
+                        "marketCap":  149240519910.54
+                    },
+                    {
+                        "symbol":  "US.DBSDY",
+                        "name":  "DBS GROUP HLDGS LTD SPONS ADR EACH REP 4 ORD SHS",
+                        "marketCap":  149025632697.6
+                    },
+                    {
+                        "symbol":  "US.SMFG",
+                        "name":  "Sumitomo Mitsui Financial",
+                        "marketCap":  147813592292.75
+                    },
+                    {
+                        "symbol":  "US.HESAY",
+                        "name":  "Hermes International SA",
+                        "marketCap":  147532045812.8
+                    },
+                    {
+                        "symbol":  "US.ABBNY",
+                        "name":  "ABB LTD SPON ADR EACH REP 1 ORD SHS",
+                        "marketCap":  146373819862.77
+                    },
+                    {
+                        "symbol":  "US.CB",
+                        "name":  "Chubb Ltd",
+                        "marketCap":  143524238952.08
+                    },
+                    {
+                        "symbol":  "US.RYCEY",
+                        "name":  "ROLLS ROYCE ADR",
+                        "marketCap":  143307408683.67
+                    },
+                    {
+                        "symbol":  "US.TJX",
+                        "name":  "TJX Companies",
+                        "marketCap":  142831631820.85
+                    },
+                    {
+                        "symbol":  "US.ACN",
+                        "name":  "Accenture",
+                        "marketCap":  142682825035.44
+                    },
+                    {
+                        "symbol":  "US.UBS",
+                        "name":  "UBS Group",
+                        "marketCap":  142554714457.44
+                    },
+                    {
+                        "symbol":  "US.DTEGY",
+                        "name":  "DEUTSCHE TELEKOM",
+                        "marketCap":  142043524840.8
+                    },
+                    {
+                        "symbol":  "US.UL",
+                        "name":  "Unilever",
+                        "marketCap":  140636396092.29
+                    },
+                    {
+                        "symbol":  "US.UBER",
+                        "name":  "Uber Technologies",
+                        "marketCap":  140503006196.7
+                    },
+                    {
+                        "symbol":  "US.BBVA",
+                        "name":  "Banco Bilbao Vizcaya Argentaria",
+                        "marketCap":  139665961467.21
+                    },
+                    {
+                        "symbol":  "US.SAFRY",
+                        "name":  "SAFRAN SA UNSPON ADR EA REP 0.25 ORD",
+                        "marketCap":  139134174786.88
+                    },
+                    {
+                        "symbol":  "US.LMT",
+                        "name":  "Lockheed Martin",
+                        "marketCap":  136371279177.6
+                    },
+                    {
+                        "symbol":  "US.PGR",
+                        "name":  "Progressive",
+                        "marketCap":  135958921607.25
+                    },
+                    {
+                        "symbol":  "US.UNCRY",
+                        "name":  "UNICREDIT SPA UNSPON ADR EACH REP 0.5 ORD SHS",
+                        "marketCap":  135534171342.5
+                    },
+                    {
+                        "symbol":  "US.VRTX",
+                        "name":  "Vertex Pharmaceuticals",
+                        "marketCap":  135439825450.8
+                    },
+                    {
+                        "symbol":  "US.HDB",
+                        "name":  "HDFC Bank",
+                        "marketCap":  134743284097.76
+                    },
+                    {
+                        "symbol":  "US.AIQUY",
+                        "name":  "Air Liquide SA Unsponsored ADR",
+                        "marketCap":  133887761790
+                    },
+                    {
+                        "symbol":  "US.HTHIY",
+                        "name":  "Hitachi (ADR)",
+                        "marketCap":  132723840820.48
+                    },
+                    {
+                        "symbol":  "US.SCCO",
+                        "name":  "Southern Copper",
+                        "marketCap":  132618845463.1
+                    },
+                    {
+                        "symbol":  "US.APP",
+                        "name":  "Applovin",
+                        "marketCap":  132177598680
+                    },
+                    {
+                        "symbol":  "US.SPGI",
+                        "name":  "S\u0026P Global",
+                        "marketCap":  131136265000
+                    },
+                    {
+                        "symbol":  "US.ETN",
+                        "name":  "Eaton",
+                        "marketCap":  130967235000
+                    },
+                    {
+                        "symbol":  "US.MDT",
+                        "name":  "Medtronic",
+                        "marketCap":  130881388904.8
+                    },
+                    {
+                        "symbol":  "US.MRVL",
+                        "name":  "Marvell Technology",
+                        "marketCap":  130430106000
+                    },
+                    {
+                        "symbol":  "US.IBKR",
+                        "name":  "Interactive Brokers",
+                        "marketCap":  130273739782.02
+                    },
+                    {
+                        "symbol":  "US.BA",
+                        "name":  "Boeing",
+                        "marketCap":  129890469665.4
+                    },
+                    {
+                        "symbol":  "US.RIO",
+                        "name":  "Rio Tinto",
+                        "marketCap":  129257742735.63
+                    },
+                    {
+                        "symbol":  "US.MO",
+                        "name":  "Altria",
+                        "marketCap":  128849823435.9
+                    },
+                    {
+                        "symbol":  "US.BTI",
+                        "name":  "British American Tobacco",
+                        "marketCap":  127041351345.12
+                    },
+                    {
+                        "symbol":  "US.MCK",
+                        "name":  "McKesson",
+                        "marketCap":  126040576388.88
+                    },
+                    {
+                        "symbol":  "US.BMY",
+                        "name":  "Bristol-Myers Squibb",
+                        "marketCap":  125404665731.85
+                    },
+                    {
+                        "symbol":  "US.SFTBY",
+                        "name":  "SoftBank Group (ADR)",
+                        "marketCap":  125034385999.94
+                    },
+                    {
+                        "symbol":  "US.IBN",
+                        "name":  "ICICI Bank",
+                        "marketCap":  125003752171.2
+                    },
+                    {
+                        "symbol":  "US.SPOT",
+                        "name":  "Spotify Technology",
+                        "marketCap":  123728378562.54
+                    },
+                    {
+                        "symbol":  "US.LOW",
+                        "name":  "Lowe\u0027s Companies",
+                        "marketCap":  123689969028.74
+                    },
+                    {
+                        "symbol":  "US.TELWY",
+                        "name":  "Tokyo Electron (ADR)",
+                        "marketCap":  122911839597
+                    },
+                    {
+                        "symbol":  "US.SBUX",
+                        "name":  "Starbucks",
+                        "marketCap":  122549349000
+                    },
+                    {
+                        "symbol":  "US.ADP",
+                        "name":  "Automatic Data Processing",
+                        "marketCap":  121700385291.28
+                    },
+                    {
+                        "symbol":  "US.SYK",
+                        "name":  "Stryker Corp",
+                        "marketCap":  120884621410.16
+                    },
+                    {
+                        "symbol":  "US.CFRUY",
+                        "name":  "COMPAGNE FIN ADR",
+                        "marketCap":  120762937188.66
+                    },
+                    {
+                        "symbol":  "US.CSUAY",
+                        "name":  "CHINA SHENHUA ENER",
+                        "marketCap":  119779900943.84
+                    },
+                    {
+                        "symbol":  "US.PLD",
+                        "name":  "Prologis",
+                        "marketCap":  119346412280
+                    },
+                    {
+                        "symbol":  "US.MFG",
+                        "name":  "Mizuho Financial",
+                        "marketCap":  118676916055.2
+                    },
+                    {
+                        "symbol":  "US.ISNPY",
+                        "name":  "INTESA SANP ADR",
+                        "marketCap":  118224646688
+                    },
+                    {
+                        "symbol":  "US.SMERY",
+                        "name":  "SIEMENS ENERGY AG SPON ADS EACH REP 0.2 ORD",
+                        "marketCap":  117799984101.15
+                    },
+                    {
+                        "symbol":  "US.MTSUY",
+                        "name":  "Mitsubishi (ADR)",
+                        "marketCap":  117410627874.2
+                    },
+                    {
+                        "symbol":  "US.PNGAY",
+                        "name":  "PING AN INSURANCE",
+                        "marketCap":  117246981924.1
+                    },
+                    {
+                        "symbol":  "US.ATEYY",
+                        "name":  "Advantest (ADR)",
+                        "marketCap":  117240779787.12
+                    },
+                    {
+                        "symbol":  "US.BMO",
+                        "name":  "Bank of Montreal",
+                        "marketCap":  116479283739.7
+                    },
+                    {
+                        "symbol":  "US.PH",
+                        "name":  "Parker Hannifin",
+                        "marketCap":  116114972707.8
+                    },
+                    {
+                        "symbol":  "US.ZURVY",
+                        "name":  "Zurich Insurance Group Ltd Sponsored ADR",
+                        "marketCap":  116000174305.4
+                    },
+                    {
+                        "symbol":  "US.STX",
+                        "name":  "Seagate Technology",
+                        "marketCap":  115790623379.6
+                    },
+                    {
+                        "symbol":  "US.NEM",
+                        "name":  "Newmont",
+                        "marketCap":  115620633763.1
+                    },
+                    {
+                        "symbol":  "US.BP",
+                        "name":  "BP PLC",
+                        "marketCap":  115517996998.95
+                    },
+                    {
+                        "symbol":  "US.BKNG",
+                        "name":  "Booking Holdings",
+                        "marketCap":  114872096156.22
+                    },
+                    {
+                        "symbol":  "US.NEMCL",
+                        "name":  "NEWMONT CORPORATION CDI 1:1",
+                        "marketCap":  114311250350
+                    },
+                    {
+                        "symbol":  "US.SNY",
+                        "name":  "Sanofi",
+                        "marketCap":  114129637824.86
+                    },
+                    {
+                        "symbol":  "US.SNDK",
+                        "name":  "SanDisk",
+                        "marketCap":  113438773352.6
+                    },
+                    {
+                        "symbol":  "US.BNPQY",
+                        "name":  "BNP PARIBAS SPON",
+                        "marketCap":  113370240000
+                    },
+                    {
+                        "symbol":  "US.COF",
+                        "name":  "Capital One Financial",
+                        "marketCap":  112354362317.34
+                    },
+                    {
+                        "symbol":  "US.PBR",
+                        "name":  "Petroleo Brasileiro SA Petrobras",
+                        "marketCap":  112196418675.8
+                    },
+                    {
+                        "symbol":  "US.CME",
+                        "name":  "CME Group",
+                        "marketCap":  111517880899.04
+                    },
+                    {
+                        "symbol":  "US.PDD",
+                        "name":  "PDD Holdings",
+                        "marketCap":  110156652194.18
+                    },
+                    {
+                        "symbol":  "US.CVS",
+                        "name":  "CVS Health",
+                        "marketCap":  109791680072.28
+                    },
+                    {
+                        "symbol":  "US.SO",
+                        "name":  "Southern",
+                        "marketCap":  108974832314.4
+                    },
+                    {
+                        "symbol":  "US.MAR",
+                        "name":  "Marriott International",
+                        "marketCap":  108857408787.78
+                    },
+                    {
+                        "symbol":  "US.BNS",
+                        "name":  "Bank of Nova Scotia",
+                        "marketCap":  108453969584.1
+                    },
+                    {
+                        "symbol":  "US.MPC",
+                        "name":  "Marathon Petroleum",
+                        "marketCap":  107717592790.8
+                    },
+                    {
+                        "symbol":  "US.ABNB",
+                        "name":  "Airbnb",
+                        "marketCap":  106309885125.18
+                    },
+                    {
+                        "symbol":  "US.WDC",
+                        "name":  "Western Digital",
+                        "marketCap":  106057011805.77
+                    },
+                    {
+                        "symbol":  "US.ENB",
+                        "name":  "Enbridge",
+                        "marketCap":  105092073349.2
+                    },
+                    {
+                        "symbol":  "US.HCA",
+                        "name":  "HCA Healthcare",
+                        "marketCap":  104694832075
+                    },
+                    {
+                        "symbol":  "US.ENLAY",
+                        "name":  "ENEL SPA UN SPON ADR EA REPR 1 ORD SHS",
+                        "marketCap":  104663001549.7
+                    },
+                    {
+                        "symbol":  "US.TKOMY",
+                        "name":  "Tokio Marine Holdings (ADR)",
+                        "marketCap":  103530322140.3
+                    },
+                    {
+                        "symbol":  "US.AXAHY",
+                        "name":  "AXA SA Sponsored ADR",
+                        "marketCap":  102560924777.93
+                    },
+                    {
+                        "symbol":  "US.EQIX",
+                        "name":  "Equinix Inc",
+                        "marketCap":  102436081115.94
+                    },
+                    {
+                        "symbol":  "US.CM",
+                        "name":  "Canadian Imperial Bank of Commerce",
+                        "marketCap":  102133267413.86
+                    },
+                    {
+                        "symbol":  "US.NET",
+                        "name":  "Cloudflare",
+                        "marketCap":  102070114224
+                    },
+                    {
+                        "symbol":  "US.VLO",
+                        "name":  "Valero Energy",
+                        "marketCap":  101449778188
+                    },
+                    {
+                        "symbol":  "US.DUK",
+                        "name":  "Duke Energy",
+                        "marketCap":  101237325282.48
+                    },
+                    {
+                        "symbol":  "US.AAGIY",
+                        "name":  "AIA GROUP LTD",
+                        "marketCap":  100996531536.03
+                    },
+                    {
+                        "symbol":  "US.BNY",
+                        "name":  "Bank of New York Mellon",
+                        "marketCap":  100793464817.1
+                    },
+                    {
+                        "symbol":  "US.BCMXY",
+                        "name":  "BANK OF COMMUNICAT",
+                        "marketCap":  100734714016.5
+                    },
+                    {
+                        "symbol":  "US.ITOCY",
+                        "name":  "ITOCHU (ADR)",
+                        "marketCap":  100231512374.86
+                    },
+                    {
+                        "symbol":  "US.PSX",
+                        "name":  "Phillips 66",
+                        "marketCap":  100221291968.66
+                    },
+                    {
+                        "symbol":  "US.MGCLY",
+                        "name":  "MIDEA GROUP CO LTD UNSPON ADS EACH REP 1 ORD SHS",
+                        "marketCap":  100032171824.16
+                    },
+                    {
+                        "symbol":  "US.REGN",
+                        "name":  "Regeneron Pharmaceuticals",
+                        "marketCap":  99078221435.84
+                    },
+                    {
+                        "symbol":  "US.GSK",
+                        "name":  "GlaxoSmithKline",
+                        "marketCap":  98700082660.84
+                    },
+                    {
+                        "symbol":  "US.PBR.A",
+                        "name":  "Petroleo Brasileiro SA Petrobras",
+                        "marketCap":  98341030958.8
+                    },
+                    {
+                        "symbol":  "US.EQNR",
+                        "name":  "Equinor",
+                        "marketCap":  98206387242.88
+                    },
+                    {
+                        "symbol":  "US.MRSH",
+                        "name":  "Marsh",
+                        "marketCap":  97989237364.89
+                    },
+                    {
+                        "symbol":  "US.CNQ",
+                        "name":  "Canadian Natural Resources",
+                        "marketCap":  97157106200
+                    },
+                    {
+                        "symbol":  "US.XIACY",
+                        "name":  "Xiaomi Corp. Unsponsored ADR Class B",
+                        "marketCap":  96553853019.96
+                    },
+                    {
+                        "symbol":  "US.WM",
+                        "name":  "Waste Management",
+                        "marketCap":  96502017764.04
+                    },
+                    {
+                        "symbol":  "US.NOW",
+                        "name":  "ServiceNow",
+                        "marketCap":  96422489300
+                    },
+                    {
+                        "symbol":  "US.SNOW",
+                        "name":  "Snowflake",
+                        "marketCap":  96293232000
+                    },
+                    {
+                        "symbol":  "US.OVCHY",
+                        "name":  "OVERSEA-CHINESE BANKING CORP UNSP ADR EACH REP 2 ORD",
+                        "marketCap":  96273732709.3
+                    },
+                    {
+                        "symbol":  "US.ICE",
+                        "name":  "Intercontinental Exchange",
+                        "marketCap":  96246595714.64
+                    },
+                    {
+                        "symbol":  "US.GD",
+                        "name":  "General Dynamics",
+                        "marketCap":  96099657631.67
+                    },
+                    {
+                        "symbol":  "US.CSX",
+                        "name":  "CSX Corp",
+                        "marketCap":  94271384459.4
+                    },
+                    {
+                        "symbol":  "US.CEG",
+                        "name":  "Constellation Energy",
+                        "marketCap":  94255691667.28
+                    },
+                    {
+                        "symbol":  "US.UPS",
+                        "name":  "United Parcel Service",
+                        "marketCap":  93925586425.32
+                    },
+                    {
+                        "symbol":  "US.ELV",
+                        "name":  "Elevance Health",
+                        "marketCap":  93753132781.63
+                    },
+                    {
+                        "symbol":  "US.MMM",
+                        "name":  "3M",
+                        "marketCap":  93466045345.12
+                    },
+                    {
+                        "symbol":  "US.GLW",
+                        "name":  "Corning",
+                        "marketCap":  93453405989.94
+                    },
+                    {
+                        "symbol":  "US.RACE",
+                        "name":  "Ferrari",
+                        "marketCap":  92625207338.45
+                    },
+                    {
+                        "symbol":  "US.USB",
+                        "name":  "U.S. Bancorp",
+                        "marketCap":  92214798263.5
+                    },
+                    {
+                        "symbol":  "US.BX",
+                        "name":  "Blackstone",
+                        "marketCap":  92099715518.72
+                    },
+                    {
+                        "symbol":  "US.ING",
+                        "name":  "ING Groep",
+                        "marketCap":  91851510000
+                    },
+                    {
+                        "symbol":  "US.CAIXY",
+                        "name":  "CAIXABANK SA UNSP ADR EA REPR 1/3 ORD EUR0.00",
+                        "marketCap":  91688562310.4
+                    },
+                    {
+                        "symbol":  "US.ADBE",
+                        "name":  "Adobe",
+                        "marketCap":  91676060000
+                    },
+                    {
+                        "symbol":  "US.HNHPF",
+                        "name":  "HON HAI PRECISION INDUSTRY SPON GDS EACH REP 2 SHS TWD10 REG\u0027S\u0027",
+                        "marketCap":  91482712230
+                    },
+                    {
+                        "symbol":  "US.FTNT",
+                        "name":  "Fortinet",
+                        "marketCap":  91471362754.5
+                    },
+                    {
+                        "symbol":  "US.ATLKY",
+                        "name":  "ATLAS COPCO AB ADR-CNV INTO 1 SER\u0027A\u0027NPV",
+                        "marketCap":  90791132120.28
+                    },
+                    {
+                        "symbol":  "US.GPMXY",
+                        "name":  "GRUPO MEXICO SAB DE CV UNSPON ADS EACH REP 2 ORD",
+                        "marketCap":  90695250000
+                    },
+                    {
+                        "symbol":  "US.PWR",
+                        "name":  "Quanta Services",
+                        "marketCap":  90184791596.85
+                    },
+                    {
+                        "symbol":  "US.ESLOY",
+                        "name":  "ESSILORLUXOTTICA UNSPON ADR EACH REP 0.5 ORD SHS",
+                        "marketCap":  90034238865.34
+                    },
+                    {
+                        "symbol":  "US.CMCSA",
+                        "name":  "Comcast",
+                        "marketCap":  89875970338.85
+                    },
+                    {
+                        "symbol":  "US.PNC",
+                        "name":  "PNC Financial Services",
+                        "marketCap":  89009210758.97
+                    },
+                    {
+                        "symbol":  "US.TT",
+                        "name":  "Trane Technologies",
+                        "marketCap":  88829916707.97
+                    },
+                    {
+                        "symbol":  "US.BN",
+                        "name":  "Brookfield",
+                        "marketCap":  88378793945.09
+                    },
+                    {
+                        "symbol":  "US.CHDRY",
+                        "name":  "CHRISTIAN DIOR SE UNSPON ADR EACH REPR 0.25 ORD SHS",
+                        "marketCap":  88321803544.8
+                    },
+                    {
+                        "symbol":  "US.CTAS",
+                        "name":  "Cintas",
+                        "marketCap":  88230085664.6
+                    },
+                    {
+                        "symbol":  "US.AEM",
+                        "name":  "Agnico Eagle",
+                        "marketCap":  87464596677.81
+                    },
+                    {
+                        "symbol":  "US.EMR",
+                        "name":  "Emerson Electric",
+                        "marketCap":  87309690000
+                    },
+                    {
+                        "symbol":  "US.MNST",
+                        "name":  "Monster Beverage",
+                        "marketCap":  86991829813.68
+                    },
+                    {
+                        "symbol":  "US.MSI",
+                        "name":  "Motorola Solutions",
+                        "marketCap":  86990452531
+                    },
+                    {
+                        "symbol":  "US.ZIJMY",
+                        "name":  "ZiJin Mining ADR",
+                        "marketCap":  86287140288.8
+                    },
+                    {
+                        "symbol":  "US.PSTVY",
+                        "name":  "POSTAL SAVINGS BANK OF CHINA CO UNSP ADR EACH REP 20 ORD SHS",
+                        "marketCap":  85779092912.91
+                    },
+                    {
+                        "symbol":  "US.INTU",
+                        "name":  "Intuit",
+                        "marketCap":  85726636440
+                    },
+                    {
+                        "symbol":  "US.WBKCY",
+                        "name":  "WESTPAC BANKING CORPORATION UNSPON ADS EACH REP 0.5 ORD",
+                        "marketCap":  85657318962.6
+                    },
+                    {
+                        "symbol":  "US.HWM",
+                        "name":  "Howmet Aerospace",
+                        "marketCap":  85616303497
+                    },
+                    {
+                        "symbol":  "US.NTTYY",
+                        "name":  "Nippon Telegraph \u0026 Telephone (ADR)",
+                        "marketCap":  85562345839.395
+                    },
+                    {
+                        "symbol":  "US.AMT",
+                        "name":  "American Tower Corp",
+                        "marketCap":  85354561592.64
+                    },
+                    {
+                        "symbol":  "US.MITSY",
+                        "name":  "Mitsui (ADR)",
+                        "marketCap":  85260329220
+                    },
+                    {
+                        "symbol":  "US.ECL",
+                        "name":  "Ecolab",
+                        "marketCap":  84866747063.15
+                    },
+                    {
+                        "symbol":  "US.MDLZ",
+                        "name":  "Mondelez International",
+                        "marketCap":  84494711798.25
+                    },
+                    {
+                        "symbol":  "US.WMB",
+                        "name":  "Williams",
+                        "marketCap":  84338661729.36
+                    },
+                    {
+                        "symbol":  "US.KKR",
+                        "name":  "KKR \u0026 Co",
+                        "marketCap":  84307185963
+                    },
+                    {
+                        "symbol":  "US.CDNS",
+                        "name":  "Cadence Design Systems",
+                        "marketCap":  84226121630
+                    },
+                    {
+                        "symbol":  "US.MRNA",
+                        "name":  "Moderna",
+                        "marketCap":  83675617630
+                    },
+                    {
+                        "symbol":  "US.MCO",
+                        "name":  "Moody\u0027s",
+                        "marketCap":  83523949561.62
+                    },
+                    {
+                        "symbol":  "US.SNPS",
+                        "name":  "Synopsys",
+                        "marketCap":  83459675699.46
+                    },
+                    {
+                        "symbol":  "US.SHW",
+                        "name":  "Sherwin-Williams",
+                        "marketCap":  83142534978.8
+                    },
+                    {
+                        "symbol":  "US.NGG",
+                        "name":  "National Grid",
+                        "marketCap":  83005259619.84
+                    },
+                    {
+                        "symbol":  "US.TRV",
+                        "name":  "The Travelers Companies",
+                        "marketCap":  82925257246.76
+                    },
+                    {
+                        "symbol":  "US.HLT",
+                        "name":  "Hilton Worldwide",
+                        "marketCap":  82444538658.15
+                    },
+                    {
+                        "symbol":  "US.RCL",
+                        "name":  "Royal Caribbean",
+                        "marketCap":  82217887635.75
+                    },
+                    {
+                        "symbol":  "US.ANZGY",
+                        "name":  "Australia \u0026 New Zealand Banking Group Ltd",
+                        "marketCap":  81930135333.72
+                    },
+                    {
+                        "symbol":  "US.JCI",
+                        "name":  "Johnson Controls",
+                        "marketCap":  81819228011.52
+                    },
+                    {
+                        "symbol":  "US.CP",
+                        "name":  "Canadian Pacific Railway",
+                        "marketCap":  81059892862.8
+                    },
+                    {
+                        "symbol":  "US.EOG",
+                        "name":  "EOG Resources",
+                        "marketCap":  80318391139.84
+                    },
+                    {
+                        "symbol":  "US.BAM",
+                        "name":  "Brookfield Asset Management",
+                        "marketCap":  80309358130.96
+                    },
+                    {
+                        "symbol":  "US.E",
+                        "name":  "Eni SpA",
+                        "marketCap":  80140945120.68
+                    },
+                    {
+                        "symbol":  "US.ITW",
+                        "name":  "Illinois Tool Works",
+                        "marketCap":  80050614000
+                    },
+                    {
+                        "symbol":  "US.SU",
+                        "name":  "Suncor Energy",
+                        "marketCap":  79792132130.64
+                    },
+                    {
+                        "symbol":  "US.ATLCY",
+                        "name":  "Atlas Copco AB Sponsored ADR Class B",
+                        "marketCap":  79423945777.44
+                    },
+                    {
+                        "symbol":  "US.EPD",
+                        "name":  "Enterprise Products",
+                        "marketCap":  79406190871.56
+                    },
+                    {
+                        "symbol":  "US.FCX",
+                        "name":  "Freeport-McMoRan",
+                        "marketCap":  79351962680.2
+                    },
+                    {
+                        "symbol":  "US.CL",
+                        "name":  "Colgate-Palmolive",
+                        "marketCap":  79182032299.93
+                    },
+                    {
+                        "symbol":  "US.KXIAY",
+                        "name":  "KIOXIA HOLDINGS CORPORATION UNSPON ADR EACH REP 0.1 COM",
+                        "marketCap":  78630180037.2
+                    },
+                    {
+                        "symbol":  "US.NOC",
+                        "name":  "Northrop Grumman",
+                        "marketCap":  78598599184.14
+                    },
+                    {
+                        "symbol":  "US.PROSY",
+                        "name":  "Prosus N.V. Sponsored ADR",
+                        "marketCap":  78582347607.84
+                    },
+                    {
+                        "symbol":  "US.CVNA",
+                        "name":  "Carvana",
+                        "marketCap":  78242974047
+                    },
+                    {
+                        "symbol":  "US.NABZY",
+                        "name":  "National Australia Bank Limited Sponsored ADR",
+                        "marketCap":  78092123698.8
+                    },
+                    {
+                        "symbol":  "US.CI",
+                        "name":  "Cigna Group",
+                        "marketCap":  77485563087.66
+                    },
+                    {
+                        "symbol":  "US.ITUB",
+                        "name":  "Itau Unibanco",
+                        "marketCap":  77484842091.06
+                    },
+                    {
+                        "symbol":  "US.RSG",
+                        "name":  "Republic Services",
+                        "marketCap":  77052507433.29
+                    },
+                    {
+                        "symbol":  "US.AMX",
+                        "name":  "America Movil SAB de CV",
+                        "marketCap":  77015580000
+                    },
+                    {
+                        "symbol":  "US.CNI",
+                        "name":  "Canadian National Railway",
+                        "marketCap":  76376363000
+                    },
+                    {
+                        "symbol":  "US.NTES",
+                        "name":  "NetEase",
+                        "marketCap":  76332883920.1
+                    },
+                    {
+                        "symbol":  "US.CHGCY",
+                        "name":  "Chugai Pharmaceutical (ADR)",
+                        "marketCap":  75252243846.91
+                    },
+                    {
+                        "symbol":  "US.GLNCY",
+                        "name":  "GLENCORE PLC",
+                        "marketCap":  75135949376.52
+                    },
+                    {
+                        "symbol":  "US.SPG",
+                        "name":  "Simon Property",
+                        "marketCap":  75122278493.12
+                    },
+                    {
+                        "symbol":  "US.FDX",
+                        "name":  "FedEx",
+                        "marketCap":  74929740998.82
+                    },
+                    {
+                        "symbol":  "US.ORLY",
+                        "name":  "O\u0027Reilly Automotive",
+                        "marketCap":  74341897061.77
+                    },
+                    {
+                        "symbol":  "US.WUXAY",
+                        "name":  "WUXI APPTEC CO LTD UNSPON ADS EACH REP 1 ORD SHS",
+                        "marketCap":  73626772641.16
+                    }
+                ],
+    "failed":  [
+                   {
+                       "symbol":  "US.APH",
+                       "reason":  "Error: get cur kline: [RATE_LIMIT] too many requests, retry after 7s"
+                   },
+                   {
+                       "symbol":  "US.KLAC",
+                       "reason":  "Error: get cur kline: [RATE_LIMIT] too many requests, retry after 7s"
+                   },
+                   {
+                       "symbol":  "US.BHP",
+                       "reason":  "Error: get cur kline: [RATE_LIMIT] too many requests, retry after 6s"
+                   },
+                   {
+                       "symbol":  "US.ADI",
+                       "reason":  "Error: get cur kline: [RATE_LIMIT] too many requests, retry after 5s"
+                   },
+                   {
+                       "symbol":  "US.SHOP",
+                       "reason":  "Error: get cur kline: [RATE_LIMIT] too many requests, retry after 4s"
+                   },
+                   {
+                       "symbol":  "US.BLK",
+                       "reason":  "Error: get cur kline: [RATE_LIMIT] too many requests, retry after 3s"
+                   },
+                   {
+                       "symbol":  "US.NVO",
+                       "reason":  "Error: get cur kline: [RATE_LIMIT] too many requests, retry after 2s"
+                   },
+                   {
+                       "symbol":  "US.ABT",
+                       "reason":  "Error: get cur kline: [RATE_LIMIT] too many requests, retry after 1s"
+                   },
+                   {
+                       "symbol":  "US.NEMCL",
+                       "reason":  "The property \u0027volume\u0027 cannot be found on this object. Verify that the property exists."
+                   },
+                   {
+                       "symbol":  "US.SO",
+                       "reason":  "Error: get cur kline: [RATE_LIMIT] too many requests, retry after 19s"
+                   },
+                   {
+                       "symbol":  "US.MAR",
+                       "reason":  "Error: get cur kline: [RATE_LIMIT] too many requests, retry after 18s"
+                   },
+                   {
+                       "symbol":  "US.BNS",
+                       "reason":  "Error: get cur kline: [RATE_LIMIT] too many requests, retry after 17s"
+                   },
+                   {
+                       "symbol":  "US.MPC",
+                       "reason":  "Error: get cur kline: [RATE_LIMIT] too many requests, retry after 16s"
+                   },
+                   {
+                       "symbol":  "US.ABNB",
+                       "reason":  "Error: get cur kline: [RATE_LIMIT] too many requests, retry after 15s"
+                   },
+                   {
+                       "symbol":  "US.WDC",
+                       "reason":  "Error: get cur kline: [RATE_LIMIT] too many requests, retry after 14s"
+                   },
+                   {
+                       "symbol":  "US.ENB",
+                       "reason":  "Error: get cur kline: [RATE_LIMIT] too many requests, retry after 13s"
+                   },
+                   {
+                       "symbol":  "US.HCA",
+                       "reason":  "Error: get cur kline: [RATE_LIMIT] too many requests, retry after 12s"
+                   },
+                   {
+                       "symbol":  "US.ENLAY",
+                       "reason":  "Error: get cur kline: [RATE_LIMIT] too many requests, retry after 11s"
+                   },
+                   {
+                       "symbol":  "US.TKOMY",
+                       "reason":  "Error: get cur kline: [RATE_LIMIT] too many requests, retry after 10s"
+                   },
+                   {
+                       "symbol":  "US.AXAHY",
+                       "reason":  "Error: get cur kline: [RATE_LIMIT] too many requests, retry after 9s"
+                   },
+                   {
+                       "symbol":  "US.EQIX",
+                       "reason":  "Error: get cur kline: [RATE_LIMIT] too many requests, retry after 9s"
+                   },
+                   {
+                       "symbol":  "US.CM",
+                       "reason":  "Error: get cur kline: [RATE_LIMIT] too many requests, retry after 8s"
+                   },
+                   {
+                       "symbol":  "US.NET",
+                       "reason":  "Error: get cur kline: [RATE_LIMIT] too many requests, retry after 7s"
+                   },
+                   {
+                       "symbol":  "US.VLO",
+                       "reason":  "Error: get cur kline: [RATE_LIMIT] too many requests, retry after 6s"
+                   },
+                   {
+                       "symbol":  "US.DUK",
+                       "reason":  "Error: get cur kline: [RATE_LIMIT] too many requests, retry after 5s"
+                   },
+                   {
+                       "symbol":  "US.AAGIY",
+                       "reason":  "Error: get cur kline: [RATE_LIMIT] too many requests, retry after 4s"
+                   },
+                   {
+                       "symbol":  "US.BNY",
+                       "reason":  "Error: get cur kline: [RATE_LIMIT] too many requests, retry after 3s"
+                   },
+                   {
+                       "symbol":  "US.BCMXY",
+                       "reason":  "Error: get cur kline: [RATE_LIMIT] too many requests, retry after 2s"
+                   },
+                   {
+                       "symbol":  "US.ATLKY",
+                       "reason":  "Error: get cur kline: [RATE_LIMIT] too many requests, retry after 1s"
+                   },
+                   {
+                       "symbol":  "US.GPMXY",
+                       "reason":  "Error: get cur kline: [RATE_LIMIT] too many requests, retry after 1s"
+                   },
+                   {
+                       "symbol":  "US.ORLY",
+                       "reason":  "Error: get cur kline: [RATE_LIMIT] too many requests, retry after 18s"
+                   },
+                   {
+                       "symbol":  "US.WUXAY",
+                       "reason":  "Error: get cur kline: [RATE_LIMIT] too many requests, retry after 17s"
+                   }
+               ]
+}

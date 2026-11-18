@@ -1,0 +1,24 @@
+22:59:01 [stopwatch] start
+    FLAT no positions
+
+22:59:02 [stopwatch] done in 1s
+22:59:02 [reconcile] start
+    CASH=99,998.01 EQUITY=99,998.01 POSITIONS=0 ORDERS_TODAY=3
+
+22:59:04 [reconcile] done in 2s
+22:59:04 [scan] start
+    STAGE2=70 VCP=8 BREAKOUTS=0 SETUPS=8 JLAW_BREAKOUTS=0 BEARISH=True RUNDIR=C:\Users\REDACTED_USER\OneDrive\Desktop\VCP-Agent\runs\2026-11-17\20261117-225905-scan
+
+22:59:12 [scan] done in 7s
+22:59:12 [propose] start
+    RANKED=0 APPROVED=0 ENTRIES_ALLOWED=True RUNDIR=C:\Users\REDACTED_USER\OneDrive\Desktop\VCP-Agent\runs\2026-11-17\20261117-225912-propose
+
+22:59:12 [propose] done in 0s
+22:59:12 [execute] start
+    ORDERED=0
+
+22:59:12 [execute] done in 0s
+22:59:12 [dashboard] start
+    DASHBOARD=C:\Users\REDACTED_USER\OneDrive\Desktop\VCP-Agent\dashboard\index.html
+
+22:59:12 [dashboard] done in 0s

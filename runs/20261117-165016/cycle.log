@@ -1,0 +1,24 @@
+16:50:16 [stopwatch] start
+    FLAT no positions
+
+16:50:18 [stopwatch] done in 2s
+16:50:18 [reconcile] start
+    CASH=100,000.00 EQUITY=100,000.00 POSITIONS=0 ORDERS_TODAY=0
+
+16:50:20 [reconcile] done in 2s
+16:50:20 [scan] start
+    STAGE2=70 VCP=8 BREAKOUTS=0 SETUPS=8 RUNDIR=C:\Users\REDACTED_USER\Documents\Qoder\2026-11-17\6df584d8\runs\2026-11-17\20261117-165020-scan
+
+16:50:30 [scan] done in 10s
+16:50:30 [propose] start
+    RANKED=0 APPROVED=0 ENTRIES_ALLOWED=False RUNDIR=C:\Users\REDACTED_USER\Documents\Qoder\2026-11-17\6df584d8\runs\2026-11-17\20261117-165030-propose
+
+16:50:30 [propose] done in 0s
+16:50:30 [execute] start
+    ORDERED=0
+
+16:50:30 [execute] done in 0s
+16:50:30 [dashboard] start
+    DASHBOARD=C:\Users\REDACTED_USER\Documents\Qoder\2026-11-17\6df584d8\dashboard\index.html
+
+16:50:30 [dashboard] done in 0s

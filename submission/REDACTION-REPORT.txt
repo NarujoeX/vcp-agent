@@ -1,0 +1,126 @@
+VCP-Agent privacy-safe submission export
+Prepared: 18 November 2026
+Classification: SANITISED REVIEW COPY - NOT AN OPERATIVE TRADING PROJECT
+
+SCOPE
+
+This is a separate derivative of the previously verified private review package. No
+operative file, original journal, broker evidence or review artifact was edited, replaced,
+deleted or moved. Originals remain the authoritative audit trail; files here are copies.
+Nothing was published or uploaded, and no broker, trading, backtest or scheduler command
+was run while producing this export.
+
+ACCOUNT IDENTIFIER REDACTION
+
+615 literal occurrences of the designated challenge account identifier were replaced with
+the non-numeric placeholder challenge-account across all 545 account-bearing files:
+
+- config/config.json: 1 file, 1 replacement.
+- state/portfolio.json: 1 file, 1 replacement.
+- state/proposals-latest.json: 1 file, 1 replacement.
+- tmp/test-stopwatch-afterhours.ps1: 1 file, 5 replacements.
+- runs/: 541 files, 607 replacements.
+
+By file type: 65 JSON files / 65 occurrences; 479 log files / 545 occurrences;
+1 PowerShell file / 5 occurrences. Every occurrence was inside a JSON string or plain
+text, so the placeholder preserves JSON validity and the relationships between the
+configuration, portfolio snapshots, proposal snapshot and CLI argument logs. No real
+identifier, reversible mapping or original file hash is included in this export.
+
+submission/redaction-manifest.json is the per-file ledger: relative path, account and
+profile replacement counts, and SHA256 of each exported file. It also lists the two added
+files and the export-only README edits.
+
+WORKSTATION PROFILE PATH REDACTION
+
+100 occurrences in 37 files of the local user-profile path prefix were replaced with
+C:\Users\REDACTED_USER, keeping path separators and quoting unchanged:
+
+- runs/: 29 cycle logs, 91 occurrences.
+- tmp/: 5 backtest outputs, 5 occurrences (backtest-v16.out, backtest-v16b.out,
+  backtest-v17.out, backtest-v18.out, backtest.log).
+- engine/lib/Common.ps1: 2 occurrences (the vendor CLI default path).
+- tmp/probe-extended.ps1: 1 occurrence.
+- tmp/test-stopwatch-afterhours.ps1: 1 occurrence (this file also carries the account
+  placeholder, so it is counted in both categories).
+
+Totals reconcile to the 581 changed files: 544 files with account redaction only,
+36 with profile-path redaction only, and 1 with both. Only this single-backslash form was
+present; no forward-slash, URL-encoded or Unicode-escaped variants were found. The
+substituted paths are illustrative, not working deployment paths. Use the documented
+MOOMOO_EXE mechanism only in an authorised private deployment. Historical probe scripts
+remain evidence, not a runnable test batch.
+
+ADDED EXAMPLE CONFIGURATION AND INSTRUCTIONS
+
+config/config.example.json is a copy of the redacted configuration, with
+account.account_id already set to challenge-account. It matches config/config.json,
+which keeps the same placeholder so root discovery and the offline checks work without
+any usable account binding. All other configuration values are unchanged.
+
+The export README explains that engine/lib/Common.ps1 reads account.account_id from
+config/config.json and that broker calls use that value, while MOOMOO_EXE selects an
+executable, not an account. A separately authorised private deployment would obtain the
+designated challenge paper-account identifier from its owner and place it only in that
+private configuration. Never use another paper account or a real-money account.
+
+Do not insert the identifier into this export, restore it into these sanitised historical
+logs, activate a second trading copy or reconnect the export's historical state. Continue
+using the original operative project for authorised activity. The placeholder is not a
+sandbox: some commands can still contact the broker, place probe orders or install tasks
+with machine side effects.
+
+EXPORT-ONLY README EDITS
+
+1. Added the redacted-export notice and the safe account-binding explanation.
+2. Clarified that the real binding stays only in the original private configuration.
+3. Replaced the private-package warning with an accurate sanitised-copy warning.
+
+No strategy, risk, backtest, journal or performance text was otherwise changed.
+
+DELIBERATELY RETAINED
+
+- All trading dates, symbols, prices, quantities, P&L, balances, fees, return statistics,
+  backtest results, strategy parameters and risk limits.
+- Broker order identifiers (four distinct values) in journals, snapshots, dashboard,
+  README prose and a cancellation log.
+- The competition and account title, and the strategy author's name in STRATEGY.md.
+- The deck and dashboard, which already avoid the challenge account identifier.
+- All journals, run evidence, useful tests and research outputs from the private package,
+  with only the documented redactions in the applicable copies.
+
+This is account-identifier and workstation-path redaction of a personal submission, not
+complete anonymisation of the trading record. Order identifiers and financial details stay
+visible by design; confirm that is acceptable for the intended audience, and do not treat
+this export as a fresh broker reconciliation.
+
+PRIVATE-ONLY, NOT INCLUDED
+
+- The operative VCP-Agent directory, its account-bound config, live state and original runs.
+- VCP-Agent-PRIVATE-REVIEW-20261118.zip and its unredacted fresh-copy/package-check copies.
+- The original review manifests, validation logs and reversible cleanup archive.
+- privacy-export-audit/: pre-export original hashes, the local builder and validator,
+  local test output and preservation checks.
+- Any real account binding or mapping, CLI authentication store, tokens, callback URLs,
+  future account-bound configuration, and uncropped broker screenshots or exports that
+  reveal the account identifier. No authentication store was opened or copied.
+
+Only this sanitised tree and its archive, VCP-Agent-PRIVACY-SAFE-20261118.zip (the same
+1,267 entries, verified hash-for-hash), are submission candidates. The private source
+package and neighbouring audit folders are not.
+
+OPEN ITEMS UNCHANGED BY REDACTION
+
+Final live results for slides 13 and 15, the outstanding numeric/audit qualifications,
+broker-sourced final evidence, the absent decisions journal, PowerPoint visual review and
+official submission-format/venue confirmation remain outstanding. Redaction does not
+resolve them, and no numeric evidence was altered.
+
+VERIFICATION
+
+This export and its archive were validated with the following results, recorded in the
+private review folder rather than shipped here: no real account identifier or user name in any file
+content, file name, expanded PPTX part or archive entry; every JSON file and all 29
+PowerShell scripts parse; each exported file equals its source plus only the declared
+substitutions; the 3,822 pre-existing originals are byte-identical; and the gate, fallback
+and J Law suites pass (45 assertions) in this export with the broker executable disabled.

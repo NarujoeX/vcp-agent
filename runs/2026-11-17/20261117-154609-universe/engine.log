@@ -1,0 +1,473 @@
+2026-11-17 15:46:09 [INFO] Universe refresh: top 500 by market cap
+2026-11-17 15:46:09 [INFO] moomoo stock-screen --screen-queries [{\"simple_field_query\":{\"simple_field\":1,\"screen_value_list\":[2]}}] --retrieve-queries [{\"basic_property\":{\"name\":1101}},{\"simple_property\":{\"name\":2301}}] --sort {\"direction\":2,\"simple_property\":{\"name\":2301}} --limit 300 -f json
+2026-11-17 15:46:10 [INFO] Screen returned 300 names
+2026-11-17 15:46:10 [INFO] moomoo kline US.BRK.B -n 370 --ktype 2 -f json
+2026-11-17 15:46:11 [INFO] moomoo kline US.BRK.A -n 370 --ktype 2 -f json
+2026-11-17 15:46:12 [INFO] moomoo kline US.WMT -n 370 --ktype 2 -f json
+2026-11-17 15:46:13 [INFO] moomoo kline US.JPM -n 370 --ktype 2 -f json
+2026-11-17 15:46:14 [INFO] moomoo kline US.SKHY -n 370 --ktype 2 -f json
+2026-11-17 15:46:14 [INFO] moomoo kline US.AMD -n 370 --ktype 2 -f json
+2026-11-17 15:46:15 [INFO] moomoo kline US.MU -n 370 --ktype 2 -f json
+2026-11-17 15:46:15 [INFO] moomoo kline US.V -n 370 --ktype 2 -f json
+2026-11-17 15:46:16 [INFO] moomoo kline US.XOM -n 370 --ktype 2 -f json
+2026-11-17 15:46:17 [INFO] moomoo kline US.JNJ -n 370 --ktype 2 -f json
+2026-11-17 15:46:17 [INFO] moomoo kline US.MA -n 370 --ktype 2 -f json
+2026-11-17 15:46:18 [INFO] moomoo kline US.ASML -n 370 --ktype 2 -f json
+2026-11-17 15:46:19 [INFO] moomoo kline US.ABBV -n 370 --ktype 2 -f json
+2026-11-17 15:46:19 [INFO]   25/300 bars cached
+2026-11-17 15:46:19 [INFO] moomoo kline US.COST -n 370 --ktype 2 -f json
+2026-11-17 15:46:20 [INFO] moomoo kline US.TCEHY -n 370 --ktype 2 -f json
+2026-11-17 15:46:21 [INFO] moomoo kline US.KO -n 370 --ktype 2 -f json
+2026-11-17 15:46:21 [INFO] moomoo kline US.CVX -n 370 --ktype 2 -f json
+2026-11-17 15:46:22 [INFO] moomoo kline US.PG -n 370 --ktype 2 -f json
+2026-11-17 15:46:23 [INFO] moomoo kline US.RHHBY -n 370 --ktype 2 -f json
+2026-11-17 15:46:24 [INFO] moomoo kline US.PLTR -n 370 --ktype 2 -f json
+2026-11-17 15:46:24 [INFO] moomoo kline US.CSCO -n 370 --ktype 2 -f json
+2026-11-17 15:46:25 [INFO] moomoo kline US.UNH -n 370 --ktype 2 -f json
+2026-11-17 15:46:26 [INFO] moomoo kline US.IDCBY -n 370 --ktype 2 -f json
+2026-11-17 15:46:27 [INFO] moomoo kline US.ORCL -n 370 --ktype 2 -f json
+2026-11-17 15:46:28 [INFO] moomoo kline US.MRK -n 370 --ktype 2 -f json
+2026-11-17 15:46:28 [INFO] moomoo kline US.CICHY -n 370 --ktype 2 -f json
+2026-11-17 15:46:29 [INFO] moomoo kline US.HD -n 370 --ktype 2 -f json
+2026-11-17 15:46:30 [INFO] moomoo kline US.BAC -n 370 --ktype 2 -f json
+2026-11-17 15:46:31 [INFO] moomoo kline US.GE -n 370 --ktype 2 -f json
+2026-11-17 15:46:31 [INFO] moomoo kline US.ACGBY -n 370 --ktype 2 -f json
+2026-11-17 15:46:32 [INFO] moomoo kline US.PM -n 370 --ktype 2 -f json
+2026-11-17 15:46:32 [WARN]   kline failed for US.PM: Error: get cur kline: [RATE_LIMIT] too many requests, retry after 28s
+2026-11-17 15:46:32 [INFO] moomoo kline US.NVS -n 370 --ktype 2 -f json
+2026-11-17 15:46:32 [WARN]   kline failed for US.NVS: Error: get cur kline: [RATE_LIMIT] too many requests, retry after 27s
+2026-11-17 15:46:32 [INFO] moomoo kline US.HSBC -n 370 --ktype 2 -f json
+2026-11-17 15:46:33 [WARN]   kline failed for US.HSBC: Error: get cur kline: [RATE_LIMIT] too many requests, retry after 27s
+2026-11-17 15:46:33 [INFO] moomoo kline US.INTC -n 370 --ktype 2 -f json
+2026-11-17 15:46:33 [WARN]   kline failed for US.INTC: Error: get cur kline: [RATE_LIMIT] too many requests, retry after 27s
+2026-11-17 15:46:33 [INFO] moomoo kline US.MS -n 370 --ktype 2 -f json
+2026-11-17 15:46:33 [WARN]   kline failed for US.MS: Error: get cur kline: [RATE_LIMIT] too many requests, retry after 27s
+2026-11-17 15:46:33 [INFO] moomoo kline US.AZN -n 370 --ktype 2 -f json
+2026-11-17 15:46:33 [WARN]   kline failed for US.AZN: Error: get cur kline: [RATE_LIMIT] too many requests, retry after 27s
+2026-11-17 15:46:33 [INFO] moomoo kline US.AMAT -n 370 --ktype 2 -f json
+2026-11-17 15:46:33 [WARN]   kline failed for US.AMAT: Error: get cur kline: [RATE_LIMIT] too many requests, retry after 26s
+2026-11-17 15:46:33 [INFO] moomoo kline US.RY -n 370 --ktype 2 -f json
+2026-11-17 15:46:34 [WARN]   kline failed for US.RY: Error: get cur kline: [RATE_LIMIT] too many requests, retry after 26s
+2026-11-17 15:46:34 [INFO] moomoo kline US.SHEL -n 370 --ktype 2 -f json
+2026-11-17 15:46:34 [WARN]   kline failed for US.SHEL: Error: get cur kline: [RATE_LIMIT] too many requests, retry after 26s
+2026-11-17 15:46:34 [INFO] moomoo kline US.SAP -n 370 --ktype 2 -f json
+2026-11-17 15:46:34 [WARN]   kline failed for US.SAP: Error: get cur kline: [RATE_LIMIT] too many requests, retry after 26s
+2026-11-17 15:46:34 [INFO] moomoo kline US.NSRGY -n 370 --ktype 2 -f json
+2026-11-17 15:46:34 [WARN]   kline failed for US.NSRGY: Error: get cur kline: [RATE_LIMIT] too many requests, retry after 26s
+2026-11-17 15:46:34 [INFO] moomoo kline US.TXN -n 370 --ktype 2 -f json
+2026-11-17 15:46:34 [WARN]   kline failed for US.TXN: Error: get cur kline: [RATE_LIMIT] too many requests, retry after 25s
+2026-11-17 15:46:34 [INFO] moomoo kline US.LRLCY -n 370 --ktype 2 -f json
+2026-11-17 15:46:35 [WARN]   kline failed for US.LRLCY: Error: get cur kline: [RATE_LIMIT] too many requests, retry after 25s
+2026-11-17 15:46:35 [INFO] moomoo kline US.LRCX -n 370 --ktype 2 -f json
+2026-11-17 15:46:35 [WARN]   kline failed for US.LRCX: Error: get cur kline: [RATE_LIMIT] too many requests, retry after 25s
+2026-11-17 15:46:35 [INFO] moomoo kline US.RTX -n 370 --ktype 2 -f json
+2026-11-17 15:46:35 [WARN]   kline failed for US.RTX: Error: get cur kline: [RATE_LIMIT] too many requests, retry after 25s
+2026-11-17 15:46:35 [INFO] moomoo kline US.CAT -n 370 --ktype 2 -f json
+2026-11-17 15:46:35 [WARN]   kline failed for US.CAT: Error: get cur kline: [RATE_LIMIT] too many requests, retry after 24s
+2026-11-17 15:46:35 [INFO] moomoo kline US.BACHY -n 370 --ktype 2 -f json
+2026-11-17 15:46:36 [WARN]   kline failed for US.BACHY: Error: get cur kline: [RATE_LIMIT] too many requests, retry after 24s
+2026-11-17 15:46:36 [INFO] moomoo kline US.PANW -n 370 --ktype 2 -f json
+2026-11-17 15:46:36 [WARN]   kline failed for US.PANW: Error: get cur kline: [RATE_LIMIT] too many requests, retry after 24s
+2026-11-17 15:46:36 [INFO] moomoo kline US.GS -n 370 --ktype 2 -f json
+2026-11-17 15:46:36 [WARN]   kline failed for US.GS: Error: get cur kline: [RATE_LIMIT] too many requests, retry after 24s
+2026-11-17 15:46:36 [INFO] moomoo kline US.TMO -n 370 --ktype 2 -f json
+2026-11-17 15:46:36 [WARN]   kline failed for US.TMO: Error: get cur kline: [RATE_LIMIT] too many requests, retry after 24s
+2026-11-17 15:46:36 [INFO] moomoo kline US.WFC -n 370 --ktype 2 -f json
+2026-11-17 15:46:36 [WARN]   kline failed for US.WFC: Error: get cur kline: [RATE_LIMIT] too many requests, retry after 23s
+2026-11-17 15:46:36 [INFO] moomoo kline US.TM -n 370 --ktype 2 -f json
+2026-11-17 15:46:37 [WARN]   kline failed for US.TM: Error: get cur kline: [RATE_LIMIT] too many requests, retry after 23s
+2026-11-17 15:46:37 [INFO] moomoo kline US.AMGN -n 370 --ktype 2 -f json
+2026-11-17 15:46:37 [WARN]   kline failed for US.AMGN: Error: get cur kline: [RATE_LIMIT] too many requests, retry after 23s
+2026-11-17 15:46:37 [INFO] moomoo kline US.NFLX -n 370 --ktype 2 -f json
+2026-11-17 15:46:37 [WARN]   kline failed for US.NFLX: Error: get cur kline: [RATE_LIMIT] too many requests, retry after 23s
+2026-11-17 15:46:37 [INFO] moomoo kline US.LIN -n 370 --ktype 2 -f json
+2026-11-17 15:46:37 [WARN]   kline failed for US.LIN: Error: get cur kline: [RATE_LIMIT] too many requests, retry after 23s
+2026-11-17 15:46:37 [INFO] moomoo kline US.MUFG -n 370 --ktype 2 -f json
+2026-11-17 15:46:37 [WARN]   kline failed for US.MUFG: Error: get cur kline: [RATE_LIMIT] too many requests, retry after 22s
+2026-11-17 15:46:37 [INFO] moomoo kline US.ANET -n 370 --ktype 2 -f json
+2026-11-17 15:46:37 [WARN]   kline failed for US.ANET: Error: get cur kline: [RATE_LIMIT] too many requests, retry after 22s
+2026-11-17 15:46:37 [INFO] moomoo kline US.IBM -n 370 --ktype 2 -f json
+2026-11-17 15:46:38 [WARN]   kline failed for US.IBM: Error: get cur kline: [RATE_LIMIT] too many requests, retry after 22s
+2026-11-17 15:46:38 [INFO] moomoo kline US.CRWD -n 370 --ktype 2 -f json
+2026-11-17 15:46:38 [WARN]   kline failed for US.CRWD: Error: get cur kline: [RATE_LIMIT] too many requests, retry after 22s
+2026-11-17 15:46:38 [INFO] moomoo kline US.SIEGY -n 370 --ktype 2 -f json
+2026-11-17 15:46:38 [WARN]   kline failed for US.SIEGY: Error: get cur kline: [RATE_LIMIT] too many requests, retry after 22s
+2026-11-17 15:46:38 [INFO] moomoo kline US.BABA -n 370 --ktype 2 -f json
+2026-11-17 15:46:38 [WARN]   kline failed for US.BABA: Error: get cur kline: [RATE_LIMIT] too many requests, retry after 22s
+2026-11-17 15:46:38 [INFO] moomoo kline US.LVMUY -n 370 --ktype 2 -f json
+2026-11-17 15:46:38 [WARN]   kline failed for US.LVMUY: Error: get cur kline: [RATE_LIMIT] too many requests, retry after 21s
+2026-11-17 15:46:38 [INFO] moomoo kline US.AXP -n 370 --ktype 2 -f json
+2026-11-17 15:46:39 [WARN]   kline failed for US.AXP: Error: get cur kline: [RATE_LIMIT] too many requests, retry after 21s
+2026-11-17 15:46:39 [INFO] moomoo kline US.CYATY -n 370 --ktype 2 -f json
+2026-11-17 15:46:39 [WARN]   kline failed for US.CYATY: Error: get cur kline: [RATE_LIMIT] too many requests, retry after 21s
+2026-11-17 15:46:39 [INFO] moomoo kline US.GILD -n 370 --ktype 2 -f json
+2026-11-17 15:46:39 [WARN]   kline failed for US.GILD: Error: get cur kline: [RATE_LIMIT] too many requests, retry after 21s
+2026-11-17 15:46:39 [INFO] moomoo kline US.IDEXY -n 370 --ktype 2 -f json
+2026-11-17 15:46:39 [WARN]   kline failed for US.IDEXY: Error: get cur kline: [RATE_LIMIT] too many requests, retry after 21s
+2026-11-17 15:46:39 [INFO] moomoo kline US.DIS -n 370 --ktype 2 -f json
+2026-11-17 15:46:39 [WARN]   kline failed for US.DIS: Error: get cur kline: [RATE_LIMIT] too many requests, retry after 20s
+2026-11-17 15:46:39 [INFO] moomoo kline US.DELL -n 370 --ktype 2 -f json
+2026-11-17 15:46:40 [WARN]   kline failed for US.DELL: Error: get cur kline: [RATE_LIMIT] too many requests, retry after 20s
+2026-11-17 15:46:40 [INFO] moomoo kline US.GEV -n 370 --ktype 2 -f json
+2026-11-17 15:46:40 [WARN]   kline failed for US.GEV: Error: get cur kline: [RATE_LIMIT] too many requests, retry after 20s
+2026-11-17 15:46:40 [INFO] moomoo kline US.C -n 370 --ktype 2 -f json
+2026-11-17 15:46:40 [WARN]   kline failed for US.C: Error: get cur kline: [RATE_LIMIT] too many requests, retry after 20s
+2026-11-17 15:46:40 [INFO] moomoo kline US.PEP -n 370 --ktype 2 -f json
+2026-11-17 15:46:40 [WARN]   kline failed for US.PEP: Error: get cur kline: [RATE_LIMIT] too many requests, retry after 20s
+2026-11-17 15:46:40 [INFO] moomoo kline US.TD -n 370 --ktype 2 -f json
+2026-11-17 15:46:40 [WARN]   kline failed for US.TD: Error: get cur kline: [RATE_LIMIT] too many requests, retry after 19s
+2026-11-17 15:46:40 [INFO] moomoo kline US.TTE -n 370 --ktype 2 -f json
+2026-11-17 15:46:41 [WARN]   kline failed for US.TTE: Error: get cur kline: [RATE_LIMIT] too many requests, retry after 19s
+2026-11-17 15:46:41 [INFO] moomoo kline US.ALIZY -n 370 --ktype 2 -f json
+2026-11-17 15:46:41 [WARN]   kline failed for US.ALIZY: Error: get cur kline: [RATE_LIMIT] too many requests, retry after 19s
+2026-11-17 15:46:41 [INFO] moomoo kline US.MCD -n 370 --ktype 2 -f json
+2026-11-17 15:46:41 [WARN]   kline failed for US.MCD: Error: get cur kline: [RATE_LIMIT] too many requests, retry after 19s
+2026-11-17 15:46:41 [INFO] moomoo kline US.CMWAY -n 370 --ktype 2 -f json
+2026-11-17 15:46:41 [WARN]   kline failed for US.CMWAY: Error: get cur kline: [RATE_LIMIT] too many requests, retry after 19s
+2026-11-17 15:46:41 [INFO] moomoo kline US.VZ -n 370 --ktype 2 -f json
+2026-11-17 15:46:41 [WARN]   kline failed for US.VZ: Error: get cur kline: [RATE_LIMIT] too many requests, retry after 18s
+2026-11-17 15:46:41 [INFO] moomoo kline US.BHP -n 370 --ktype 2 -f json
+2026-11-17 15:46:42 [WARN]   kline failed for US.BHP: Error: get cur kline: [RATE_LIMIT] too many requests, retry after 18s
+2026-11-17 15:46:42 [INFO] moomoo kline US.SHOP -n 370 --ktype 2 -f json
+2026-11-17 15:46:42 [WARN]   kline failed for US.SHOP: Error: get cur kline: [RATE_LIMIT] too many requests, retry after 18s
+2026-11-17 15:46:42 [INFO] moomoo kline US.KLAC -n 370 --ktype 2 -f json
+2026-11-17 15:46:42 [WARN]   kline failed for US.KLAC: Error: get cur kline: [RATE_LIMIT] too many requests, retry after 18s
+2026-11-17 15:46:42 [INFO] moomoo kline US.ARM -n 370 --ktype 2 -f json
+2026-11-17 15:46:42 [WARN]   kline failed for US.ARM: Error: get cur kline: [RATE_LIMIT] too many requests, retry after 18s
+2026-11-17 15:46:42 [INFO] moomoo kline US.APH -n 370 --ktype 2 -f json
+2026-11-17 15:46:42 [WARN]   kline failed for US.APH: Error: get cur kline: [RATE_LIMIT] too many requests, retry after 17s
+2026-11-17 15:46:42 [INFO] moomoo kline US.ABT -n 370 --ktype 2 -f json
+2026-11-17 15:46:42 [WARN]   kline failed for US.ABT: Error: get cur kline: [RATE_LIMIT] too many requests, retry after 17s
+2026-11-17 15:46:42 [INFO] moomoo kline US.NVO -n 370 --ktype 2 -f json
+2026-11-17 15:46:43 [WARN]   kline failed for US.NVO: Error: get cur kline: [RATE_LIMIT] too many requests, retry after 17s
+2026-11-17 15:46:43 [INFO] moomoo kline US.ADI -n 370 --ktype 2 -f json
+2026-11-17 15:46:43 [WARN]   kline failed for US.ADI: Error: get cur kline: [RATE_LIMIT] too many requests, retry after 17s
+2026-11-17 15:46:43 [INFO] moomoo kline US.BLK -n 370 --ktype 2 -f json
+2026-11-17 15:46:43 [WARN]   kline failed for US.BLK: Error: get cur kline: [RATE_LIMIT] too many requests, retry after 16s
+2026-11-17 15:46:43 [INFO] moomoo kline US.UNP -n 370 --ktype 2 -f json
+2026-11-17 15:46:44 [WARN]   kline failed for US.UNP: Error: get cur kline: [RATE_LIMIT] too many requests, retry after 16s
+2026-11-17 15:46:44 [INFO] moomoo kline US.QCOM -n 370 --ktype 2 -f json
+2026-11-17 15:46:44 [WARN]   kline failed for US.QCOM: Error: get cur kline: [RATE_LIMIT] too many requests, retry after 16s
+2026-11-17 15:46:44 [INFO] moomoo kline US.TMUS -n 370 --ktype 2 -f json
+2026-11-17 15:46:44 [WARN]   kline failed for US.TMUS: Error: get cur kline: [RATE_LIMIT] too many requests, retry after 16s
+2026-11-17 15:46:44 [INFO] moomoo kline US.WELL -n 370 --ktype 2 -f json
+2026-11-17 15:46:44 [WARN]   kline failed for US.WELL: Error: get cur kline: [RATE_LIMIT] too many requests, retry after 16s
+2026-11-17 15:46:44 [INFO] moomoo kline US.NEE -n 370 --ktype 2 -f json
+2026-11-17 15:46:44 [WARN]   kline failed for US.NEE: Error: get cur kline: [RATE_LIMIT] too many requests, retry after 15s
+2026-11-17 15:46:44 [INFO] moomoo kline US.CRM -n 370 --ktype 2 -f json
+2026-11-17 15:46:45 [WARN]   kline failed for US.CRM: Error: get cur kline: [RATE_LIMIT] too many requests, retry after 15s
+2026-11-17 15:46:45 [INFO] moomoo kline US.EADSY -n 370 --ktype 2 -f json
+2026-11-17 15:46:45 [WARN]   kline failed for US.EADSY: Error: get cur kline: [RATE_LIMIT] too many requests, retry after 15s
+2026-11-17 15:46:45 [INFO] moomoo kline US.DE -n 370 --ktype 2 -f json
+2026-11-17 15:46:45 [WARN]   kline failed for US.DE: Error: get cur kline: [RATE_LIMIT] too many requests, retry after 15s
+2026-11-17 15:46:45 [INFO] moomoo kline US.CIHKY -n 370 --ktype 2 -f json
+2026-11-17 15:46:45 [WARN]   kline failed for US.CIHKY: Error: get cur kline: [RATE_LIMIT] too many requests, retry after 15s
+2026-11-17 15:46:45 [INFO] moomoo kline US.SAN -n 370 --ktype 2 -f json
+2026-11-17 15:46:45 [WARN]   kline failed for US.SAN: Error: get cur kline: [RATE_LIMIT] too many requests, retry after 14s
+2026-11-17 15:46:45 [INFO] moomoo kline US.IBDRY -n 370 --ktype 2 -f json
+2026-11-17 15:46:45 [WARN]   kline failed for US.IBDRY: Error: get cur kline: [RATE_LIMIT] too many requests, retry after 14s
+2026-11-17 15:46:45 [INFO] moomoo kline US.BUD -n 370 --ktype 2 -f json
+2026-11-17 15:46:46 [WARN]   kline failed for US.BUD: Error: get cur kline: [RATE_LIMIT] too many requests, retry after 14s
+2026-11-17 15:46:46 [INFO] moomoo kline US.COP -n 370 --ktype 2 -f json
+2026-11-17 15:46:46 [WARN]   kline failed for US.COP: Error: get cur kline: [RATE_LIMIT] too many requests, retry after 14s
+2026-11-17 15:46:46 [INFO] moomoo kline US.PFE -n 370 --ktype 2 -f json
+2026-11-17 15:46:46 [WARN]   kline failed for US.PFE: Error: get cur kline: [RATE_LIMIT] too many requests, retry after 14s
+2026-11-17 15:46:46 [INFO] moomoo kline US.DHR -n 370 --ktype 2 -f json
+2026-11-17 15:46:46 [WARN]   kline failed for US.DHR: Error: get cur kline: [RATE_LIMIT] too many requests, retry after 13s
+2026-11-17 15:46:46 [INFO] moomoo kline US.FRCOY -n 370 --ktype 2 -f json
+2026-11-17 15:46:47 [WARN]   kline failed for US.FRCOY: Error: get cur kline: [RATE_LIMIT] too many requests, retry after 13s
+2026-11-17 15:46:47 [INFO] moomoo kline US.SCHW -n 370 --ktype 2 -f json
+2026-11-17 15:46:47 [WARN]   kline failed for US.SCHW: Error: get cur kline: [RATE_LIMIT] too many requests, retry after 13s
+2026-11-17 15:46:47 [INFO] moomoo kline US.SONY -n 370 --ktype 2 -f json
+2026-11-17 15:46:47 [WARN]   kline failed for US.SONY: Error: get cur kline: [UNKNOWN] API returned HTTP 439
+2026-11-17 15:46:47 [INFO] moomoo kline US.HESAY -n 370 --ktype 2 -f json
+2026-11-17 15:46:47 [WARN]   kline failed for US.HESAY: Error: get cur kline: [UNKNOWN] API returned HTTP 439
+2026-11-17 15:46:47 [INFO] moomoo kline US.SBGSY -n 370 --ktype 2 -f json
+2026-11-17 15:46:47 [WARN]   kline failed for US.SBGSY: Error: get cur kline: [UNKNOWN] API returned HTTP 439
+2026-11-17 15:46:47 [INFO] moomoo kline US.SMFG -n 370 --ktype 2 -f json
+2026-11-17 15:46:48 [WARN]   kline failed for US.SMFG: Error: get cur kline: [UNKNOWN] API returned HTTP 439
+2026-11-17 15:46:48 [INFO] moomoo kline US.DBSDY -n 370 --ktype 2 -f json
+2026-11-17 15:46:48 [WARN]   kline failed for US.DBSDY: Error: get cur kline: [UNKNOWN] API returned HTTP 439
+2026-11-17 15:46:48 [INFO] moomoo kline US.ISRG -n 370 --ktype 2 -f json
+2026-11-17 15:46:48 [WARN]   kline failed for US.ISRG: Error: get cur kline: [RATE_LIMIT] too many requests, retry after 12s
+2026-11-17 15:46:48 [INFO] moomoo kline US.RCRUY -n 370 --ktype 2 -f json
+2026-11-17 15:46:48 [WARN]   kline failed for US.RCRUY: Error: get cur kline: [UNKNOWN] API returned HTTP 439
+2026-11-17 15:46:48 [INFO] moomoo kline US.T -n 370 --ktype 2 -f json
+2026-11-17 15:46:48 [WARN]   kline failed for US.T: Error: get cur kline: [UNKNOWN] API returned HTTP 439
+2026-11-17 15:46:48 [INFO] moomoo kline US.ACN -n 370 --ktype 2 -f json
+2026-11-17 15:46:48 [WARN]   kline failed for US.ACN: Error: get cur kline: [UNKNOWN] API returned HTTP 439
+2026-11-17 15:46:48 [INFO] moomoo kline US.ABBNY -n 370 --ktype 2 -f json
+2026-11-17 15:46:49 [WARN]   kline failed for US.ABBNY: Error: get cur kline: [UNKNOWN] API returned HTTP 439
+2026-11-17 15:46:49 [INFO] moomoo kline US.UBS -n 370 --ktype 2 -f json
+2026-11-17 15:46:49 [WARN]   kline failed for US.UBS: Error: get cur kline: [UNKNOWN] API returned HTTP 439
+2026-11-17 15:46:49 [INFO] moomoo kline US.CB -n 370 --ktype 2 -f json
+2026-11-17 15:46:49 [WARN]   kline failed for US.CB: Error: get cur kline: [UNKNOWN] API returned HTTP 439
+2026-11-17 15:46:49 [INFO] moomoo kline US.TJX -n 370 --ktype 2 -f json
+2026-11-17 15:46:49 [WARN]   kline failed for US.TJX: Error: get cur kline: [UNKNOWN] API returned HTTP 439
+2026-11-17 15:46:49 [INFO] moomoo kline US.UL -n 370 --ktype 2 -f json
+2026-11-17 15:46:49 [WARN]   kline failed for US.UL: Error: get cur kline: [UNKNOWN] API returned HTTP 439
+2026-11-17 15:46:49 [INFO] moomoo kline US.RYCEY -n 370 --ktype 2 -f json
+2026-11-17 15:46:49 [WARN]   kline failed for US.RYCEY: Error: get cur kline: [UNKNOWN] API returned HTTP 439
+2026-11-17 15:46:49 [INFO] moomoo kline US.UBER -n 370 --ktype 2 -f json
+2026-11-17 15:46:50 [WARN]   kline failed for US.UBER: Error: get cur kline: [UNKNOWN] API returned HTTP 439
+2026-11-17 15:46:50 [INFO] moomoo kline US.DTEGY -n 370 --ktype 2 -f json
+2026-11-17 15:46:50 [WARN]   kline failed for US.DTEGY: Error: get cur kline: [UNKNOWN] API returned HTTP 439
+2026-11-17 15:46:50 [INFO] moomoo kline US.BBVA -n 370 --ktype 2 -f json
+2026-11-17 15:46:50 [WARN]   kline failed for US.BBVA: Error: get cur kline: [UNKNOWN] API returned HTTP 439
+2026-11-17 15:46:50 [INFO] moomoo kline US.SAFRY -n 370 --ktype 2 -f json
+2026-11-17 15:46:50 [WARN]   kline failed for US.SAFRY: Error: get cur kline: [UNKNOWN] API returned HTTP 439
+2026-11-17 15:46:50 [INFO] moomoo kline US.APP -n 370 --ktype 2 -f json
+2026-11-17 15:46:50 [WARN]   kline failed for US.APP: Error: get cur kline: [UNKNOWN] API returned HTTP 439
+2026-11-17 15:46:50 [INFO] moomoo kline US.PGR -n 370 --ktype 2 -f json
+2026-11-17 15:46:50 [WARN]   kline failed for US.PGR: Error: get cur kline: [UNKNOWN] API returned HTTP 439
+2026-11-17 15:46:50 [INFO] moomoo kline US.UNCRY -n 370 --ktype 2 -f json
+2026-11-17 15:46:50 [WARN]   kline failed for US.UNCRY: Error: get cur kline: [UNKNOWN] API returned HTTP 439
+2026-11-17 15:46:50 [INFO] moomoo kline US.SPGI -n 370 --ktype 2 -f json
+2026-11-17 15:46:51 [WARN]   kline failed for US.SPGI: Error: get cur kline: [UNKNOWN] API returned HTTP 439
+2026-11-17 15:46:51 [INFO] moomoo kline US.VRTX -n 370 --ktype 2 -f json
+2026-11-17 15:46:51 [WARN]   kline failed for US.VRTX: Error: get cur kline: [UNKNOWN] API returned HTTP 439
+2026-11-17 15:46:51 [INFO] moomoo kline US.AIQUY -n 370 --ktype 2 -f json
+2026-11-17 15:46:51 [WARN]   kline failed for US.AIQUY: Error: get cur kline: [UNKNOWN] API returned HTTP 439
+2026-11-17 15:46:51 [INFO] moomoo kline US.LMT -n 370 --ktype 2 -f json
+2026-11-17 15:46:51 [WARN]   kline failed for US.LMT: Error: get cur kline: [UNKNOWN] API returned HTTP 439
+2026-11-17 15:46:51 [INFO] moomoo kline US.HDB -n 370 --ktype 2 -f json
+2026-11-17 15:46:51 [WARN]   kline failed for US.HDB: Error: get cur kline: [UNKNOWN] API returned HTTP 439
+2026-11-17 15:46:51 [INFO] moomoo kline US.HTHIY -n 370 --ktype 2 -f json
+2026-11-17 15:46:52 [WARN]   kline failed for US.HTHIY: Error: get cur kline: [UNKNOWN] API returned HTTP 439
+2026-11-17 15:46:52 [INFO] moomoo kline US.IBKR -n 370 --ktype 2 -f json
+2026-11-17 15:46:52 [WARN]   kline failed for US.IBKR: Error: get cur kline: [UNKNOWN] API returned HTTP 439
+2026-11-17 15:46:52 [INFO] moomoo kline US.BTI -n 370 --ktype 2 -f json
+2026-11-17 15:46:52 [WARN]   kline failed for US.BTI: Error: get cur kline: [UNKNOWN] API returned HTTP 439
+2026-11-17 15:46:52 [INFO] moomoo kline US.MDT -n 370 --ktype 2 -f json
+2026-11-17 15:46:52 [WARN]   kline failed for US.MDT: Error: get cur kline: [UNKNOWN] API returned HTTP 439
+2026-11-17 15:46:52 [INFO] moomoo kline US.SCCO -n 370 --ktype 2 -f json
+2026-11-17 15:46:52 [WARN]   kline failed for US.SCCO: Error: get cur kline: [UNKNOWN] API returned HTTP 439
+2026-11-17 15:46:52 [INFO] moomoo kline US.MO -n 370 --ktype 2 -f json
+2026-11-17 15:46:52 [WARN]   kline failed for US.MO: Error: get cur kline: [UNKNOWN] API returned HTTP 439
+2026-11-17 15:46:52 [INFO] moomoo kline US.BA -n 370 --ktype 2 -f json
+2026-11-17 15:46:53 [WARN]   kline failed for US.BA: Error: get cur kline: [UNKNOWN] API returned HTTP 439
+2026-11-17 15:46:53 [INFO] moomoo kline US.ETN -n 370 --ktype 2 -f json
+2026-11-17 15:46:53 [WARN]   kline failed for US.ETN: Error: get cur kline: [UNKNOWN] API returned HTTP 439
+2026-11-17 15:46:53 [INFO] moomoo kline US.RIO -n 370 --ktype 2 -f json
+2026-11-17 15:46:53 [WARN]   kline failed for US.RIO: Error: get cur kline: [UNKNOWN] API returned HTTP 439
+2026-11-17 15:46:53 [INFO] moomoo kline US.BMY -n 370 --ktype 2 -f json
+2026-11-17 15:46:53 [WARN]   kline failed for US.BMY: Error: get cur kline: [UNKNOWN] API returned HTTP 439
+2026-11-17 15:46:53 [INFO] moomoo kline US.MCK -n 370 --ktype 2 -f json
+2026-11-17 15:46:53 [WARN]   kline failed for US.MCK: Error: get cur kline: [UNKNOWN] API returned HTTP 439
+2026-11-17 15:46:53 [INFO] moomoo kline US.MRVL -n 370 --ktype 2 -f json
+2026-11-17 15:46:53 [WARN]   kline failed for US.MRVL: Error: get cur kline: [UNKNOWN] API returned HTTP 439
+2026-11-17 15:46:53 [INFO] moomoo kline US.LOW -n 370 --ktype 2 -f json
+2026-11-17 15:46:54 [WARN]   kline failed for US.LOW: Error: get cur kline: [UNKNOWN] API returned HTTP 439
+2026-11-17 15:46:54 [INFO] moomoo kline US.SPOT -n 370 --ktype 2 -f json
+2026-11-17 15:46:54 [WARN]   kline failed for US.SPOT: Error: get cur kline: [UNKNOWN] API returned HTTP 439
+2026-11-17 15:46:54 [INFO] moomoo kline US.SBUX -n 370 --ktype 2 -f json
+2026-11-17 15:46:54 [WARN]   kline failed for US.SBUX: Error: get cur kline: [UNKNOWN] API returned HTTP 439
+2026-11-17 15:46:54 [INFO] moomoo kline US.MFG -n 370 --ktype 2 -f json
+2026-11-17 15:46:54 [WARN]   kline failed for US.MFG: Error: get cur kline: [UNKNOWN] API returned HTTP 439
+2026-11-17 15:46:54 [INFO] moomoo kline US.ADP -n 370 --ktype 2 -f json
+2026-11-17 15:46:54 [WARN]   kline failed for US.ADP: Error: get cur kline: [UNKNOWN] API returned HTTP 439
+2026-11-17 15:46:54 [INFO] moomoo kline US.IBN -n 370 --ktype 2 -f json
+2026-11-17 15:46:54 [WARN]   kline failed for US.IBN: Error: get cur kline: [UNKNOWN] API returned HTTP 439
+2026-11-17 15:46:54 [INFO] moomoo kline US.TELWY -n 370 --ktype 2 -f json
+2026-11-17 15:46:54 [WARN]   kline failed for US.TELWY: Error: get cur kline: [UNKNOWN] API returned HTTP 439
+2026-11-17 15:46:54 [INFO] moomoo kline US.MTSUY -n 370 --ktype 2 -f json
+2026-11-17 15:46:55 [WARN]   kline failed for US.MTSUY: Error: get cur kline: [UNKNOWN] API returned HTTP 439
+2026-11-17 15:46:55 [INFO] moomoo kline US.PLD -n 370 --ktype 2 -f json
+2026-11-17 15:46:55 [WARN]   kline failed for US.PLD: Error: get cur kline: [UNKNOWN] API returned HTTP 439
+2026-11-17 15:46:55 [INFO] moomoo kline US.CFRUY -n 370 --ktype 2 -f json
+2026-11-17 15:46:55 [WARN]   kline failed for US.CFRUY: Error: get cur kline: [UNKNOWN] API returned HTTP 439
+2026-11-17 15:46:55 [INFO] moomoo kline US.ATEYY -n 370 --ktype 2 -f json
+2026-11-17 15:46:55 [WARN]   kline failed for US.ATEYY: Error: get cur kline: [UNKNOWN] API returned HTTP 439
+2026-11-17 15:46:55 [INFO] moomoo kline US.CSUAY -n 370 --ktype 2 -f json
+2026-11-17 15:46:55 [WARN]   kline failed for US.CSUAY: Error: get cur kline: [UNKNOWN] API returned HTTP 439
+2026-11-17 15:46:55 [INFO] moomoo kline US.BMO -n 370 --ktype 2 -f json
+2026-11-17 15:46:55 [WARN]   kline failed for US.BMO: Error: get cur kline: [UNKNOWN] API returned HTTP 439
+2026-11-17 15:46:55 [INFO] moomoo kline US.ISNPY -n 370 --ktype 2 -f json
+2026-11-17 15:46:56 [WARN]   kline failed for US.ISNPY: Error: get cur kline: [UNKNOWN] API returned HTTP 439
+2026-11-17 15:46:56 [INFO] moomoo kline US.SMERY -n 370 --ktype 2 -f json
+2026-11-17 15:46:56 [WARN]   kline failed for US.SMERY: Error: get cur kline: [UNKNOWN] API returned HTTP 439
+2026-11-17 15:46:56 [INFO] moomoo kline US.SFTBY -n 370 --ktype 2 -f json
+2026-11-17 15:46:56 [WARN]   kline failed for US.SFTBY: Error: get cur kline: [UNKNOWN] API returned HTTP 439
+2026-11-17 15:46:56 [INFO] moomoo kline US.PNGAY -n 370 --ktype 2 -f json
+2026-11-17 15:46:56 [WARN]   kline failed for US.PNGAY: Error: get cur kline: [UNKNOWN] API returned HTTP 439
+2026-11-17 15:46:56 [INFO] moomoo kline US.SYK -n 370 --ktype 2 -f json
+2026-11-17 15:46:56 [WARN]   kline failed for US.SYK: Error: get cur kline: [UNKNOWN] API returned HTTP 439
+2026-11-17 15:46:56 [INFO] moomoo kline US.PH -n 370 --ktype 2 -f json
+2026-11-17 15:46:56 [WARN]   kline failed for US.PH: Error: get cur kline: [UNKNOWN] API returned HTTP 439
+2026-11-17 15:46:56 [INFO] moomoo kline US.BKNG -n 370 --ktype 2 -f json
+2026-11-17 15:46:56 [WARN]   kline failed for US.BKNG: Error: get cur kline: [UNKNOWN] API returned HTTP 439
+2026-11-17 15:46:56 [INFO] moomoo kline US.ZURVY -n 370 --ktype 2 -f json
+2026-11-17 15:46:57 [WARN]   kline failed for US.ZURVY: Error: get cur kline: [UNKNOWN] API returned HTTP 439
+2026-11-17 15:46:57 [INFO] moomoo kline US.COF -n 370 --ktype 2 -f json
+2026-11-17 15:46:57 [WARN]   kline failed for US.COF: Error: get cur kline: [UNKNOWN] API returned HTTP 439
+2026-11-17 15:46:57 [INFO] moomoo kline US.SNY -n 370 --ktype 2 -f json
+2026-11-17 15:46:57 [WARN]   kline failed for US.SNY: Error: get cur kline: [UNKNOWN] API returned HTTP 439
+2026-11-17 15:46:57 [INFO] moomoo kline US.BP -n 370 --ktype 2 -f json
+2026-11-17 15:46:57 [WARN]   kline failed for US.BP: Error: get cur kline: [UNKNOWN] API returned HTTP 439
+2026-11-17 15:46:57 [INFO] moomoo kline US.SNDK -n 370 --ktype 2 -f json
+2026-11-17 15:46:58 [WARN]   kline failed for US.SNDK: Error: get cur kline: [UNKNOWN] API returned HTTP 439
+2026-11-17 15:46:58 [INFO] moomoo kline US.NEM -n 370 --ktype 2 -f json
+2026-11-17 15:46:58 [WARN]   kline failed for US.NEM: Error: get cur kline: [UNKNOWN] API returned HTTP 439
+2026-11-17 15:46:58 [INFO] moomoo kline US.BNPQY -n 370 --ktype 2 -f json
+2026-11-17 15:46:58 [WARN]   kline failed for US.BNPQY: Error: get cur kline: [UNKNOWN] API returned HTTP 439
+2026-11-17 15:46:58 [INFO] moomoo kline US.STX -n 370 --ktype 2 -f json
+2026-11-17 15:46:58 [WARN]   kline failed for US.STX: Error: get cur kline: [UNKNOWN] API returned HTTP 439
+2026-11-17 15:46:58 [INFO] moomoo kline US.CME -n 370 --ktype 2 -f json
+2026-11-17 15:46:58 [WARN]   kline failed for US.CME: Error: get cur kline: [UNKNOWN] API returned HTTP 439
+2026-11-17 15:46:58 [INFO] moomoo kline US.CVS -n 370 --ktype 2 -f json
+2026-11-17 15:46:59 [WARN]   kline failed for US.CVS: Error: get cur kline: [UNKNOWN] API returned HTTP 439
+2026-11-17 15:46:59 [INFO] moomoo kline US.PBR -n 370 --ktype 2 -f json
+2026-11-17 15:46:59 [WARN]   kline failed for US.PBR: Error: get cur kline: [UNKNOWN] API returned HTTP 439
+2026-11-17 15:46:59 [INFO] moomoo kline US.PDD -n 370 --ktype 2 -f json
+2026-11-17 15:46:59 [WARN]   kline failed for US.PDD: Error: get cur kline: [UNKNOWN] API returned HTTP 439
+2026-11-17 15:46:59 [INFO] moomoo kline US.BNS -n 370 --ktype 2 -f json
+2026-11-17 15:46:59 [WARN]   kline failed for US.BNS: Error: get cur kline: [UNKNOWN] API returned HTTP 439
+2026-11-17 15:46:59 [INFO] moomoo kline US.SO -n 370 --ktype 2 -f json
+2026-11-17 15:46:59 [WARN]   kline failed for US.SO: Error: get cur kline: [UNKNOWN] API returned HTTP 439
+2026-11-17 15:46:59 [INFO] moomoo kline US.MAR -n 370 --ktype 2 -f json
+2026-11-17 15:46:59 [WARN]   kline failed for US.MAR: Error: get cur kline: [UNKNOWN] API returned HTTP 439
+2026-11-17 15:46:59 [INFO] moomoo kline US.MPC -n 370 --ktype 2 -f json
+2026-11-17 15:47:00 [WARN]   kline failed for US.MPC: Error: get cur kline: [UNKNOWN] API returned HTTP 439
+2026-11-17 15:47:00 [INFO] moomoo kline US.ABNB -n 370 --ktype 2 -f json
+2026-11-17 15:47:00 [WARN]   kline failed for US.ABNB: Error: get cur kline: [UNKNOWN] API returned HTTP 439
+2026-11-17 15:47:00 [INFO] moomoo kline US.HCA -n 370 --ktype 2 -f json
+2026-11-17 15:47:00 [WARN]   kline failed for US.HCA: Error: get cur kline: [UNKNOWN] API returned HTTP 439
+2026-11-17 15:47:00 [INFO] moomoo kline US.ENLAY -n 370 --ktype 2 -f json
+2026-11-17 15:47:00 [WARN]   kline failed for US.ENLAY: Error: get cur kline: [UNKNOWN] API returned HTTP 439
+2026-11-17 15:47:00 [INFO] moomoo kline US.ENB -n 370 --ktype 2 -f json
+2026-11-17 15:47:00 [WARN]   kline failed for US.ENB: Error: get cur kline: [UNKNOWN] API returned HTTP 439
+2026-11-17 15:47:00 [INFO] moomoo kline US.NET -n 370 --ktype 2 -f json
+2026-11-17 15:47:00 [WARN]   kline failed for US.NET: Error: get cur kline: [UNKNOWN] API returned HTTP 439
+2026-11-17 15:47:00 [INFO] moomoo kline US.WDC -n 370 --ktype 2 -f json
+2026-11-17 15:47:01 [WARN]   kline failed for US.WDC: Error: get cur kline: [UNKNOWN] API returned HTTP 439
+2026-11-17 15:47:01 [INFO] moomoo kline US.TKOMY -n 370 --ktype 2 -f json
+2026-11-17 15:47:01 [WARN]   kline failed for US.TKOMY: Error: get cur kline: [UNKNOWN] API returned HTTP 439
+2026-11-17 15:47:01 [INFO] moomoo kline US.AXAHY -n 370 --ktype 2 -f json
+2026-11-17 15:47:01 [WARN]   kline failed for US.AXAHY: Error: get cur kline: [UNKNOWN] API returned HTTP 439
+2026-11-17 15:47:01 [INFO] moomoo kline US.CM -n 370 --ktype 2 -f json
+2026-11-17 15:47:01 [WARN]   kline failed for US.CM: Error: get cur kline: [UNKNOWN] API returned HTTP 439
+2026-11-17 15:47:01 [INFO] moomoo kline US.EQIX -n 370 --ktype 2 -f json
+2026-11-17 15:47:01 [WARN]   kline failed for US.EQIX: Error: get cur kline: [UNKNOWN] API returned HTTP 439
+2026-11-17 15:47:01 [INFO] moomoo kline US.NOW -n 370 --ktype 2 -f json
+2026-11-17 15:47:02 [WARN]   kline failed for US.NOW: Error: get cur kline: [UNKNOWN] API returned HTTP 439
+2026-11-17 15:47:02 [INFO] moomoo kline US.VLO -n 370 --ktype 2 -f json
+2026-11-17 15:47:02 [WARN]   kline failed for US.VLO: Error: get cur kline: [UNKNOWN] API returned HTTP 439
+2026-11-17 15:47:02 [INFO] moomoo kline US.ITOCY -n 370 --ktype 2 -f json
+2026-11-17 15:47:02 [WARN]   kline failed for US.ITOCY: Error: get cur kline: [UNKNOWN] API returned HTTP 439
+2026-11-17 15:47:02 [INFO] moomoo kline US.AAGIY -n 370 --ktype 2 -f json
+2026-11-17 15:47:02 [WARN]   kline failed for US.AAGIY: Error: get cur kline: [UNKNOWN] API returned HTTP 439
+2026-11-17 15:47:02 [INFO] moomoo kline US.BNY -n 370 --ktype 2 -f json
+2026-11-17 15:47:02 [WARN]   kline failed for US.BNY: Error: get cur kline: [UNKNOWN] API returned HTTP 439
+2026-11-17 15:47:02 [INFO] moomoo kline US.DUK -n 370 --ktype 2 -f json
+2026-11-17 15:47:02 [WARN]   kline failed for US.DUK: Error: get cur kline: [UNKNOWN] API returned HTTP 439
+2026-11-17 15:47:02 [INFO] moomoo kline US.PSX -n 370 --ktype 2 -f json
+2026-11-17 15:47:02 [WARN]   kline failed for US.PSX: Error: get cur kline: [UNKNOWN] API returned HTTP 439
+2026-11-17 15:47:02 [INFO] moomoo kline US.GSK -n 370 --ktype 2 -f json
+2026-11-17 15:47:03 [WARN]   kline failed for US.GSK: Error: get cur kline: [UNKNOWN] API returned HTTP 439
+2026-11-17 15:47:03 [INFO] moomoo kline US.MRSH -n 370 --ktype 2 -f json
+2026-11-17 15:47:03 [WARN]   kline failed for US.MRSH: Error: get cur kline: [UNKNOWN] API returned HTTP 439
+2026-11-17 15:47:03 [INFO] moomoo kline US.BCMXY -n 370 --ktype 2 -f json
+2026-11-17 15:47:03 [WARN]   kline failed for US.BCMXY: Error: get cur kline: [UNKNOWN] API returned HTTP 439
+2026-11-17 15:47:03 [INFO] moomoo kline US.ICE -n 370 --ktype 2 -f json
+2026-11-17 15:47:03 [WARN]   kline failed for US.ICE: Error: get cur kline: [UNKNOWN] API returned HTTP 439
+2026-11-17 15:47:03 [INFO] moomoo kline US.MGCLY -n 370 --ktype 2 -f json
+2026-11-17 15:47:03 [WARN]   kline failed for US.MGCLY: Error: get cur kline: [UNKNOWN] API returned HTTP 439
+2026-11-17 15:47:03 [INFO] moomoo kline US.SNOW -n 370 --ktype 2 -f json
+2026-11-17 15:47:04 [WARN]   kline failed for US.SNOW: Error: get cur kline: [UNKNOWN] API returned HTTP 439
+2026-11-17 15:47:04 [INFO] moomoo kline US.OVCHY -n 370 --ktype 2 -f json
+2026-11-17 15:47:04 [WARN]   kline failed for US.OVCHY: Error: get cur kline: [UNKNOWN] API returned HTTP 439
+2026-11-17 15:47:04 [INFO] moomoo kline US.REGN -n 370 --ktype 2 -f json
+2026-11-17 15:47:04 [WARN]   kline failed for US.REGN: Error: get cur kline: [UNKNOWN] API returned HTTP 439
+2026-11-17 15:47:04 [INFO] moomoo kline US.CNQ -n 370 --ktype 2 -f json
+2026-11-17 15:47:04 [WARN]   kline failed for US.CNQ: Error: get cur kline: [UNKNOWN] API returned HTTP 439
+2026-11-17 15:47:04 [INFO] moomoo kline US.PBR.A -n 370 --ktype 2 -f json
+2026-11-17 15:47:04 [WARN]   kline failed for US.PBR.A: Error: get cur kline: [UNKNOWN] API returned HTTP 439
+2026-11-17 15:47:04 [INFO] moomoo kline US.CEG -n 370 --ktype 2 -f json
+2026-11-17 15:47:04 [WARN]   kline failed for US.CEG: Error: get cur kline: [UNKNOWN] API returned HTTP 439
+2026-11-17 15:47:04 [INFO] moomoo kline US.EQNR -n 370 --ktype 2 -f json
+2026-11-17 15:47:04 [WARN]   kline failed for US.EQNR: Error: get cur kline: [UNKNOWN] API returned HTTP 439
+2026-11-17 15:47:04 [INFO] moomoo kline US.GD -n 370 --ktype 2 -f json
+2026-11-17 15:47:05 [WARN]   kline failed for US.GD: Error: get cur kline: [UNKNOWN] API returned HTTP 439
+2026-11-17 15:47:05 [INFO] moomoo kline US.WM -n 370 --ktype 2 -f json
+2026-11-17 15:47:05 [WARN]   kline failed for US.WM: Error: get cur kline: [UNKNOWN] API returned HTTP 439
+2026-11-17 15:47:05 [INFO] moomoo kline US.ELV -n 370 --ktype 2 -f json
+2026-11-17 15:47:05 [WARN]   kline failed for US.ELV: Error: get cur kline: [UNKNOWN] API returned HTTP 439
+2026-11-17 15:47:05 [INFO] moomoo kline US.CSX -n 370 --ktype 2 -f json
+2026-11-17 15:47:05 [WARN]   kline failed for US.CSX: Error: get cur kline: [UNKNOWN] API returned HTTP 439
+2026-11-17 15:47:05 [INFO] moomoo kline US.ADBE -n 370 --ktype 2 -f json
+2026-11-17 15:47:05 [WARN]   kline failed for US.ADBE: Error: get cur kline: [UNKNOWN] API returned HTTP 439
+2026-11-17 15:47:05 [INFO] moomoo kline US.UPS -n 370 --ktype 2 -f json
+2026-11-17 15:47:06 [WARN]   kline failed for US.UPS: Error: get cur kline: [UNKNOWN] API returned HTTP 439
+2026-11-17 15:47:06 [INFO] moomoo kline US.XIACY -n 370 --ktype 2 -f json
+2026-11-17 15:47:06 [WARN]   kline failed for US.XIACY: Error: get cur kline: [UNKNOWN] API returned HTTP 439
+2026-11-17 15:47:06 [INFO] moomoo kline US.USB -n 370 --ktype 2 -f json
+2026-11-17 15:47:06 [WARN]   kline failed for US.USB: Error: get cur kline: [UNKNOWN] API returned HTTP 439
+2026-11-17 15:47:06 [INFO] moomoo kline US.RACE -n 370 --ktype 2 -f json
+2026-11-17 15:47:06 [WARN]   kline failed for US.RACE: Error: get cur kline: [UNKNOWN] API returned HTTP 439
+2026-11-17 15:47:06 [INFO] moomoo kline US.MMM -n 370 --ktype 2 -f json
+2026-11-17 15:47:06 [WARN]   kline failed for US.MMM: Error: get cur kline: [UNKNOWN] API returned HTTP 439
+2026-11-17 15:47:06 [INFO] moomoo kline US.ESLOY -n 370 --ktype 2 -f json
+2026-11-17 15:47:06 [WARN]   kline failed for US.ESLOY: Error: get cur kline: [UNKNOWN] API returned HTTP 439
+2026-11-17 15:47:06 [INFO] moomoo kline US.CAIXY -n 370 --ktype 2 -f json
+2026-11-17 15:47:07 [WARN]   kline failed for US.CAIXY: Error: get cur kline: [UNKNOWN] API returned HTTP 439
+2026-11-17 15:47:07 [INFO] moomoo kline US.ING -n 370 --ktype 2 -f json
+2026-11-17 15:47:07 [WARN]   kline failed for US.ING: Error: get cur kline: [UNKNOWN] API returned HTTP 439
+2026-11-17 15:47:07 [INFO] moomoo kline US.BX -n 370 --ktype 2 -f json
+2026-11-17 15:47:07 [WARN]   kline failed for US.BX: Error: get cur kline: [UNKNOWN] API returned HTTP 439
+2026-11-17 15:47:07 [INFO] moomoo kline US.INTU -n 370 --ktype 2 -f json
+2026-11-17 15:47:07 [WARN]   kline failed for US.INTU: Error: get cur kline: [UNKNOWN] API returned HTTP 439
+2026-11-17 15:47:07 [INFO] moomoo kline US.GPMXY -n 370 --ktype 2 -f json
+2026-11-17 15:47:07 [WARN]   kline failed for US.GPMXY: Error: get cur kline: [UNKNOWN] API returned HTTP 439
+2026-11-17 15:47:07 [INFO] moomoo kline US.ATLKY -n 370 --ktype 2 -f json
+2026-11-17 15:47:07 [WARN]   kline failed for US.ATLKY: Error: get cur kline: [UNKNOWN] API returned HTTP 439
+2026-11-17 15:47:07 [INFO] moomoo kline US.HNHPF -n 370 --ktype 2 -f json
+2026-11-17 15:47:08 [WARN]   kline failed for US.HNHPF: Error: get cur kline: [UNKNOWN] API returned HTTP 439
+2026-11-17 15:47:08 [INFO] moomoo kline US.GLW -n 370 --ktype 2 -f json
+2026-11-17 15:47:08 [WARN]   kline failed for US.GLW: Error: get cur kline: [UNKNOWN] API returned HTTP 439
+2026-11-17 15:47:08 [INFO] moomoo kline US.PNC -n 370 --ktype 2 -f json
+2026-11-17 15:47:08 [WARN]   kline failed for US.PNC: Error: get cur kline: [UNKNOWN] API returned HTTP 439
+2026-11-17 15:47:08 [INFO] moomoo kline US.CMCSA -n 370 --ktype 2 -f json
+2026-11-17 15:47:08 [WARN]   kline failed for US.CMCSA: Error: get cur kline: [UNKNOWN] API returned HTTP 439
+2026-11-17 15:47:08 [INFO] moomoo kline US.CHDRY -n 370 --ktype 2 -f json
+2026-11-17 15:47:08 [WARN]   kline failed for US.CHDRY: Error: get cur kline: [UNKNOWN] API returned HTTP 439
+2026-11-17 15:47:08 [INFO] moomoo kline US.FTNT -n 370 --ktype 2 -f json
+2026-11-17 15:47:08 [WARN]   kline failed for US.FTNT: Error: get cur kline: [UNKNOWN] API returned HTTP 439
+2026-11-17 15:47:08 [INFO] moomoo kline US.BN -n 370 --ktype 2 -f json
+2026-11-17 15:47:08 [WARN]   kline failed for US.BN: Error: get cur kline: [UNKNOWN] API returned HTTP 439
+2026-11-17 15:47:08 [INFO] moomoo kline US.MNST -n 370 --ktype 2 -f json
+2026-11-17 15:47:09 [INFO] moomoo kline US.MITSY -n 370 --ktype 2 -f json
+2026-11-17 15:47:10 [WARN]   kline failed for US.MITSY: Error: get cur kline: [UNKNOWN] API returned HTTP 439
+2026-11-17 15:47:10 [INFO] moomoo kline US.TT -n 370 --ktype 2 -f json
+2026-11-17 15:47:10 [WARN]   kline failed for US.TT: Error: get cur kline: [UNKNOWN] API returned HTTP 439
+2026-11-17 15:47:10 [INFO] moomoo kline US.CTAS -n 370 --ktype 2 -f json
+2026-11-17 15:47:10 [WARN]   kline failed for US.CTAS: Error: get cur kline: [UNKNOWN] API returned HTTP 439
+2026-11-17 15:47:10 [INFO] moomoo kline US.AMT -n 370 --ktype 2 -f json
+2026-11-17 15:47:10 [WARN]   kline failed for US.AMT: Error: get cur kline: [UNKNOWN] API returned HTTP 439
+2026-11-17 15:47:10 [INFO] moomoo kline US.MSI -n 370 --ktype 2 -f json
+2026-11-17 15:47:10 [WARN]   kline failed for US.MSI: Error: get cur kline: [UNKNOWN] API returned HTTP 439
+2026-11-17 15:47:10 [INFO] moomoo kline US.PWR -n 370 --ktype 2 -f json
+2026-11-17 15:47:11 [INFO]   250/300 bars cached
+2026-11-17 15:47:11 [INFO] moomoo kline US.EMR -n 370 --ktype 2 -f json
+2026-11-17 15:47:11 [WARN]   kline failed for US.EMR: Error: get cur kline: [UNKNOWN] API returned HTTP 439
+2026-11-17 15:47:11 [INFO] moomoo kline US.MCO -n 370 --ktype 2 -f json
+2026-11-17 15:47:12 [WARN]   kline failed for US.MCO: Error: get cur kline: [UNKNOWN] API returned HTTP 439
+2026-11-17 15:47:12 [INFO] moomoo kline US.ZIJMY -n 370 --ktype 2 -f json
+2026-11-17 15:47:12 [WARN]   kline failed for US.ZIJMY: Error: get cur kline: [UNKNOWN] API returned HTTP 439
+2026-11-17 15:47:12 [INFO] moomoo kline US.MRNA -n 370 --ktype 2 -f json
+2026-11-17 15:47:12 [WARN]   kline failed for US.MRNA: Error: get cur kline: [UNKNOWN] API returned HTTP 439
+2026-11-17 15:47:12 [INFO] moomoo kline US.ECL -n 370 --ktype 2 -f json
+2026-11-17 15:47:12 [WARN]   kline failed for US.ECL: Error: get cur kline: [UNKNOWN] API returned HTTP 439
+2026-11-17 15:47:12 [INFO] moomoo kline US.AEM -n 370 --ktype 2 -f json
+2026-11-17 15:47:13 [INFO] moomoo kline US.WBKCY -n 370 --ktype 2 -f json
+2026-11-17 15:47:14 [INFO] moomoo kline US.MDLZ -n 370 --ktype 2 -f json
+2026-11-17 15:47:14 [INFO] moomoo kline US.KKR -n 370 --ktype 2 -f json
+2026-11-17 15:47:15 [INFO] moomoo kline US.NTTYY -n 370 --ktype 2 -f json
+2026-11-17 15:47:16 [INFO] moomoo kline US.RCL -n 370 --ktype 2 -f json
+2026-11-17 15:47:17 [INFO] moomoo kline US.CDNS -n 370 --ktype 2 -f json
+2026-11-17 15:47:17 [WARN]   kline failed for US.CDNS: Error: get cur kline: [UNKNOWN] API returned HTTP 439
+2026-11-17 15:47:17 [INFO] moomoo kline US.PSTVY -n 370 --ktype 2 -f json
+2026-11-17 15:47:18 [INFO] moomoo kline US.NGG -n 370 --ktype 2 -f json
+2026-11-17 15:47:19 [INFO] moomoo kline US.SHW -n 370 --ktype 2 -f json
+2026-11-17 15:47:20 [INFO] moomoo kline US.HWM -n 370 --ktype 2 -f json
+2026-11-17 15:47:20 [INFO] moomoo kline US.SNPS -n 370 --ktype 2 -f json
+2026-11-17 15:47:21 [INFO] moomoo kline US.WMB -n 370 --ktype 2 -f json

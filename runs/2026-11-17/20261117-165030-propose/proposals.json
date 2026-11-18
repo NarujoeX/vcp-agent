@@ -1,0 +1,42 @@
+﻿{
+    "generated":  "2026-11-17T16:50:30",
+    "session":  {
+                    "session":  "closed",
+                    "reason":  "outside session",
+                    "open":  false
+                },
+    "entriesAllowed":  false,
+    "state":  {
+                  "asOf":  "2026-11-17T16:50:20",
+                  "accountId":  "challenge-account",
+                  "cash":  100000,
+                  "reserved":  0,
+                  "hold":  0,
+                  "equity":  100000,
+                  "longMarketValue":  0,
+                  "investedCost":  0,
+                  "positions":  [
+
+                                ],
+                  "openOrders":  [
+
+                                 ],
+                  "today":  {
+                                "date":  "2026-11-17",
+                                "executedOrders":  0,
+                                "approvedBuys":  0
+                            },
+                  "session":  {
+                                  "session":  "closed",
+                                  "reason":  "outside session",
+                                  "open":  false
+                              }
+              },
+    "ranked":  [
+
+               ],
+    "verdicts":  [
+
+                 ],
+    "approvedCount":  0
+}

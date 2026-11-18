@@ -1,0 +1,170 @@
+﻿{
+    "generated":  "2026-11-17T15:59:55",
+    "universe":  300,
+    "checked":  294,
+    "missingBars":  1,
+    "tooShort":  5,
+    "stage2Count":  70,
+    "vcpCount":  4,
+    "breakoutCount":  0,
+    "setupCount":  4,
+    "spy126":  0.0018,
+    "candidates":  [
+                       {
+                           "symbol":  "US.ALIZY",
+                           "name":  "ALLIANZ SE UNSPON ADS EACH REP 1/10 ORD SHARES",
+                           "marketCap":  194888396900.7,
+                           "close":  52.11,
+                           "rsi":  62.5,
+                           "sma200":  46.66,
+                           "atr":  0.872,
+                           "high52":  52.82,
+                           "vol50":  305383,
+                           "rs126":  0.1648,
+                           "vcp":  {
+                                       "state":  "setup",
+                                       "pivot":  52.82,
+                                       "contractions":  2,
+                                       "depths":  [
+                                                      0.1274,
+                                                      0.0558
+                                                  ],
+                                       "avgVols":  [
+                                                       322767,
+                                                       181170
+                                                   ],
+                                       "volDecay":  true,
+                                       "lastVolRatio":  0.593,
+                                       "baseBars":  51,
+                                       "close":  52.11,
+                                       "distPct":  -0.0134,
+                                       "lastVol":  103683,
+                                       "triggerVol":  458075,
+                                       "volumeOk":  false,
+                                       "score":  0.677
+                                   },
+                           "rsScore":  0.667,
+                           "conviction":  0.657,
+                           "entryLimit":  52.82,
+                           "stopPct":  0.07,
+                           "stopPrice":  49.12
+                       },
+                       {
+                           "symbol":  "US.MRSH",
+                           "name":  "Marsh",
+                           "marketCap":  99800946950.76,
+                           "close":  209.88,
+                           "rsi":  68.4,
+                           "sma200":  178.52,
+                           "atr":  4.617,
+                           "high52":  214,
+                           "vol50":  2598261,
+                           "rs126":  0.2627,
+                           "vcp":  {
+                                       "state":  "setup",
+                                       "pivot":  214,
+                                       "contractions":  2,
+                                       "depths":  [
+                                                      0.1492,
+                                                      0.0548
+                                                  ],
+                                       "avgVols":  [
+                                                       2639431,
+                                                       2394877
+                                                   ],
+                                       "volDecay":  true,
+                                       "lastVolRatio":  0.922,
+                                       "baseBars":  59,
+                                       "close":  209.88,
+                                       "distPct":  -0.0193,
+                                       "lastVol":  1985180,
+                                       "triggerVol":  3897392,
+                                       "volumeOk":  false,
+                                       "score":  0.551
+                                   },
+                           "rsScore":  1,
+                           "conviction":  0.636,
+                           "entryLimit":  214,
+                           "stopPct":  0.07,
+                           "stopPrice":  199.02
+                       },
+                       {
+                           "symbol":  "US.BNY",
+                           "name":  "Bank of New York Mellon",
+                           "marketCap":  102071971948.1,
+                           "close":  151.69,
+                           "rsi":  56.3,
+                           "sma200":  141.05,
+                           "atr":  3.181,
+                           "high52":  165.84,
+                           "vol50":  3713031,
+                           "rs126":  0.1089,
+                           "vcp":  {
+                                       "state":  "setup",
+                                       "pivot":  165.84,
+                                       "contractions":  2,
+                                       "depths":  [
+                                                      0.1852,
+                                                      0.0564
+                                                  ],
+                                       "avgVols":  [
+                                                       3834365,
+                                                       2916390
+                                                   ],
+                                       "volDecay":  true,
+                                       "lastVolRatio":  0.785,
+                                       "baseBars":  50,
+                                       "close":  151.69,
+                                       "distPct":  -0.0853,
+                                       "lastVol":  2901505,
+                                       "triggerVol":  5569547,
+                                       "volumeOk":  false,
+                                       "score":  0.58
+                                   },
+                           "rsScore":  0.333,
+                           "conviction":  0.523,
+                           "entryLimit":  165.84,
+                           "stopPct":  0.07,
+                           "stopPrice":  154.23
+                       },
+                       {
+                           "symbol":  "US.CME",
+                           "name":  "CME Group",
+                           "marketCap":  114313344533.08,
+                           "close":  319.37,
+                           "rsi":  72.5,
+                           "sma200":  281.72,
+                           "atr":  6.628,
+                           "high52":  329.16,
+                           "vol50":  1921448,
+                           "rs126":  0.0449,
+                           "vcp":  {
+                                       "state":  "setup",
+                                       "pivot":  321.335,
+                                       "contractions":  2,
+                                       "depths":  [
+                                                      0.1070,
+                                                      0.0583
+                                                  ],
+                                       "avgVols":  [
+                                                       1952110,
+                                                       1853411
+                                                   ],
+                                       "volDecay":  true,
+                                       "lastVolRatio":  0.965,
+                                       "baseBars":  53,
+                                       "close":  319.37,
+                                       "distPct":  -0.0061,
+                                       "lastVol":  2198273,
+                                       "triggerVol":  2882172,
+                                       "volumeOk":  false,
+                                       "score":  0.481
+                                   },
+                           "rsScore":  0,
+                           "conviction":  0.387,
+                           "entryLimit":  321.335,
+                           "stopPct":  0.07,
+                           "stopPrice":  298.84
+                       }
+                   ]
+}

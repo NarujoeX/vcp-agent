@@ -1,0 +1,60 @@
+﻿{
+    "generated":  "2026-11-18T03:14:12",
+    "strategyVersion":  "v1.8",
+    "session":  {
+                    "session":  "regular",
+                    "reason":  "RTH",
+                    "open":  true,
+                    "halfDay":  false
+                },
+    "entriesAllowed":  true,
+    "market":  {
+                   "ok":  true,
+                   "symbol":  "US.SPY",
+                   "asOf":  20261116,
+                   "close":  739.95,
+                   "sma":  763.82,
+                   "smaPeriod":  50,
+                   "falling":  true,
+                   "bearish":  true
+               },
+    "jlaw":  {
+                 "enabled":  true,
+                 "fallbackActive":  false,
+                 "distinctTickers":  1
+             },
+    "state":  {
+                  "asOf":  "2026-11-18T03:14:04",
+                  "accountId":  "challenge-account",
+                  "cash":  99998.01,
+                  "reserved":  0,
+                  "hold":  0,
+                  "equity":  99998.01,
+                  "longMarketValue":  0,
+                  "investedCost":  0,
+                  "positions":  [
+
+                                ],
+                  "openOrders":  [
+
+                                 ],
+                  "today":  {
+                                "date":  "2026-11-18",
+                                "executedOrders":  0,
+                                "approvedBuys":  0
+                            },
+                  "session":  {
+                                  "session":  "regular",
+                                  "reason":  "RTH",
+                                  "open":  true,
+                                  "halfDay":  false
+                              }
+              },
+    "ranked":  [
+
+               ],
+    "verdicts":  [
+
+                 ],
+    "approvedCount":  0
+}

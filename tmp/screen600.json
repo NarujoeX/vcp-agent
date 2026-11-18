@@ -1,0 +1,25 @@
+Error: quote.stock_screen: [BAD_REQUEST] parameter 'limit' exceeds maximum value 300
+Hint: Check your input parameters and try again.
+Usage:
+  moomoo stock-screen [flags]
+
+Examples:
+  moomoo stock-screen
+  moomoo stock-screen --format json
+
+Flags:
+  -h, --help                         help for stock-screen
+      --holding-stock-ids string     holding_stock_ids (optional, omitted by default)
+      --limit int                    limit (default: 20)
+      --next-key string              next_key (optional, omitted by default)
+      --retrieve-queries string      retrieve_queries (default: [{"simple_property":{"name":2201}},{"simple_property":{"name":2301}}])
+      --screen-queries string        screen_queries (default: [{"simple_field_query":{"simple_field":1,"screen_value_list":[1]}}])
+      --sort string                  sort (default: {"direction":2,"simple_property":{"name":2301}})
+      --sorts string                 sorts (optional, omitted by default)
+      --user-stock-list-mode int     user_stock_list_mode (optional, omitted by default) values: 0/1/2
+      --watchlist-stock-ids string   watchlist_stock_ids (optional, omitted by default)
+
+Global Flags:
+  -f, --format string       Output format: table or json (default: table) (default "table")
+      --token-file string   Path to the encrypted OAuth token file (default: token_file from config)
+

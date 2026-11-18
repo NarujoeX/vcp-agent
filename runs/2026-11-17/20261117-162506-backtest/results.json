@@ -1,0 +1,774 @@
+﻿{
+    "generated":  "2026-11-17T16:33:18",
+    "strategyVersion":  "v1.1",
+    "universe":  195,
+    "window":  {
+                   "start":  20260611,
+                   "end":  20261113,
+                   "sessions":  109
+               },
+    "costs":  {
+                  "slippage":  0.0005,
+                  "halfSpread":  0.0002
+              },
+    "all":  {
+                "trades":  5,
+                "winRate":  0.2,
+                "avgWin":  108.43,
+                "avgLoss":  246.9,
+                "expectancy":  -175.83,
+                "profitFactor":  0.11,
+                "totalReturn":  -0.0089,
+                "maxDrawdown":  0.0104,
+                "sharpe":  -3.092,
+                "sortino":  -1.668,
+                "endEquity":  99114.38,
+                "avgHoldDays":  7
+            },
+    "inSample":  {
+                     "trades":  3,
+                     "winRate":  0,
+                     "avgWin":  0,
+                     "avgLoss":  250.3,
+                     "expectancy":  -250.3,
+                     "profitFactor":  0,
+                     "totalReturn":  -0.0075,
+                     "maxDrawdown":  0.0083,
+                     "sharpe":  -3.852,
+                     "sortino":  -1.869,
+                     "endEquity":  99249.10,
+                     "avgHoldDays":  7.33
+                 },
+    "outOfSample":  {
+                        "trades":  2,
+                        "winRate":  0.5,
+                        "avgWin":  108.43,
+                        "avgLoss":  236.68,
+                        "expectancy":  -64.12,
+                        "profitFactor":  0.458,
+                        "totalReturn":  -0.0014,
+                        "maxDrawdown":  0.0033,
+                        "sharpe":  -1.445,
+                        "sortino":  -0.998,
+                        "endEquity":  99114.38,
+                        "avgHoldDays":  6.5
+                    },
+    "trades":  [
+                   {
+                       "symbol":  "US.GS",
+                       "entry":  1125.7875,
+                       "exit":  1046.2495,
+                       "qty":  3,
+                       "pl":  -238.61,
+                       "retPct":  -0.0707,
+                       "days":  9,
+                       "reason":  "stop",
+                       "entryIdx":  281,
+                       "closeIdx":  290
+                   },
+                   {
+                       "symbol":  "US.ACGBY",
+                       "entry":  20.6344,
+                       "exit":  19.0567,
+                       "qty":  169,
+                       "pl":  -266.65,
+                       "retPct":  -0.0765,
+                       "days":  3,
+                       "reason":  "stop gap",
+                       "entryIdx":  293,
+                       "closeIdx":  296
+                   },
+                   {
+                       "symbol":  "US.UBS",
+                       "entry":  55.1886,
+                       "exit":  51.2895,
+                       "qty":  63,
+                       "pl":  -245.65,
+                       "retPct":  -0.0707,
+                       "days":  10,
+                       "reason":  "stop",
+                       "entryIdx":  315,
+                       "closeIdx":  325
+                   },
+                   {
+                       "symbol":  "US.XOM",
+                       "entry":  186.1102,
+                       "exit":  172.9613,
+                       "qty":  18,
+                       "pl":  -236.68,
+                       "retPct":  -0.0707,
+                       "days":  3,
+                       "reason":  "stop",
+                       "entryIdx":  358,
+                       "closeIdx":  361
+                   },
+                   {
+                       "symbol":  "US.ADP",
+                       "entry":  297.0678,
+                       "exit":  306.9250,
+                       "qty":  11,
+                       "pl":  108.43,
+                       "retPct":  0.0332,
+                       "days":  10,
+                       "reason":  "time stop",
+                       "entryIdx":  352,
+                       "closeIdx":  362
+                   }
+               ],
+    "curve":  [
+                  {
+                      "date":  20260611,
+                      "equity":  100000,
+                      "cash":  100000,
+                      "open":  0
+                  },
+                  {
+                      "date":  20260612,
+                      "equity":  100000,
+                      "cash":  100000,
+                      "open":  0
+                  },
+                  {
+                      "date":  20260615,
+                      "equity":  100000,
+                      "cash":  100000,
+                      "open":  0
+                  },
+                  {
+                      "date":  20260616,
+                      "equity":  100000,
+                      "cash":  100000,
+                      "open":  0
+                  },
+                  {
+                      "date":  20260617,
+                      "equity":  100000,
+                      "cash":  100000,
+                      "open":  0
+                  },
+                  {
+                      "date":  20260618,
+                      "equity":  100000,
+                      "cash":  100000,
+                      "open":  0
+                  },
+                  {
+                      "date":  20260622,
+                      "equity":  100000,
+                      "cash":  100000,
+                      "open":  0
+                  },
+                  {
+                      "date":  20260623,
+                      "equity":  100000,
+                      "cash":  100000,
+                      "open":  0
+                  },
+                  {
+                      "date":  20260624,
+                      "equity":  100000,
+                      "cash":  100000,
+                      "open":  0
+                  },
+                  {
+                      "date":  20260625,
+                      "equity":  100000,
+                      "cash":  100000,
+                      "open":  0
+                  },
+                  {
+                      "date":  20260626,
+                      "equity":  100000,
+                      "cash":  100000,
+                      "open":  0
+                  },
+                  {
+                      "date":  20260629,
+                      "equity":  100000,
+                      "cash":  100000,
+                      "open":  0
+                  },
+                  {
+                      "date":  20260630,
+                      "equity":  100000,
+                      "cash":  100000,
+                      "open":  0
+                  },
+                  {
+                      "date":  20260701,
+                      "equity":  100000,
+                      "cash":  100000,
+                      "open":  0
+                  },
+                  {
+                      "date":  20260702,
+                      "equity":  100000,
+                      "cash":  100000,
+                      "open":  0
+                  },
+                  {
+                      "date":  20260706,
+                      "equity":  100000,
+                      "cash":  100000,
+                      "open":  0
+                  },
+                  {
+                      "date":  20260707,
+                      "equity":  100000,
+                      "cash":  100000,
+                      "open":  0
+                  },
+                  {
+                      "date":  20260708,
+                      "equity":  100000,
+                      "cash":  100000,
+                      "open":  0
+                  },
+                  {
+                      "date":  20260709,
+                      "equity":  100000,
+                      "cash":  100000,
+                      "open":  0
+                  },
+                  {
+                      "date":  20260710,
+                      "equity":  100000,
+                      "cash":  100000,
+                      "open":  0
+                  },
+                  {
+                      "date":  20260713,
+                      "equity":  100000,
+                      "cash":  100000,
+                      "open":  0
+                  },
+                  {
+                      "date":  20260714,
+                      "equity":  100042.64,
+                      "cash":  96622.64,
+                      "open":  1
+                  },
+                  {
+                      "date":  20260715,
+                      "equity":  100078.85,
+                      "cash":  96622.64,
+                      "open":  1
+                  },
+                  {
+                      "date":  20260716,
+                      "equity":  99909.02,
+                      "cash":  96622.64,
+                      "open":  1
+                  },
+                  {
+                      "date":  20260717,
+                      "equity":  99818.30,
+                      "cash":  96622.64,
+                      "open":  1
+                  },
+                  {
+                      "date":  20260720,
+                      "equity":  99787.73,
+                      "cash":  96622.64,
+                      "open":  1
+                  },
+                  {
+                      "date":  20260721,
+                      "equity":  99879.32,
+                      "cash":  96622.64,
+                      "open":  1
+                  },
+                  {
+                      "date":  20260722,
+                      "equity":  99917.24,
+                      "cash":  96622.64,
+                      "open":  1
+                  },
+                  {
+                      "date":  20260723,
+                      "equity":  99846.80,
+                      "cash":  96622.64,
+                      "open":  1
+                  },
+                  {
+                      "date":  20260724,
+                      "equity":  99806.33,
+                      "cash":  96622.64,
+                      "open":  1
+                  },
+                  {
+                      "date":  20260727,
+                      "equity":  99761.39,
+                      "cash":  99761.39,
+                      "open":  0
+                  },
+                  {
+                      "date":  20260728,
+                      "equity":  99761.39,
+                      "cash":  99761.39,
+                      "open":  0
+                  },
+                  {
+                      "date":  20260729,
+                      "equity":  99761.39,
+                      "cash":  99761.39,
+                      "open":  0
+                  },
+                  {
+                      "date":  20260730,
+                      "equity":  99777.54,
+                      "cash":  96274.17,
+                      "open":  1
+                  },
+                  {
+                      "date":  20260731,
+                      "equity":  99665.15,
+                      "cash":  96274.17,
+                      "open":  1
+                  },
+                  {
+                      "date":  20260803,
+                      "equity":  99601.35,
+                      "cash":  96274.17,
+                      "open":  1
+                  },
+                  {
+                      "date":  20260804,
+                      "equity":  99494.74,
+                      "cash":  99494.74,
+                      "open":  0
+                  },
+                  {
+                      "date":  20260805,
+                      "equity":  99494.74,
+                      "cash":  99494.74,
+                      "open":  0
+                  },
+                  {
+                      "date":  20260806,
+                      "equity":  99494.74,
+                      "cash":  99494.74,
+                      "open":  0
+                  },
+                  {
+                      "date":  20260807,
+                      "equity":  99494.74,
+                      "cash":  99494.74,
+                      "open":  0
+                  },
+                  {
+                      "date":  20260810,
+                      "equity":  99494.74,
+                      "cash":  99494.74,
+                      "open":  0
+                  },
+                  {
+                      "date":  20260811,
+                      "equity":  99494.74,
+                      "cash":  99494.74,
+                      "open":  0
+                  },
+                  {
+                      "date":  20260812,
+                      "equity":  99494.74,
+                      "cash":  99494.74,
+                      "open":  0
+                  },
+                  {
+                      "date":  20260813,
+                      "equity":  99494.74,
+                      "cash":  99494.74,
+                      "open":  0
+                  },
+                  {
+                      "date":  20260814,
+                      "equity":  99494.74,
+                      "cash":  99494.74,
+                      "open":  0
+                  },
+                  {
+                      "date":  20260817,
+                      "equity":  99494.74,
+                      "cash":  99494.74,
+                      "open":  0
+                  },
+                  {
+                      "date":  20260818,
+                      "equity":  99494.74,
+                      "cash":  99494.74,
+                      "open":  0
+                  },
+                  {
+                      "date":  20260819,
+                      "equity":  99494.74,
+                      "cash":  99494.74,
+                      "open":  0
+                  },
+                  {
+                      "date":  20260820,
+                      "equity":  99494.74,
+                      "cash":  99494.74,
+                      "open":  0
+                  },
+                  {
+                      "date":  20260821,
+                      "equity":  99494.74,
+                      "cash":  99494.74,
+                      "open":  0
+                  },
+                  {
+                      "date":  20260824,
+                      "equity":  99494.74,
+                      "cash":  99494.74,
+                      "open":  0
+                  },
+                  {
+                      "date":  20260825,
+                      "equity":  99494.74,
+                      "cash":  99494.74,
+                      "open":  0
+                  },
+                  {
+                      "date":  20260826,
+                      "equity":  99494.74,
+                      "cash":  99494.74,
+                      "open":  0
+                  },
+                  {
+                      "date":  20260827,
+                      "equity":  99494.74,
+                      "cash":  99494.74,
+                      "open":  0
+                  },
+                  {
+                      "date":  20260828,
+                      "equity":  99494.74,
+                      "cash":  99494.74,
+                      "open":  0
+                  },
+                  {
+                      "date":  20260831,
+                      "equity":  99528.22,
+                      "cash":  96017.86,
+                      "open":  1
+                  },
+                  {
+                      "date":  20260901,
+                      "equity":  99428.68,
+                      "cash":  96017.86,
+                      "open":  1
+                  },
+                  {
+                      "date":  20260902,
+                      "equity":  99476.56,
+                      "cash":  96017.86,
+                      "open":  1
+                  },
+                  {
+                      "date":  20260903,
+                      "equity":  99525.70,
+                      "cash":  96017.86,
+                      "open":  1
+                  },
+                  {
+                      "date":  20260904,
+                      "equity":  99506.80,
+                      "cash":  96017.86,
+                      "open":  1
+                  },
+                  {
+                      "date":  20260908,
+                      "equity":  99487.27,
+                      "cash":  96017.86,
+                      "open":  1
+                  },
+                  {
+                      "date":  20260909,
+                      "equity":  99472.78,
+                      "cash":  96017.86,
+                      "open":  1
+                  },
+                  {
+                      "date":  20260910,
+                      "equity":  99420.49,
+                      "cash":  96017.86,
+                      "open":  1
+                  },
+                  {
+                      "date":  20260911,
+                      "equity":  99456.40,
+                      "cash":  96017.86,
+                      "open":  1
+                  },
+                  {
+                      "date":  20260914,
+                      "equity":  99356.23,
+                      "cash":  96017.86,
+                      "open":  1
+                  },
+                  {
+                      "date":  20260915,
+                      "equity":  99249.10,
+                      "cash":  99249.10,
+                      "open":  0
+                  },
+                  {
+                      "date":  20260916,
+                      "equity":  99249.10,
+                      "cash":  99249.10,
+                      "open":  0
+                  },
+                  {
+                      "date":  20260917,
+                      "equity":  99249.10,
+                      "cash":  99249.10,
+                      "open":  0
+                  },
+                  {
+                      "date":  20260918,
+                      "equity":  99249.10,
+                      "cash":  99249.10,
+                      "open":  0
+                  },
+                  {
+                      "date":  20260921,
+                      "equity":  99249.10,
+                      "cash":  99249.10,
+                      "open":  0
+                  },
+                  {
+                      "date":  20260922,
+                      "equity":  99249.10,
+                      "cash":  99249.10,
+                      "open":  0
+                  },
+                  {
+                      "date":  20260923,
+                      "equity":  99249.10,
+                      "cash":  99249.10,
+                      "open":  0
+                  },
+                  {
+                      "date":  20260924,
+                      "equity":  99249.10,
+                      "cash":  99249.10,
+                      "open":  0
+                  },
+                  {
+                      "date":  20260925,
+                      "equity":  99249.10,
+                      "cash":  99249.10,
+                      "open":  0
+                  },
+                  {
+                      "date":  20260928,
+                      "equity":  99249.10,
+                      "cash":  99249.10,
+                      "open":  0
+                  },
+                  {
+                      "date":  20260929,
+                      "equity":  99249.10,
+                      "cash":  99249.10,
+                      "open":  0
+                  },
+                  {
+                      "date":  20260930,
+                      "equity":  99249.10,
+                      "cash":  99249.10,
+                      "open":  0
+                  },
+                  {
+                      "date":  20261001,
+                      "equity":  99249.10,
+                      "cash":  99249.10,
+                      "open":  0
+                  },
+                  {
+                      "date":  20261002,
+                      "equity":  99249.10,
+                      "cash":  99249.10,
+                      "open":  0
+                  },
+                  {
+                      "date":  20261005,
+                      "equity":  99249.10,
+                      "cash":  99249.10,
+                      "open":  0
+                  },
+                  {
+                      "date":  20261006,
+                      "equity":  99249.10,
+                      "cash":  99249.10,
+                      "open":  0
+                  },
+                  {
+                      "date":  20261007,
+                      "equity":  99249.10,
+                      "cash":  99249.10,
+                      "open":  0
+                  },
+                  {
+                      "date":  20261008,
+                      "equity":  99249.10,
+                      "cash":  99249.10,
+                      "open":  0
+                  },
+                  {
+                      "date":  20261009,
+                      "equity":  99249.10,
+                      "cash":  99249.10,
+                      "open":  0
+                  },
+                  {
+                      "date":  20261012,
+                      "equity":  99249.10,
+                      "cash":  99249.10,
+                      "open":  0
+                  },
+                  {
+                      "date":  20261013,
+                      "equity":  99249.10,
+                      "cash":  99249.10,
+                      "open":  0
+                  },
+                  {
+                      "date":  20261014,
+                      "equity":  99249.10,
+                      "cash":  99249.10,
+                      "open":  0
+                  },
+                  {
+                      "date":  20261015,
+                      "equity":  99249.10,
+                      "cash":  99249.10,
+                      "open":  0
+                  },
+                  {
+                      "date":  20261016,
+                      "equity":  99249.10,
+                      "cash":  99249.10,
+                      "open":  0
+                  },
+                  {
+                      "date":  20261019,
+                      "equity":  99249.10,
+                      "cash":  99249.10,
+                      "open":  0
+                  },
+                  {
+                      "date":  20261020,
+                      "equity":  99249.10,
+                      "cash":  99249.10,
+                      "open":  0
+                  },
+                  {
+                      "date":  20261021,
+                      "equity":  99249.10,
+                      "cash":  99249.10,
+                      "open":  0
+                  },
+                  {
+                      "date":  20261022,
+                      "equity":  99368.69,
+                      "cash":  95981.35,
+                      "open":  1
+                  },
+                  {
+                      "date":  20261023,
+                      "equity":  99327.11,
+                      "cash":  95981.35,
+                      "open":  1
+                  },
+                  {
+                      "date":  20261026,
+                      "equity":  99293.67,
+                      "cash":  95981.35,
+                      "open":  1
+                  },
+                  {
+                      "date":  20261027,
+                      "equity":  99205.56,
+                      "cash":  95981.35,
+                      "open":  1
+                  },
+                  {
+                      "date":  20261028,
+                      "equity":  99120.42,
+                      "cash":  95981.35,
+                      "open":  1
+                  },
+                  {
+                      "date":  20261029,
+                      "equity":  99128.23,
+                      "cash":  95981.35,
+                      "open":  1
+                  },
+                  {
+                      "date":  20261030,
+                      "equity":  99234.11,
+                      "cash":  92631.37,
+                      "open":  2
+                  },
+                  {
+                      "date":  20261102,
+                      "equity":  99152.01,
+                      "cash":  92631.37,
+                      "open":  2
+                  },
+                  {
+                      "date":  20261103,
+                      "equity":  99081.76,
+                      "cash":  92631.37,
+                      "open":  2
+                  },
+                  {
+                      "date":  20261104,
+                      "equity":  99083.61,
+                      "cash":  95744.67,
+                      "open":  1
+                  },
+                  {
+                      "date":  20261105,
+                      "equity":  99103.85,
+                      "cash":  95667.02,
+                      "open":  1
+                  },
+                  {
+                      "date":  20261106,
+                      "equity":  99041.48,
+                      "cash":  95667.02,
+                      "open":  1
+                  },
+                  {
+                      "date":  20261109,
+                      "equity":  99111.54,
+                      "cash":  95667.02,
+                      "open":  1
+                  },
+                  {
+                      "date":  20261110,
+                      "equity":  99113.57,
+                      "cash":  95667.02,
+                      "open":  1
+                  },
+                  {
+                      "date":  20261111,
+                      "equity":  99125.72,
+                      "cash":  95667.02,
+                      "open":  1
+                  },
+                  {
+                      "date":  20261112,
+                      "equity":  99113.57,
+                      "cash":  95667.02,
+                      "open":  1
+                  },
+                  {
+                      "date":  20261113,
+                      "equity":  99114.38,
+                      "cash":  95667.02,
+                      "open":  1
+                  }
+              ]
+}

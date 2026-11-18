@@ -1,0 +1,6 @@
+2026-11-17 16:25:09 [INFO] backtest series=195 symbols (skipped 1 unaligned)
+2026-11-17 16:25:09 [INFO] window bars 260..369 (109 sessions)
+2026-11-17 16:33:18 [INFO] signal funnel: stage2=6521 vcp=934 breakout=114 volumeOk=6 fills=6
+2026-11-17 16:33:18 [INFO] ALL: trades=5 win=20.0% exp=-175.83 PF=0.11 ret=-0.89% maxDD=1.04% sharpe=-3.092
+2026-11-17 16:33:18 [INFO] IS:  trades=3 ret=-0.75% maxDD=0.83% sharpe=-3.852
+2026-11-17 16:33:18 [INFO] OOS: trades=2 ret=-0.14% maxDD=0.33% sharpe=-1.445

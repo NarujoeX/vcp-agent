@@ -1,0 +1,330 @@
+﻿{
+    "generated":  "2026-11-17T16:01:04",
+    "universe":  300,
+    "checked":  294,
+    "missingBars":  1,
+    "tooShort":  5,
+    "stage2Count":  70,
+    "vcpCount":  8,
+    "breakoutCount":  0,
+    "setupCount":  8,
+    "spy126":  0.0018,
+    "candidates":  [
+                       {
+                           "symbol":  "US.TKOMY",
+                           "name":  "Tokio Marine Holdings (ADR)",
+                           "marketCap":  104933172033.8,
+                           "close":  3.74,
+                           "rsi":  58.8,
+                           "sma200":  3.13,
+                           "atr":  0.184,
+                           "high52":  3.98,
+                           "vol50":  2407283,
+                           "rs126":  0.1522,
+                           "vcp":  {
+                                       "state":  "setup",
+                                       "pivot":  3.98,
+                                       "contractions":  2,
+                                       "depths":  [
+                                                      0.1181,
+                                                      0.0413
+                                                  ],
+                                       "avgVols":  [
+                                                       1483305,
+                                                       968590
+                                                   ],
+                                       "volDecay":  true,
+                                       "lastVolRatio":  0.402,
+                                       "baseBars":  7,
+                                       "close":  3.74,
+                                       "distPct":  -0.0603,
+                                       "lastVol":  972238,
+                                       "triggerVol":  3610924,
+                                       "volumeOk":  false,
+                                       "score":  0.707
+                                   },
+                           "rsScore":  0.348,
+                           "conviction":  0.614,
+                           "entryLimit":  3.98,
+                           "stopPct":  0.07,
+                           "stopPrice":  3.70
+                       },
+                       {
+                           "symbol":  "US.ACGBY",
+                           "name":  "AGRICULTURAL BK CH",
+                           "marketCap":  309944974799.7,
+                           "close":  22.14,
+                           "rsi":  58.4,
+                           "sma200":  19.03,
+                           "atr":  0.619,
+                           "high52":  23.19,
+                           "vol50":  32361,
+                           "rs126":  0.1454,
+                           "vcp":  {
+                                       "state":  "setup",
+                                       "pivot":  23.19,
+                                       "contractions":  2,
+                                       "depths":  [
+                                                      0.1022,
+                                                      0.0368
+                                                  ],
+                                       "avgVols":  [
+                                                       39710,
+                                                       17236
+                                                   ],
+                                       "volDecay":  true,
+                                       "lastVolRatio":  0.533,
+                                       "baseBars":  11,
+                                       "close":  22.14,
+                                       "distPct":  -0.0453,
+                                       "lastVol":  7538,
+                                       "triggerVol":  48542,
+                                       "volumeOk":  false,
+                                       "score":  0.701
+                                   },
+                           "rsScore":  0.304,
+                           "conviction":  0.601,
+                           "entryLimit":  23.19,
+                           "stopPct":  0.07,
+                           "stopPrice":  21.57
+                       },
+                       {
+                           "symbol":  "US.HCA",
+                           "name":  "HCA Healthcare",
+                           "marketCap":  106907003650,
+                           "close":  511.78,
+                           "rsi":  65.6,
+                           "sma200":  445.44,
+                           "atr":  15.467,
+                           "high52":  556.52,
+                           "vol50":  1389053,
+                           "rs126":  0.2087,
+                           "vcp":  {
+                                       "state":  "setup",
+                                       "pivot":  521.48,
+                                       "contractions":  2,
+                                       "depths":  [
+                                                      0.0578,
+                                                      0.0301
+                                                  ],
+                                       "avgVols":  [
+                                                       1197048,
+                                                       948030
+                                                   ],
+                                       "volDecay":  true,
+                                       "lastVolRatio":  0.683,
+                                       "baseBars":  7,
+                                       "close":  511.78,
+                                       "distPct":  -0.0186,
+                                       "lastVol":  1055155,
+                                       "triggerVol":  2083579,
+                                       "volumeOk":  false,
+                                       "score":  0.572
+                                   },
+                           "rsScore":  0.594,
+                           "conviction":  0.569,
+                           "entryLimit":  521.48,
+                           "stopPct":  0.07,
+                           "stopPrice":  484.98
+                       },
+                       {
+                           "symbol":  "US.VRTX",
+                           "name":  "Vertex Pharmaceuticals",
+                           "marketCap":  136350025700.46,
+                           "close":  537.79,
+                           "rsi":  52.4,
+                           "sma200":  483.68,
+                           "atr":  15.487,
+                           "high52":  568.67,
+                           "vol50":  1299248,
+                           "rs126":  0.2301,
+                           "vcp":  {
+                                       "state":  "setup",
+                                       "pivot":  568.6699,
+                                       "contractions":  3,
+                                       "depths":  [
+                                                      0.0726,
+                                                      0.0472,
+                                                      0.0369
+                                                  ],
+                                       "avgVols":  [
+                                                       2474444,
+                                                       1656258,
+                                                       1129202
+                                                   ],
+                                       "volDecay":  true,
+                                       "lastVolRatio":  0.869,
+                                       "baseBars":  10,
+                                       "close":  537.79,
+                                       "distPct":  -0.0543,
+                                       "lastVol":  1224717,
+                                       "triggerVol":  1948871,
+                                       "volumeOk":  false,
+                                       "score":  0.527
+                                   },
+                           "rsScore":  0.696,
+                           "conviction":  0.558,
+                           "entryLimit":  568.6699,
+                           "stopPct":  0.07,
+                           "stopPrice":  528.86
+                       },
+                       {
+                           "symbol":  "US.AIQUY",
+                           "name":  "Air Liquide SA Unsponsored ADR",
+                           "marketCap":  135227915745,
+                           "close":  42.38,
+                           "rsi":  70.1,
+                           "sma200":  38.5,
+                           "atr":  0.543,
+                           "high52":  42.96,
+                           "vol50":  293958,
+                           "rs126":  0.1456,
+                           "vcp":  {
+                                       "state":  "setup",
+                                       "pivot":  42.96,
+                                       "contractions":  3,
+                                       "depths":  [
+                                                      0.0799,
+                                                      0.0384,
+                                                      0.0344
+                                                  ],
+                                       "avgVols":  [
+                                                       271153,
+                                                       498752,
+                                                       276994
+                                                   ],
+                                       "volDecay":  false,
+                                       "lastVolRatio":  0.942,
+                                       "baseBars":  49,
+                                       "close":  42.38,
+                                       "distPct":  -0.0135,
+                                       "lastVol":  616547,
+                                       "triggerVol":  440937,
+                                       "volumeOk":  true,
+                                       "score":  0.549
+                                   },
+                           "rsScore":  0.319,
+                           "conviction":  0.498,
+                           "entryLimit":  42.96,
+                           "stopPct":  0.07,
+                           "stopPrice":  39.95
+                       },
+                       {
+                           "symbol":  "US.ITOCY",
+                           "name":  "ITOCHU (ADR)",
+                           "marketCap":  102921828261.04,
+                           "close":  14.92,
+                           "rsi":  56.1,
+                           "sma200":  13.09,
+                           "atr":  0.504,
+                           "high52":  15.44,
+                           "vol50":  273601,
+                           "rs126":  0.1768,
+                           "vcp":  {
+                                       "state":  "setup",
+                                       "pivot":  15.44,
+                                       "contractions":  2,
+                                       "depths":  [
+                                                      0.0817,
+                                                      0.0388
+                                                  ],
+                                       "avgVols":  [
+                                                       270350,
+                                                       263625
+                                                   ],
+                                       "volDecay":  true,
+                                       "lastVolRatio":  0.964,
+                                       "baseBars":  7,
+                                       "close":  14.92,
+                                       "distPct":  -0.0337,
+                                       "lastVol":  309317,
+                                       "triggerVol":  410402,
+                                       "volumeOk":  false,
+                                       "score":  0.496
+                                   },
+                           "rsScore":  0.464,
+                           "conviction":  0.49,
+                           "entryLimit":  15.44,
+                           "stopPct":  0.07,
+                           "stopPrice":  14.36
+                       },
+                       {
+                           "symbol":  "US.WELL",
+                           "name":  "Welltower",
+                           "marketCap":  179477652982.95,
+                           "close":  244.65,
+                           "rsi":  58.4,
+                           "sma200":  221.74,
+                           "atr":  5.327,
+                           "high52":  255.2,
+                           "vol50":  2784208,
+                           "rs126":  0.1489,
+                           "vcp":  {
+                                       "state":  "setup",
+                                       "pivot":  249.751,
+                                       "contractions":  2,
+                                       "depths":  [
+                                                      0.0964,
+                                                      0.0318
+                                                  ],
+                                       "avgVols":  [
+                                                       3907993,
+                                                       2776554
+                                                   ],
+                                       "volDecay":  true,
+                                       "lastVolRatio":  0.997,
+                                       "baseBars":  15,
+                                       "close":  244.65,
+                                       "distPct":  -0.0204,
+                                       "lastVol":  2657186,
+                                       "triggerVol":  4176313,
+                                       "volumeOk":  false,
+                                       "score":  0.514
+                                   },
+                           "rsScore":  0.333,
+                           "conviction":  0.476,
+                           "entryLimit":  249.751,
+                           "stopPct":  0.07,
+                           "stopPrice":  232.27
+                       },
+                       {
+                           "symbol":  "US.HLT",
+                           "name":  "Hilton Worldwide",
+                           "marketCap":  83178803029.65,
+                           "close":  373.83,
+                           "rsi":  65.2,
+                           "sma200":  324.98,
+                           "atr":  8.003,
+                           "high52":  381.34,
+                           "vol50":  1782172,
+                           "rs126":  0.1733,
+                           "vcp":  {
+                                       "state":  "setup",
+                                       "pivot":  381.34,
+                                       "contractions":  2,
+                                       "depths":  [
+                                                      0.0803,
+                                                      0.0441
+                                                  ],
+                                       "avgVols":  [
+                                                       2235812,
+                                                       1757850
+                                                   ],
+                                       "volDecay":  true,
+                                       "lastVolRatio":  0.986,
+                                       "baseBars":  18,
+                                       "close":  373.83,
+                                       "distPct":  -0.0197,
+                                       "lastVol":  1407985,
+                                       "triggerVol":  2673258,
+                                       "volumeOk":  false,
+                                       "score":  0.477
+                                   },
+                           "rsScore":  0.449,
+                           "conviction":  0.474,
+                           "entryLimit":  381.34,
+                           "stopPct":  0.07,
+                           "stopPrice":  354.65
+                       }
+                   ]
+}

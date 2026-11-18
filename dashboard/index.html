@@ -1,0 +1,240 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>VCP Agent — Trade Journal &amp; Playbook</title>
+<style>
+:root{--bg:#0d1117;--panel:#161b22;--line:#30363d;--tx:#e6edf3;--mut:#8b949e;
+--grn:#3fb950;--red:#f85149;--amb:#d29922;--blu:#58a6ff}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--tx);font:14px/1.45 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif}
+header{padding:18px 24px;border-bottom:1px solid var(--line);display:flex;gap:16px;align-items:baseline;flex-wrap:wrap}
+h1{font-size:18px;margin:0;font-weight:600}
+.sub{color:var(--mut);font-size:12px}
+main{padding:20px 24px;max-width:1280px;margin:0 auto}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:12px;margin-bottom:20px}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:14px}
+.k{color:var(--mut);font-size:11px;text-transform:uppercase;letter-spacing:.06em}
+.v{font-size:22px;font-weight:600;margin-top:6px;font-variant-numeric:tabular-nums}
+.pos{color:var(--grn)}.neg{color:var(--red)}.amb{color:var(--amb)}
+.tabs{display:flex;gap:6px;border-bottom:1px solid var(--line);margin-bottom:16px}
+.tab{padding:9px 14px;cursor:pointer;color:var(--mut);border-bottom:2px solid transparent;font-size:13px}
+.tab.on{color:var(--tx);border-bottom-color:var(--blu)}
+.panel{display:none}.panel.on{display:block}
+table{width:100%;border-collapse:collapse;font-variant-numeric:tabular-nums}
+th{text-align:left;color:var(--mut);font-size:11px;text-transform:uppercase;letter-spacing:.05em;
+padding:8px 10px;border-bottom:1px solid var(--line);font-weight:500}
+td{padding:8px 10px;border-bottom:1px solid #21262d;font-size:13px}
+tr:hover td{background:#1c2128}
+.pill{display:inline-block;padding:1px 8px;border-radius:10px;font-size:11px;font-weight:600}
+.ok{background:rgba(63,185,80,.15);color:var(--grn)}
+.no{background:rgba(248,81,73,.15);color:var(--red)}
+.n{color:var(--mut)}
+.empty{color:var(--mut);padding:28px;text-align:center;border:1px dashed var(--line);border-radius:8px}
+.small{font-size:12px;color:var(--mut)}
+.rules{display:flex;flex-wrap:wrap;gap:6px;max-width:520px}
+.tag{background:#21262d;border:1px solid var(--line);border-radius:6px;padding:2px 7px;font-size:11px;color:var(--red)}
+h3{font-size:14px;margin:22px 0 10px;font-weight:600}
+.bar{height:6px;background:#21262d;border-radius:3px;overflow:hidden;width:90px;display:inline-block;vertical-align:middle}
+.bar>i{display:block;height:100%;background:var(--blu)}
+</style>
+</head>
+<body>
+<header>
+  <h1>VCP Agent — Trade Journal &amp; Playbook</h1>
+  <span class="sub" id="hdr"></span>
+</header>
+<main>
+  <div class="cards" id="cards"></div>
+  <div class="tabs">
+    <div class="tab on" data-p="journal">Trade Journal</div>
+    <div class="tab" data-p="playbook">Trend Following Playbook</div>
+    <div class="tab" data-p="research">Research &amp; Backtest</div>
+  </div>
+
+  <div class="panel on" id="p-journal">
+    <h3>Decision log (approved and rejected, with the rule that blocked it)</h3>
+    <div id="decisions"></div>
+    <h3>Order attempts</h3>
+    <div id="orders"></div>
+  </div>
+
+  <div class="panel" id="p-playbook">
+    <h3>Positions and protective stops</h3>
+    <div id="positions"></div>
+    <h3>Open orders</h3>
+    <div id="openorders"></div>
+    <h3>Current proposals (ranked)</h3>
+    <div id="ranked"></div>
+  </div>
+
+  <div class="panel" id="p-research">
+    <h3>Backtest — walk-forward, costs included</h3>
+    <div id="bt"></div>
+    <h3>Universe scan</h3>
+    <div id="scan"></div>
+  </div>
+</main>
+<script id="data" type="application/json">{"generated":"2026-11-18T09:48:05","account":{"account_id":"challenge-account","account_title":"Moomoo x Qoder AI Paper Trading Agent Challenge","market":"US","market_id":100,"equity_baseline":100000},"competition":{"name":"Moomoo x Qoder AI Paper Trading Agent Challenge","start":"2026-11-17","end":"2026-11-27T13:00:00-05:00","submission_due":"2026-11-30T23:59:00+08:00","flatten_deadline":"2026-11-25T16:00:00-05:00","no_new_entries_from":"2026-11-25","closed_dates":["2026-11-26"],"half_days":["2026-11-27"]},"state":{"asOf":"2026-11-18T04:59:04","accountId":"challenge-account","cash":99998.01,"reserved":0,"hold":0,"equity":99998.01,"longMarketValue":0,"investedCost":0,"positions":[],"openOrders":[],"today":{"date":"2026-11-18","executedOrders":0,"approvedBuys":0},"session":{"session":"regular","reason":"RTH","open":true,"halfDay":false}},"session":{"session":"closed","reason":"outside session","open":false},"market":{"ok":true,"symbol":"US.SPY","asOf":20261117,"close":732.44,"sma":763.15,"smaPeriod":50,"falling":true,"bearish":true},"scan":{"stage2":62,"vcp":6,"breakouts":0,"setups":6,"jlawBreakouts":0,"jlawSetups":3,"universe":300,"version":"v1.8","generated":"2026-11-18T09:09:49"},"proposals":{"generated":"2026-11-18T04:59:12","strategyVersion":"v1.8","session":{"session":"regular","reason":"RTH","open":true,"halfDay":false},"entriesAllowed":true,"market":{"ok":true,"symbol":"US.SPY","asOf":20261116,"close":739.95,"sma":763.82,"smaPeriod":50,"falling":true,"bearish":true},"jlaw":{"enabled":true,"fallbackActive":false,"distinctTickers":1},"state":{"asOf":"2026-11-18T04:59:04","accountId":"challenge-account","cash":99998.01,"reserved":0,"hold":0,"equity":99998.01,"longMarketValue":0,"investedCost":0,"positions":[],"openOrders":[],"today":{"date":"2026-11-18","executedOrders":0,"approvedBuys":0},"session":{"session":"regular","reason":"RTH","open":true,"halfDay":false}},"ranked":[],"verdicts":[],"approvedCount":0},"backtest":{"generated":"2026-11-17T18:40:11","strategyVersion":"v1.8","universe":195,"window":{"start":20260331,"end":20261113,"sessions":159},"costs":{"slippage":0.0005,"halfSpread":0.0002},"jlaw":{"enabled":true,"minDollarVolume":100000000,"heavyVolumeMinDays":2,"minEdges":2,"rsLookbackDays":63,"stopBelowEdgePct":0.04,"trimAtrMult":3.0,"regimeSma":50},"funnel":{"stage2":8545,"vcp":1196,"breakout":143,"volumeOk":6,"jlaw":1,"fills":1,"regimeBlockedDays":22,"trims":0,"jlawSub":{"dollarVolumeFail":2,"heavyVolumeFail":2,"edgesFail":1,"rsFail":0}},"benchmark":{"symbol":"US.SPY","startClose":650.34,"endClose":754.37,"totalReturn":0.16},"all":{"trades":1,"winRate":0,"avgWin":0,"avgLoss":202.38,"expectancy":-202.38,"profitFactor":0,"totalReturn":-0.0020,"maxDrawdown":0.0021,"sharpe":-1.6,"sortino":-0.179,"endEquity":99797.62,"avgHoldDays":3},"inSample":{"trades":1,"winRate":0,"avgWin":0,"avgLoss":202.38,"expectancy":-202.38,"profitFactor":0,"totalReturn":-0.0020,"maxDrawdown":0.0021,"sharpe":-1.908,"sortino":-0.255,"endEquity":99797.62,"avgHoldDays":3},"outOfSample":{"trades":0,"winRate":0,"avgWin":0,"avgLoss":0,"expectancy":0,"profitFactor":null,"totalReturn":0,"maxDrawdown":0,"sharpe":null,"sortino":null,"endEquity":99797.62,"avgHoldDays":0},"trades":[{"symbol":"US.VRTX","entry":556.0790,"exit":522.3483,"qty":6,"pl":-202.38,"retPct":-0.0607,"days":3,"reason":"stop","entryIdx":317,"closeIdx":320}],"curve":[{"date":20260331,"equity":100000,"cash":100000,"open":0},{"date":20260401,"equity":100000,"cash":100000,"open":0},{"date":20260402,"equity":100000,"cash":100000,"open":0},{"date":20260406,"equity":100000,"cash":100000,"open":0},{"date":20260407,"equity":100000,"cash":100000,"open":0},{"date":20260408,"equity":100000,"cash":100000,"open":0},{"date":20260409,"equity":100000,"cash":100000,"open":0},{"date":20260410,"equity":100000,"cash":100000,"open":0},{"date":20260413,"equity":100000,"cash":100000,"open":0},{"date":20260414,"equity":100000,"cash":100000,"open":0},{"date":20260415,"equity":100000,"cash":100000,"open":0},{"date":20260416,"equity":100000,"cash":100000,"open":0},{"date":20260417,"equity":100000,"cash":100000,"open":0},{"date":20260420,"equity":100000,"cash":100000,"open":0},{"date":20260421,"equity":100000,"cash":100000,"open":0},{"date":20260422,"equity":100000,"cash":100000,"open":0},{"date":20260423,"equity":100000,"cash":100000,"open":0},{"date":20260424,"equity":100000,"cash":100000,"open":0},{"date":20260427,"equity":100000,"cash":100000,"open":0},{"date":20260428,"equity":100000,"cash":100000,"open":0},{"date":20260429,"equity":100000,"cash":100000,"open":0},{"date":20260430,"equity":100000,"cash":100000,"open":0},{"date":20260501,"equity":100000,"cash":100000,"open":0},{"date":20260504,"equity":100000,"cash":100000,"open":0},{"date":20260505,"equity":100000,"cash":100000,"open":0},{"date":20260506,"equity":100000,"cash":100000,"open":0},{"date":20260507,"equity":100000,"cash":100000,"open":0},{"date":20260508,"equity":100000,"cash":100000,"open":0},{"date":20260511,"equity":100000,"cash":100000,"open":0},{"date":20260512,"equity":100000,"cash":100000,"open":0},{"date":20260513,"equity":100000,"cash":100000,"open":0},{"date":20260514,"equity":100000,"cash":100000,"open":0},{"date":20260515,"equity":100000,"cash":100000,"open":0},{"date":20260518,"equity":100000,"cash":100000,"open":0},{"date":20260519,"equity":100000,"cash":100000,"open":0},{"date":20260520,"equity":100000,"cash":100000,"open":0},{"date":20260521,"equity":100000,"cash":100000,"open":0},{"date":20260522,"equity":100000,"cash":100000,"open":0},{"date":20260526,"equity":100000,"cash":100000,"open":0},{"date":20260527,"equity":100000,"cash":100000,"open":0},{"date":20260528,"equity":100000,"cash":100000,"open":0},{"date":20260529,"equity":100000,"cash":100000,"open":0},{"date":20260601,"equity":100000,"cash":100000,"open":0},{"date":20260602,"equity":100000,"cash":100000,"open":0},{"date":20260603,"equity":100000,"cash":100000,"open":0},{"date":20260604,"equity":100000,"cash":100000,"open":0},{"date":20260605,"equity":100000,"cash":100000,"open":0},{"date":20260608,"equity":100000,"cash":100000,"open":0},{"date":20260609,"equity":100000,"cash":100000,"open":0},{"date":20260610,"equity":100000,"cash":100000,"open":0},{"date":20260611,"equity":100000,"cash":100000,"open":0},{"date":20260612,"equity":100000,"cash":100000,"open":0},{"date":20260615,"equity":100000,"cash":100000,"open":0},{"date":20260616,"equity":100000,"cash":100000,"open":0},{"date":20260617,"equity":100000,"cash":100000,"open":0},{"date":20260618,"equity":100000,"cash":100000,"open":0},{"date":20260622,"equity":100000,"cash":100000,"open":0},{"date":20260623,"equity":100000,"cash":100000,"open":0},{"date":20260624,"equity":100000,"cash":100000,"open":0},{"date":20260625,"equity":100000,"cash":100000,"open":0},{"date":20260626,"equity":100000,"cash":100000,"open":0},{"date":20260629,"equity":100000,"cash":100000,"open":0},{"date":20260630,"equity":100000,"cash":100000,"open":0},{"date":20260701,"equity":100000,"cash":100000,"open":0},{"date":20260702,"equity":100000,"cash":100000,"open":0},{"date":20260706,"equity":100000,"cash":100000,"open":0},{"date":20260707,"equity":100000,"cash":100000,"open":0},{"date":20260708,"equity":100000,"cash":100000,"open":0},{"date":20260709,"equity":100000,"cash":100000,"open":0},{"date":20260710,"equity":100000,"cash":100000,"open":0},{"date":20260713,"equity":100000,"cash":100000,"open":0},{"date":20260714,"equity":100000,"cash":100000,"open":0},{"date":20260715,"equity":100000,"cash":100000,"open":0},{"date":20260716,"equity":100000,"cash":100000,"open":0},{"date":20260717,"equity":100000,"cash":100000,"open":0},{"date":20260720,"equity":100000,"cash":100000,"open":0},{"date":20260721,"equity":100000,"cash":100000,"open":0},{"date":20260722,"equity":100000,"cash":100000,"open":0},{"date":20260723,"equity":100000,"cash":100000,"open":0},{"date":20260724,"equity":100000,"cash":100000,"open":0},{"date":20260727,"equity":100000,"cash":100000,"open":0},{"date":20260728,"equity":100000,"cash":100000,"open":0},{"date":20260729,"equity":100000,"cash":100000,"open":0},{"date":20260730,"equity":100000,"cash":100000,"open":0},{"date":20260731,"equity":100000,"cash":100000,"open":0},{"date":20260803,"equity":100000,"cash":100000,"open":0},{"date":20260804,"equity":100000,"cash":100000,"open":0},{"date":20260805,"equity":100000,"cash":100000,"open":0},{"date":20260806,"equity":100000,"cash":100000,"open":0},{"date":20260807,"equity":100000,"cash":100000,"open":0},{"date":20260810,"equity":100000,"cash":100000,"open":0},{"date":20260811,"equity":100000,"cash":100000,"open":0},{"date":20260812,"equity":100000,"cash":100000,"open":0},{"date":20260813,"equity":100000,"cash":100000,"open":0},{"date":20260814,"equity":100000,"cash":100000,"open":0},{"date":20260817,"equity":100000,"cash":100000,"open":0},{"date":20260818,"equity":100000,"cash":100000,"open":0},{"date":20260819,"equity":100000,"cash":100000,"open":0},{"date":20260820,"equity":100000,"cash":100000,"open":0},{"date":20260821,"equity":100000,"cash":100000,"open":0},{"date":20260824,"equity":100000,"cash":100000,"open":0},{"date":20260825,"equity":100000,"cash":100000,"open":0},{"date":20260826,"equity":100000,"cash":100000,"open":0},{"date":20260827,"equity":100000,"cash":100000,"open":0},{"date":20260828,"equity":100000,"cash":100000,"open":0},{"date":20260831,"equity":100000,"cash":100000,"open":0},{"date":20260901,"equity":100000,"cash":100000,"open":0},{"date":20260902,"equity":100004.03,"cash":96663.53,"open":1},{"date":20260903,"equity":100011.29,"cash":96663.53,"open":1},{"date":20260904,"equity":99940.25,"cash":96663.53,"open":1},{"date":20260908,"equity":99797.62,"cash":99797.62,"open":0},{"date":20260909,"equity":99797.62,"cash":99797.62,"open":0},{"date":20260910,"equity":99797.62,"cash":99797.62,"open":0},{"date":20260911,"equity":99797.62,"cash":99797.62,"open":0},{"date":20260914,"equity":99797.62,"cash":99797.62,"open":0},{"date":20260915,"equity":99797.62,"cash":99797.62,"open":0},{"date":20260916,"equity":99797.62,"cash":99797.62,"open":0},{"date":20260917,"equity":99797.62,"cash":99797.62,"open":0},{"date":20260918,"equity":99797.62,"cash":99797.62,"open":0},{"date":20260921,"equity":99797.62,"cash":99797.62,"open":0},{"date":20260922,"equity":99797.62,"cash":99797.62,"open":0},{"date":20260923,"equity":99797.62,"cash":99797.62,"open":0},{"date":20260924,"equity":99797.62,"cash":99797.62,"open":0},{"date":20260925,"equity":99797.62,"cash":99797.62,"open":0},{"date":20260928,"equity":99797.62,"cash":99797.62,"open":0},{"date":20260929,"equity":99797.62,"cash":99797.62,"open":0},{"date":20260930,"equity":99797.62,"cash":99797.62,"open":0},{"date":20261001,"equity":99797.62,"cash":99797.62,"open":0},{"date":20261002,"equity":99797.62,"cash":99797.62,"open":0},{"date":20261005,"equity":99797.62,"cash":99797.62,"open":0},{"date":20261006,"equity":99797.62,"cash":99797.62,"open":0},{"date":20261007,"equity":99797.62,"cash":99797.62,"open":0},{"date":20261008,"equity":99797.62,"cash":99797.62,"open":0},{"date":20261009,"equity":99797.62,"cash":99797.62,"open":0},{"date":20261012,"equity":99797.62,"cash":99797.62,"open":0},{"date":20261013,"equity":99797.62,"cash":99797.62,"open":0},{"date":20261014,"equity":99797.62,"cash":99797.62,"open":0},{"date":20261015,"equity":99797.62,"cash":99797.62,"open":0},{"date":20261016,"equity":99797.62,"cash":99797.62,"open":0},{"date":20261019,"equity":99797.62,"cash":99797.62,"open":0},{"date":20261020,"equity":99797.62,"cash":99797.62,"open":0},{"date":20261021,"equity":99797.62,"cash":99797.62,"open":0},{"date":20261022,"equity":99797.62,"cash":99797.62,"open":0},{"date":20261023,"equity":99797.62,"cash":99797.62,"open":0},{"date":20261026,"equity":99797.62,"cash":99797.62,"open":0},{"date":20261027,"equity":99797.62,"cash":99797.62,"open":0},{"date":20261028,"equity":99797.62,"cash":99797.62,"open":0},{"date":20261029,"equity":99797.62,"cash":99797.62,"open":0},{"date":20261030,"equity":99797.62,"cash":99797.62,"open":0},{"date":20261102,"equity":99797.62,"cash":99797.62,"open":0},{"date":20261103,"equity":99797.62,"cash":99797.62,"open":0},{"date":20261104,"equity":99797.62,"cash":99797.62,"open":0},{"date":20261105,"equity":99797.62,"cash":99797.62,"open":0},{"date":20261106,"equity":99797.62,"cash":99797.62,"open":0},{"date":20261109,"equity":99797.62,"cash":99797.62,"open":0},{"date":20261110,"equity":99797.62,"cash":99797.62,"open":0},{"date":20261111,"equity":99797.62,"cash":99797.62,"open":0},{"date":20261112,"equity":99797.62,"cash":99797.62,"open":0},{"date":20261113,"equity":99797.62,"cash":99797.62,"open":0}]},"stops":null,"decisions":[],"orders":[{"ts":"2026-11-17T21:21:36","symbol":"US.F","side":"buy","qty":1,"price":11.58,"orderType":"limit/EXTENDED","reason":"probe: extended session entry","orderId":"3266051","submitted":true,"probe":true},{"ts":"2026-11-17T21:22:22","symbol":"US.F","side":"sell","qty":1,"price":11.59,"orderType":"limit/EXTENDED","reason":"probe: extended session resting sell","orderId":"3266054","submitted":true,"probe":true},{"ts":"2026-11-17T21:23:16","symbol":"US.F","side":"sell","qty":1,"price":11.55,"orderType":"limit/EXTENDED","reason":"probe: extended session exit","orderId":"3266055","submitted":true,"probe":true}]}</script>
+<script>
+const D = JSON.parse(document.getElementById('data').textContent);
+const $ = s => document.querySelector(s);
+const money = v => (v==null||isNaN(v)) ? '—' : '$' + Number(v).toLocaleString('en-US',{maximumFractionDigits:0});
+const money2 = v => (v==null||isNaN(v)) ? '—' : '$' + Number(v).toLocaleString('en-US',{minimumFractionDigits:2,maximumFractionDigits:2});
+const pct = v => (v==null||isNaN(v)) ? '—' : (Number(v)*100).toFixed(1) + '%';
+const esc = s => String(s==null?'':s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+
+$('#hdr').textContent = 'Generated ' + D.generated + ' · ' + (D.account?D.account.account_title:'—') +
+  ' · flatten ' + (D.competition?D.competition.flatten_deadline:'—');
+
+const st = D.state || {};
+const eq = st.equity || 0, base = (D.account && D.account.equity_baseline) || 100000;
+const pnl = eq - base;
+const mk = D.market || null;
+const cards = [
+  ['Equity', money(eq)],
+  ['Cash', money(st.cash)],
+  ['Day P/L', money2(pnl), pnl>=0?'pos':'neg'],
+  ['Open positions', (st.positions||[]).length],
+  ['Orders today', (st.today?st.today.executedOrders:0)],
+  ['SPY regime', mk ? (mk.ok ? (mk.bearish?'CORRECTION':'TREND') : 'UNKNOWN') : '—',
+   mk && mk.ok ? (mk.bearish?'neg':'pos') : 'amb',
+   mk && mk.ok ? (money2(mk.close)+' vs '+mk.smaPeriod+'DMA '+money2(mk.sma)+(mk.falling?' ↓':'')) : 'no regime file'],
+  ['Session', (D.session?D.session.session:(st.session?st.session.session:'—'))]
+];
+$('#cards').innerHTML = cards.map(c =>
+  '<div class="card"><div class="k">'+c[0]+'</div><div class="v '+(c[2]||'')+'">'+c[1]+'</div>'+
+  (c[3]?'<div class="small">'+esc(c[3])+'</div>':'')+'</div>').join('');
+
+function table(rows, cols, empty){
+  if(!rows || !rows.length) return '<div class="empty">'+empty+'</div>';
+  return '<table><thead><tr>' + cols.map(c=>'<th>'+c.h+'</th>').join('') + '</tr></thead><tbody>' +
+    rows.map(r=>'<tr>' + cols.map(c=>'<td>'+c.f(r)+'</td>').join('') + '</tr>').join('') +
+    '</tbody></table>';
+}
+
+// ---- journal ----
+const dec = (D.decisions||[]).slice().reverse();
+$('#decisions').innerHTML = table(dec, [
+  {h:'Time', f:r=>'<span class="n">'+esc((r.ts||'').replace('T',' ').slice(0,19))+'</span>'},
+  {h:'Symbol', f:r=>'<b>'+esc(r.symbol)+'</b>'},
+  {h:'Side', f:r=>esc(r.side)},
+  {h:'Qty', f:r=>esc(r.qty)},
+  {h:'Price', f:r=>money2(r.price)},
+  {h:'Conviction', f:r=>r.conviction==null?'—':'<span class="bar"><i style="width:'+Math.round(r.conviction*100)+'%"></i></span> '+Number(r.conviction).toFixed(2)},
+  {h:'Verdict', f:r=>r.approved?'<span class="pill ok">APPROVED</span>':'<span class="pill no">REJECTED</span>'},
+  {h:'Why', f:r=> (r.approved? '<span class="small">'+esc(r.thesis||'')+'</span>'
+        : '<div class="rules">'+(r.violations||[]).map(v=>'<span class="tag" title="'+esc(v.msg)+'">'+esc(v.rule)+': '+esc(v.msg)+'</span>').join('')+'</div>')}
+], 'No decisions yet.');
+
+const ords = (D.orders||[]).slice().reverse();
+$('#orders').innerHTML = table(ords, [
+  {h:'Time', f:r=>'<span class="n">'+esc((r.ts||'').replace('T',' ').slice(0,19))+'</span>'},
+  {h:'Symbol', f:r=>'<b>'+esc(r.symbol)+'</b>'},
+  {h:'Side', f:r=>esc(r.side)},
+  {h:'Qty', f:r=>esc(r.qty)},
+  {h:'Price', f:r=>r.price==='market'?'market':money2(r.price)},
+  {h:'Order ID', f:r=>esc(r.orderId||'')},
+  {h:'Status', f:r=> r.error? '<span class="pill no">ERROR</span> <span class="small">'+esc(r.error)+'</span>'
+        : (r.submitted? '<span class="pill ok">SUBMITTED</span>' : '<span class="n">dry-run</span>')}
+], 'No orders yet.');
+
+// ---- playbook ----
+const pos = (st.positions||[]);
+$('#positions').innerHTML = table(pos, [
+  {h:'Symbol', f:r=>'<b>'+esc(r.symbol)+'</b>'},
+  {h:'Qty', f:r=>esc(r.qty)},
+  {h:'Avg cost', f:r=>money2(r.avgCost)},
+  {h:'Last', f:r=>money2(r.lastPrice)},
+  {h:'Market value', f:r=>money(r.marketValue)},
+  {h:'Unrealised', f:r=>'<span class="'+(r.unrealizedPl>=0?'pos':'neg')+'">'+money2(r.unrealizedPl)+'</span>'},
+  {h:'Stop', f:r=>{const s=D.stops&&D.stops[r.symbol]; return s? money2(s.stop)+(s.breakeven?' <span class="small amb">BE</span>':'')+(s.trimmed?' <span class="small">· trimmed</span>':''):'<span class="pill no">none</span>';}},
+  {h:'Pivot', f:r=>{const s=D.stops&&D.stops[r.symbol]; return s?money2(s.pivot):'—';}},
+  {h:'Trim at', f:r=>{const s=D.stops&&D.stops[r.symbol]; return s&&s.atr?money2(s.entry + 3*s.atr):'—';}}
+], 'Flat — no open positions.');
+
+$('#openorders').innerHTML = table((st.openOrders||[]), [
+  {h:'Symbol', f:r=>'<b>'+esc(r.symbol)+'</b>'},
+  {h:'Side', f:r=>esc(r.side)},
+  {h:'Qty', f:r=>esc(r.qty)},
+  {h:'Limit', f:r=>money2(r.price)},
+  {h:'Type', f:r=>esc(r.type)},
+  {h:'Order ID', f:r=>esc(r.orderId)}
+], 'No open orders.');
+
+const ranked = ((D.proposals&&D.proposals.ranked)||[]);
+$('#ranked').innerHTML = table(ranked, [
+  {h:'Symbol', f:r=>'<b>'+esc(r.symbol)+'</b> <span class="small">'+esc(r.name||'')+'</span>'},
+  {h:'Sector', f:r=>esc(r.sector||'—')+(r.leading?' <span class="pill ok">LEAD</span>':'')},
+  {h:'Pivot', f:r=>money2(r.pivot)},
+  {h:'Limit', f:r=>money2(r.entry)},
+  {h:'Stop', f:r=>money2(r.stop)},
+  {h:'Qty', f:r=>esc(r.qty)},
+  {h:'Conviction', f:r=>r.conviction==null?'—':'<span class="bar"><i style="width:'+Math.round(r.conviction*100)+'%"></i></span> '+Number(r.conviction).toFixed(2)},
+  {h:'Contractions', f:r=>(r.depths||[]).map(d=>pct(d)).join(' → ')},
+  {h:'Vol dry-up', f:r=>r.volDryRatio==null?'—':Number(r.volDryRatio).toFixed(2)+'×'},
+  {h:'J Law', f:r=>(r.jlawMode==='fallback-vcp'?'<span class="tag">FALLBACK VCP</span> ':'')+
+      (r.edges!=null?r.edges+' edges':'—')+
+      (r.edgeList&&r.edgeList.length?' <span class="small">['+esc(r.edgeList.join('/'))+']</span>':'')+
+      (r.heavyVolDays!=null?' · '+r.heavyVolDays+' heavy':'')+
+      (r.catalyst?' <span class="pill ok">'+esc(r.catalyst)+'</span>':'')}
+], 'No proposals in this cycle.');
+
+// ---- research ----
+const bt = D.backtest;
+if(!bt){ $('#bt').innerHTML = '<div class="empty">No backtest yet. Run engine\\Backtest.ps1.</div>'; }
+else {
+  const rows = [
+    {m:'All', s:bt.all}, {m:'In-sample', s:bt.inSample}, {m:'Out-of-sample', s:bt.outOfSample}
+  ];
+  $('#bt').innerHTML = table(rows, [
+    {h:'Segment', f:r=>'<b>'+r.m+'</b>'},
+    {h:'Trades', f:r=>r.s.trades},
+    {h:'Win rate', f:r=>pct(r.s.winRate)},
+    {h:'Expectancy', f:r=>money2(r.s.expectancy)},
+    {h:'Profit factor', f:r=>r.s.profitFactor==null?'—':Number(r.s.profitFactor).toFixed(2)},
+    {h:'Return', f:r=>'<span class="'+(r.s.totalReturn>=0?'pos':'neg')+'">'+pct(r.s.totalReturn)+'</span>'},
+    {h:'Max DD', f:r=>'<span class="neg">'+pct(r.s.maxDrawdown)+'</span>'},
+    {h:'Sharpe', f:r=>r.s.sharpe==null?'—':Number(r.s.sharpe).toFixed(2)},
+    {h:'Sortino', f:r=>r.s.sortino==null?'—':Number(r.s.sortino).toFixed(2)},
+    {h:'Avg hold', f:r=>Number(r.s.avgHoldDays).toFixed(1)+'d'}
+  ], '');
+  $('#bt').innerHTML += '<p class="small">Universe '+bt.universe+' names · '+bt.window.sessions+
+    ' sessions '+bt.window.start+'–'+bt.window.end+' · costs '+(bt.costs.slippage*10000).toFixed(0)+
+    'bp slippage +'+(bt.costs.halfSpread*10000).toFixed(0)+'bp half-spread · version '+bt.strategyVersion+
+    (bt.benchmark? ' · SPY buy &amp; hold '+pct(bt.benchmark.totalReturn) : '')+'</p>';
+  if(bt.funnel){
+    const f=bt.funnel;
+    $('#bt').innerHTML += '<p class="small">Funnel: stage2 '+f.stage2+' → VCP '+f.vcp+' → breakout '+f.breakout+
+      ' → volume '+f.volumeOk+' → J Law '+f.jlaw+' → fills '+f.fills+
+      ' · trims '+f.trims+' · days blocked by R13 '+f.regimeBlockedDays+'</p>';
+    if(f.jlawSub){
+      const s=f.jlawSub;
+      $('#bt').innerHTML += '<p class="small">J Law sub-funnel (first failing stage): '+s.dollarVolumeFail+
+        ' under $100m/day · '+s.heavyVolumeFail+' with &lt;2 heavy days · '+s.edgesFail+
+        ' with &lt;2 edges · '+s.rsFail+' lagging SPY</p>';
+    }
+  }
+}
+const sc = D.scan;
+$('#scan').innerHTML = sc? table([sc], [
+  {h:'Generated', f:r=>esc(r.generated)},
+  {h:'Version', f:r=>esc(r.version||'—')},
+  {h:'Universe', f:r=>r.universe},
+  {h:'Stage 2', f:r=>r.stage2},
+  {h:'With VCP', f:r=>r.vcp},
+  {h:'Breakouts', f:r=>r.breakouts},
+  {h:'Setups', f:r=>r.setups},
+  {h:'J Law breakouts', f:r=>r.jlawBreakouts},
+  {h:'J Law setups', f:r=>r.jlawSetups}
+], '') : '<div class="empty">No scan yet.</div>';
+
+document.querySelectorAll('.tab').forEach(t=>t.onclick=()=>{
+  document.querySelectorAll('.tab').forEach(x=>x.classList.remove('on'));
+  document.querySelectorAll('.panel').forEach(x=>x.classList.remove('on'));
+  t.classList.add('on'); $('#p-'+t.dataset.p).classList.add('on');
+});
+</script>
+</body>
+</html>

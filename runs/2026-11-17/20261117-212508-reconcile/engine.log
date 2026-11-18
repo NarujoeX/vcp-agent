@@ -1,0 +1,4 @@
+2026-11-17 21:25:08 [INFO] moomoo sim account funds --account challenge-account
+2026-11-17 21:25:09 [INFO] moomoo sim position --account challenge-account --market US
+2026-11-17 21:25:10 [INFO] moomoo sim order list --account challenge-account --market US
+2026-11-17 21:25:10 [INFO] Reconcile: cash=99,998.01 hold=0.00 equity=99,998.01 positions=0 openOrders=0 ordersToday=3

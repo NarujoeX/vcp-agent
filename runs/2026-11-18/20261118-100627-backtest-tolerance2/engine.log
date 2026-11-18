@@ -1,0 +1,8 @@
+2026-11-18 10:06:27 [INFO] backtest series=5 symbols (skipped 0 unaligned)
+2026-11-18 10:06:27 [INFO] window bars 348..368 (20 sessions)
+2026-11-18 10:06:29 [INFO] signal funnel: stage2=28 vcp=0 breakout=0 volumeOk=0 jlaw=0 fills=0 regimeBlockedDays=2 regimeAllowedDays=18 trims=0
+2026-11-18 10:06:29 [INFO] jlaw sub-funnel (first failing stage): dv<100M=0 heavy<2=0 edges<2=0 rs63<=0=0 pass=0
+2026-11-18 10:06:29 [INFO] ALL: trades=0 win=0.0% exp=0.00 PF= ret=0.00% maxDD=0.00% sharpe=
+2026-11-18 10:06:29 [INFO] BENCH: SPY buy & hold -1.58% (766.48 -> 754.37)
+2026-11-18 10:06:29 [INFO] IS:  trades=0 ret=0.00% maxDD=0.00% sharpe=
+2026-11-18 10:06:29 [INFO] OOS: trades=0 ret=0.00% maxDD=0.00% sharpe=

@@ -1,0 +1,219 @@
+﻿{
+    "generated":  "2026-11-18T10:06:29",
+    "strategyVersion":  "v1.8",
+    "universe":  5,
+    "window":  {
+                   "start":  20261019,
+                   "end":  20261113,
+                   "sessions":  20
+               },
+    "costs":  {
+                  "slippage":  0.0005,
+                  "halfSpread":  0.0002
+              },
+    "jlaw":  {
+                 "enabled":  true,
+                 "minDollarVolume":  100000000,
+                 "heavyVolumeMinDays":  2,
+                 "minEdges":  2,
+                 "rsLookbackDays":  63,
+                 "stopBelowEdgePct":  0.04,
+                 "trimAtrMult":  3.0,
+                 "regimeSma":  50
+             },
+    "funnel":  {
+                   "stage2":  28,
+                   "vcp":  0,
+                   "breakout":  0,
+                   "volumeOk":  0,
+                   "jlaw":  0,
+                   "fills":  0,
+                   "regimeBlockedDays":  2,
+                   "trims":  0,
+                   "jlawSub":  {
+                                   "dollarVolumeFail":  0,
+                                   "heavyVolumeFail":  0,
+                                   "edgesFail":  0,
+                                   "rsFail":  0
+                               }
+               },
+    "benchmark":  {
+                      "symbol":  "US.SPY",
+                      "startClose":  766.48,
+                      "endClose":  754.37,
+                      "totalReturn":  -0.0158
+                  },
+    "regime":  {
+                   "mode":  "tolerance2",
+                   "blockedDays":  2,
+                   "allowedDays":  18,
+                   "smaPeriod":  50
+               },
+    "all":  {
+                "trades":  0,
+                "winRate":  0,
+                "avgWin":  0,
+                "avgLoss":  0,
+                "expectancy":  0,
+                "profitFactor":  null,
+                "totalReturn":  0,
+                "maxDrawdown":  0,
+                "sharpe":  null,
+                "sortino":  null,
+                "endEquity":  100000,
+                "avgHoldDays":  0
+            },
+    "inSample":  {
+                     "trades":  0,
+                     "winRate":  0,
+                     "avgWin":  0,
+                     "avgLoss":  0,
+                     "expectancy":  0,
+                     "profitFactor":  null,
+                     "totalReturn":  0,
+                     "maxDrawdown":  0,
+                     "sharpe":  null,
+                     "sortino":  null,
+                     "endEquity":  100000,
+                     "avgHoldDays":  0
+                 },
+    "outOfSample":  {
+                        "trades":  0,
+                        "winRate":  0,
+                        "avgWin":  0,
+                        "avgLoss":  0,
+                        "expectancy":  0,
+                        "profitFactor":  null,
+                        "totalReturn":  0,
+                        "maxDrawdown":  0,
+                        "sharpe":  null,
+                        "sortino":  null,
+                        "endEquity":  100000,
+                        "avgHoldDays":  0
+                    },
+    "trades":  [
+
+               ],
+    "curve":  [
+                  {
+                      "date":  20261019,
+                      "equity":  100000,
+                      "cash":  100000,
+                      "open":  0
+                  },
+                  {
+                      "date":  20261020,
+                      "equity":  100000,
+                      "cash":  100000,
+                      "open":  0
+                  },
+                  {
+                      "date":  20261021,
+                      "equity":  100000,
+                      "cash":  100000,
+                      "open":  0
+                  },
+                  {
+                      "date":  20261022,
+                      "equity":  100000,
+                      "cash":  100000,
+                      "open":  0
+                  },
+                  {
+                      "date":  20261023,
+                      "equity":  100000,
+                      "cash":  100000,
+                      "open":  0
+                  },
+                  {
+                      "date":  20261026,
+                      "equity":  100000,
+                      "cash":  100000,
+                      "open":  0
+                  },
+                  {
+                      "date":  20261027,
+                      "equity":  100000,
+                      "cash":  100000,
+                      "open":  0
+                  },
+                  {
+                      "date":  20261028,
+                      "equity":  100000,
+                      "cash":  100000,
+                      "open":  0
+                  },
+                  {
+                      "date":  20261029,
+                      "equity":  100000,
+                      "cash":  100000,
+                      "open":  0
+                  },
+                  {
+                      "date":  20261030,
+                      "equity":  100000,
+                      "cash":  100000,
+                      "open":  0
+                  },
+                  {
+                      "date":  20261102,
+                      "equity":  100000,
+                      "cash":  100000,
+                      "open":  0
+                  },
+                  {
+                      "date":  20261103,
+                      "equity":  100000,
+                      "cash":  100000,
+                      "open":  0
+                  },
+                  {
+                      "date":  20261104,
+                      "equity":  100000,
+                      "cash":  100000,
+                      "open":  0
+                  },
+                  {
+                      "date":  20261105,
+                      "equity":  100000,
+                      "cash":  100000,
+                      "open":  0
+                  },
+                  {
+                      "date":  20261106,
+                      "equity":  100000,
+                      "cash":  100000,
+                      "open":  0
+                  },
+                  {
+                      "date":  20261109,
+                      "equity":  100000,
+                      "cash":  100000,
+                      "open":  0
+                  },
+                  {
+                      "date":  20261110,
+                      "equity":  100000,
+                      "cash":  100000,
+                      "open":  0
+                  },
+                  {
+                      "date":  20261111,
+                      "equity":  100000,
+                      "cash":  100000,
+                      "open":  0
+                  },
+                  {
+                      "date":  20261112,
+                      "equity":  100000,
+                      "cash":  100000,
+                      "open":  0
+                  },
+                  {
+                      "date":  20261113,
+                      "equity":  100000,
+                      "cash":  100000,
+                      "open":  0
+                  }
+              ]
+}

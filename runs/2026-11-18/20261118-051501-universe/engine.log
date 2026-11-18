@@ -1,0 +1,591 @@
+2026-11-18 05:15:01 [INFO] Universe refresh: top 500 by market cap
+2026-11-18 05:15:02 [INFO] moomoo stock-screen --screen-queries [{"simple_field_query":{"simple_field":1,"screen_value_list":[2]}}] --retrieve-queries [{"basic_property":{"name":1101}},{"simple_property":{"name":2301}}] --sort {"direction":2,"simple_property":{"name":2301}} --limit 300
+2026-11-18 05:15:03 [INFO] Screen returned 300 names
+2026-11-18 05:15:04 [INFO] moomoo kline US.AAPL -n 370 --ktype 2
+2026-11-18 05:15:05 [INFO] moomoo kline US.MSFT -n 370 --ktype 2
+2026-11-18 05:15:06 [INFO] moomoo kline US.NVDA -n 370 --ktype 2
+2026-11-18 05:15:08 [INFO] moomoo kline US.GOOGL -n 370 --ktype 2
+2026-11-18 05:15:09 [INFO] moomoo kline US.GOOG -n 370 --ktype 2
+2026-11-18 05:15:11 [INFO] moomoo kline US.AMZN -n 370 --ktype 2
+2026-11-18 05:15:12 [INFO] moomoo kline US.SPCX -n 370 --ktype 2
+2026-11-18 05:15:13 [INFO] moomoo kline US.TSM -n 370 --ktype 2
+2026-11-18 05:15:14 [INFO] moomoo kline US.AVGO -n 370 --ktype 2
+2026-11-18 05:15:16 [INFO] moomoo kline US.META -n 370 --ktype 2
+2026-11-18 05:15:17 [INFO] moomoo kline US.TSLA -n 370 --ktype 2
+2026-11-18 05:15:19 [INFO] moomoo kline US.LLY -n 370 --ktype 2
+2026-11-18 05:15:20 [INFO] moomoo kline US.BRK.B -n 370 --ktype 2
+2026-11-18 05:15:22 [INFO] moomoo kline US.BRK.A -n 370 --ktype 2
+2026-11-18 05:15:23 [INFO] moomoo kline US.WMT -n 370 --ktype 2
+2026-11-18 05:15:24 [INFO] moomoo kline US.JPM -n 370 --ktype 2
+2026-11-18 05:15:26 [INFO] moomoo kline US.SKHY -n 370 --ktype 2
+2026-11-18 05:15:27 [INFO] moomoo kline US.AMD -n 370 --ktype 2
+2026-11-18 05:15:28 [INFO] moomoo kline US.MU -n 370 --ktype 2
+2026-11-18 05:15:29 [INFO] moomoo kline US.V -n 370 --ktype 2
+2026-11-18 05:15:31 [INFO] moomoo kline US.XOM -n 370 --ktype 2
+2026-11-18 05:15:32 [INFO] moomoo kline US.JNJ -n 370 --ktype 2
+2026-11-18 05:15:33 [INFO] moomoo kline US.MA -n 370 --ktype 2
+2026-11-18 05:15:35 [INFO] moomoo kline US.ASML -n 370 --ktype 2
+2026-11-18 05:15:35 [INFO]   25 bars cached
+2026-11-18 05:15:36 [INFO] moomoo kline US.ABBV -n 370 --ktype 2
+2026-11-18 05:15:37 [INFO] moomoo kline US.COST -n 370 --ktype 2
+2026-11-18 05:15:38 [INFO] moomoo kline US.TCEHY -n 370 --ktype 2
+2026-11-18 05:15:40 [INFO] moomoo kline US.KO -n 370 --ktype 2
+2026-11-18 05:15:41 [INFO] moomoo kline US.CVX -n 370 --ktype 2
+2026-11-18 05:15:42 [INFO] moomoo kline US.PG -n 370 --ktype 2
+2026-11-18 05:15:44 [INFO] moomoo kline US.RHHBY -n 370 --ktype 2
+2026-11-18 05:15:44 [WARN]   kline failed for US.RHHBY: Error: get cur kline: [RATE_LIMIT] too many requests, retry after 16s
+2026-11-18 05:15:45 [INFO] moomoo kline US.PLTR -n 370 --ktype 2
+2026-11-18 05:15:45 [WARN]   kline failed for US.PLTR: Error: get cur kline: [RATE_LIMIT] too many requests, retry after 15s
+2026-11-18 05:15:46 [INFO] moomoo kline US.CSCO -n 370 --ktype 2
+2026-11-18 05:15:46 [WARN]   kline failed for US.CSCO: Error: get cur kline: [RATE_LIMIT] too many requests, retry after 14s
+2026-11-18 05:15:46 [INFO] moomoo kline US.IDCBY -n 370 --ktype 2
+2026-11-18 05:15:47 [WARN]   kline failed for US.IDCBY: Error: get cur kline: [RATE_LIMIT] too many requests, retry after 13s
+2026-11-18 05:15:47 [INFO] moomoo kline US.MRK -n 370 --ktype 2
+2026-11-18 05:15:48 [WARN]   kline failed for US.MRK: Error: get cur kline: [RATE_LIMIT] too many requests, retry after 12s
+2026-11-18 05:15:48 [INFO] moomoo kline US.CICHY -n 370 --ktype 2
+2026-11-18 05:15:48 [WARN]   kline failed for US.CICHY: Error: get cur kline: [RATE_LIMIT] too many requests, retry after 11s
+2026-11-18 05:15:49 [INFO] moomoo kline US.UNH -n 370 --ktype 2
+2026-11-18 05:15:49 [WARN]   kline failed for US.UNH: Error: get cur kline: [RATE_LIMIT] too many requests, retry after 10s
+2026-11-18 05:15:50 [INFO] moomoo kline US.ORCL -n 370 --ktype 2
+2026-11-18 05:15:50 [WARN]   kline failed for US.ORCL: Error: get cur kline: [RATE_LIMIT] too many requests, retry after 9s
+2026-11-18 05:15:51 [INFO] moomoo kline US.BAC -n 370 --ktype 2
+2026-11-18 05:15:52 [WARN]   kline failed for US.BAC: Error: get cur kline: [RATE_LIMIT] too many requests, retry after 8s
+2026-11-18 05:15:52 [INFO] moomoo kline US.HD -n 370 --ktype 2
+2026-11-18 05:15:52 [WARN]   kline failed for US.HD: Error: get cur kline: [RATE_LIMIT] too many requests, retry after 7s
+2026-11-18 05:15:53 [INFO] moomoo kline US.GE -n 370 --ktype 2
+2026-11-18 05:15:53 [WARN]   kline failed for US.GE: Error: get cur kline: [RATE_LIMIT] too many requests, retry after 6s
+2026-11-18 05:15:54 [INFO] moomoo kline US.ACGBY -n 370 --ktype 2
+2026-11-18 05:15:54 [WARN]   kline failed for US.ACGBY: Error: get cur kline: [RATE_LIMIT] too many requests, retry after 5s
+2026-11-18 05:15:55 [INFO] moomoo kline US.PM -n 370 --ktype 2
+2026-11-18 05:15:55 [WARN]   kline failed for US.PM: Error: get cur kline: [RATE_LIMIT] too many requests, retry after 4s
+2026-11-18 05:15:56 [INFO] moomoo kline US.NVS -n 370 --ktype 2
+2026-11-18 05:15:56 [WARN]   kline failed for US.NVS: Error: get cur kline: [RATE_LIMIT] too many requests, retry after 4s
+2026-11-18 05:15:57 [INFO] moomoo kline US.HSBC -n 370 --ktype 2
+2026-11-18 05:15:57 [WARN]   kline failed for US.HSBC: Error: get cur kline: [RATE_LIMIT] too many requests, retry after 3s
+2026-11-18 05:15:58 [INFO] moomoo kline US.INTC -n 370 --ktype 2
+2026-11-18 05:15:58 [WARN]   kline failed for US.INTC: Error: get cur kline: [RATE_LIMIT] too many requests, retry after 2s
+2026-11-18 05:15:58 [INFO] moomoo kline US.MS -n 370 --ktype 2
+2026-11-18 05:15:59 [WARN]   kline failed for US.MS: Error: get cur kline: [RATE_LIMIT] too many requests, retry after 1s
+2026-11-18 05:15:59 [INFO] moomoo kline US.AZN -n 370 --ktype 2
+2026-11-18 05:16:01 [INFO] moomoo kline US.AMAT -n 370 --ktype 2
+2026-11-18 05:16:01 [INFO]   50 bars cached
+2026-11-18 05:16:02 [INFO] moomoo kline US.SHEL -n 370 --ktype 2
+2026-11-18 05:16:03 [INFO] moomoo kline US.RY -n 370 --ktype 2
+2026-11-18 05:16:05 [INFO] moomoo kline US.TXN -n 370 --ktype 2
+2026-11-18 05:16:06 [INFO] moomoo kline US.RTX -n 370 --ktype 2
+2026-11-18 05:16:07 [INFO] moomoo kline US.NSRGY -n 370 --ktype 2
+2026-11-18 05:16:09 [INFO] moomoo kline US.LRCX -n 370 --ktype 2
+2026-11-18 05:16:10 [INFO] moomoo kline US.LRLCY -n 370 --ktype 2
+2026-11-18 05:16:11 [INFO] moomoo kline US.CAT -n 370 --ktype 2
+2026-11-18 05:16:12 [INFO] moomoo kline US.BACHY -n 370 --ktype 2
+2026-11-18 05:16:14 [INFO] moomoo kline US.SAP -n 370 --ktype 2
+2026-11-18 05:16:15 [INFO] moomoo kline US.TMO -n 370 --ktype 2
+2026-11-18 05:16:16 [INFO] moomoo kline US.PANW -n 370 --ktype 2
+2026-11-18 05:16:18 [INFO] moomoo kline US.GS -n 370 --ktype 2
+2026-11-18 05:16:19 [INFO] moomoo kline US.TM -n 370 --ktype 2
+2026-11-18 05:16:20 [INFO] moomoo kline US.WFC -n 370 --ktype 2
+2026-11-18 05:16:22 [INFO] moomoo kline US.AMGN -n 370 --ktype 2
+2026-11-18 05:16:23 [INFO] moomoo kline US.NFLX -n 370 --ktype 2
+2026-11-18 05:16:24 [INFO] moomoo kline US.LIN -n 370 --ktype 2
+2026-11-18 05:16:25 [INFO] moomoo kline US.ANET -n 370 --ktype 2
+2026-11-18 05:16:27 [INFO] moomoo kline US.MUFG -n 370 --ktype 2
+2026-11-18 05:16:28 [INFO] moomoo kline US.SIEGY -n 370 --ktype 2
+2026-11-18 05:16:30 [INFO] moomoo kline US.CRWD -n 370 --ktype 2
+2026-11-18 05:16:31 [INFO] moomoo kline US.IBM -n 370 --ktype 2
+2026-11-18 05:16:32 [INFO] moomoo kline US.BABA -n 370 --ktype 2
+2026-11-18 05:16:34 [INFO] moomoo kline US.CYATY -n 370 --ktype 2
+2026-11-18 05:16:34 [INFO]   75 bars cached
+2026-11-18 05:16:35 [INFO] moomoo kline US.LVMUY -n 370 --ktype 2
+2026-11-18 05:16:36 [INFO] moomoo kline US.AXP -n 370 --ktype 2
+2026-11-18 05:16:37 [INFO] moomoo kline US.GILD -n 370 --ktype 2
+2026-11-18 05:16:39 [INFO] moomoo kline US.GEV -n 370 --ktype 2
+2026-11-18 05:16:39 [WARN]   kline failed for US.GEV: Error: get cur kline: [RATE_LIMIT] too many requests, retry after 21s
+2026-11-18 05:16:40 [INFO] moomoo kline US.DELL -n 370 --ktype 2
+2026-11-18 05:16:40 [WARN]   kline failed for US.DELL: Error: get cur kline: [RATE_LIMIT] too many requests, retry after 20s
+2026-11-18 05:16:41 [INFO] moomoo kline US.IDEXY -n 370 --ktype 2
+2026-11-18 05:16:41 [WARN]   kline failed for US.IDEXY: Error: get cur kline: [RATE_LIMIT] too many requests, retry after 19s
+2026-11-18 05:16:41 [INFO] moomoo kline US.DIS -n 370 --ktype 2
+2026-11-18 05:16:42 [WARN]   kline failed for US.DIS: Error: get cur kline: [RATE_LIMIT] too many requests, retry after 18s
+2026-11-18 05:16:42 [INFO] moomoo kline US.C -n 370 --ktype 2
+2026-11-18 05:16:42 [WARN]   kline failed for US.C: Error: get cur kline: [RATE_LIMIT] too many requests, retry after 17s
+2026-11-18 05:16:43 [INFO] moomoo kline US.TTE -n 370 --ktype 2
+2026-11-18 05:16:43 [WARN]   kline failed for US.TTE: Error: get cur kline: [RATE_LIMIT] too many requests, retry after 16s
+2026-11-18 05:16:44 [INFO] moomoo kline US.ARM -n 370 --ktype 2
+2026-11-18 05:16:44 [WARN]   kline failed for US.ARM: Error: get cur kline: [RATE_LIMIT] too many requests, retry after 15s
+2026-11-18 05:16:45 [INFO] moomoo kline US.TD -n 370 --ktype 2
+2026-11-18 05:16:45 [WARN]   kline failed for US.TD: Error: get cur kline: [RATE_LIMIT] too many requests, retry after 14s
+2026-11-18 05:16:46 [INFO] moomoo kline US.MCD -n 370 --ktype 2
+2026-11-18 05:16:46 [WARN]   kline failed for US.MCD: Error: get cur kline: [RATE_LIMIT] too many requests, retry after 14s
+2026-11-18 05:16:47 [INFO] moomoo kline US.PEP -n 370 --ktype 2
+2026-11-18 05:16:47 [WARN]   kline failed for US.PEP: Error: get cur kline: [RATE_LIMIT] too many requests, retry after 13s
+2026-11-18 05:16:48 [INFO] moomoo kline US.ALIZY -n 370 --ktype 2
+2026-11-18 05:16:48 [WARN]   kline failed for US.ALIZY: Error: get cur kline: [RATE_LIMIT] too many requests, retry after 12s
+2026-11-18 05:16:49 [INFO] moomoo kline US.CMWAY -n 370 --ktype 2
+2026-11-18 05:16:49 [WARN]   kline failed for US.CMWAY: Error: get cur kline: [RATE_LIMIT] too many requests, retry after 11s
+2026-11-18 05:16:49 [INFO] moomoo kline US.VZ -n 370 --ktype 2
+2026-11-18 05:16:50 [WARN]   kline failed for US.VZ: Error: get cur kline: [RATE_LIMIT] too many requests, retry after 10s
+2026-11-18 05:16:50 [INFO] moomoo kline US.APH -n 370 --ktype 2
+2026-11-18 05:16:51 [WARN]   kline failed for US.APH: Error: get cur kline: [RATE_LIMIT] too many requests, retry after 9s
+2026-11-18 05:16:51 [INFO] moomoo kline US.KLAC -n 370 --ktype 2
+2026-11-18 05:16:51 [WARN]   kline failed for US.KLAC: Error: get cur kline: [RATE_LIMIT] too many requests, retry after 8s
+2026-11-18 05:16:52 [INFO] moomoo kline US.BHP -n 370 --ktype 2
+2026-11-18 05:16:52 [WARN]   kline failed for US.BHP: Error: get cur kline: [RATE_LIMIT] too many requests, retry after 7s
+2026-11-18 05:16:53 [INFO] moomoo kline US.ADI -n 370 --ktype 2
+2026-11-18 05:16:54 [WARN]   kline failed for US.ADI: Error: get cur kline: [RATE_LIMIT] too many requests, retry after 6s
+2026-11-18 05:16:55 [INFO] moomoo kline US.SHOP -n 370 --ktype 2
+2026-11-18 05:16:55 [WARN]   kline failed for US.SHOP: Error: get cur kline: [RATE_LIMIT] too many requests, retry after 5s
+2026-11-18 05:16:56 [INFO] moomoo kline US.BLK -n 370 --ktype 2
+2026-11-18 05:16:56 [WARN]   kline failed for US.BLK: Error: get cur kline: [RATE_LIMIT] too many requests, retry after 4s
+2026-11-18 05:16:57 [INFO] moomoo kline US.NVO -n 370 --ktype 2
+2026-11-18 05:16:57 [WARN]   kline failed for US.NVO: Error: get cur kline: [RATE_LIMIT] too many requests, retry after 3s
+2026-11-18 05:16:57 [INFO] moomoo kline US.ABT -n 370 --ktype 2
+2026-11-18 05:16:58 [WARN]   kline failed for US.ABT: Error: get cur kline: [RATE_LIMIT] too many requests, retry after 2s
+2026-11-18 05:16:58 [INFO] moomoo kline US.WELL -n 370 --ktype 2
+2026-11-18 05:16:58 [WARN]   kline failed for US.WELL: Error: get cur kline: [RATE_LIMIT] too many requests, retry after 1s
+2026-11-18 05:16:58 [INFO]   100 bars cached
+2026-11-18 05:16:59 [INFO] moomoo kline US.QCOM -n 370 --ktype 2
+2026-11-18 05:17:01 [INFO] moomoo kline US.TMUS -n 370 --ktype 2
+2026-11-18 05:17:02 [INFO] moomoo kline US.NEE -n 370 --ktype 2
+2026-11-18 05:17:03 [INFO] moomoo kline US.UNP -n 370 --ktype 2
+2026-11-18 05:17:04 [INFO] moomoo kline US.DE -n 370 --ktype 2
+2026-11-18 05:17:06 [INFO] moomoo kline US.EADSY -n 370 --ktype 2
+2026-11-18 05:17:07 [INFO] moomoo kline US.CIHKY -n 370 --ktype 2
+2026-11-18 05:17:08 [INFO] moomoo kline US.SAN -n 370 --ktype 2
+2026-11-18 05:17:10 [INFO] moomoo kline US.IBDRY -n 370 --ktype 2
+2026-11-18 05:17:11 [INFO] moomoo kline US.COP -n 370 --ktype 2
+2026-11-18 05:17:12 [INFO] moomoo kline US.BUD -n 370 --ktype 2
+2026-11-18 05:17:14 [INFO] moomoo kline US.PFE -n 370 --ktype 2
+2026-11-18 05:17:15 [INFO] moomoo kline US.FRCOY -n 370 --ktype 2
+2026-11-18 05:17:17 [INFO] moomoo kline US.CRM -n 370 --ktype 2
+2026-11-18 05:17:18 [INFO] moomoo kline US.DHR -n 370 --ktype 2
+2026-11-18 05:17:19 [INFO] moomoo kline US.SCHW -n 370 --ktype 2
+2026-11-18 05:17:21 [INFO] moomoo kline US.RCRUY -n 370 --ktype 2
+2026-11-18 05:17:22 [INFO] moomoo kline US.SONY -n 370 --ktype 2
+2026-11-18 05:17:23 [INFO] moomoo kline US.SBGSY -n 370 --ktype 2
+2026-11-18 05:17:25 [INFO] moomoo kline US.T -n 370 --ktype 2
+2026-11-18 05:17:26 [INFO] moomoo kline US.ISRG -n 370 --ktype 2
+2026-11-18 05:17:27 [INFO] moomoo kline US.DBSDY -n 370 --ktype 2
+2026-11-18 05:17:28 [INFO] moomoo kline US.SMFG -n 370 --ktype 2
+2026-11-18 05:17:30 [INFO] moomoo kline US.HESAY -n 370 --ktype 2
+2026-11-18 05:17:31 [INFO] moomoo kline US.ABBNY -n 370 --ktype 2
+2026-11-18 05:17:32 [INFO]   125 bars cached
+2026-11-18 05:17:32 [INFO] moomoo kline US.CB -n 370 --ktype 2
+2026-11-18 05:17:34 [INFO] moomoo kline US.RYCEY -n 370 --ktype 2
+2026-11-18 05:17:35 [INFO] moomoo kline US.TJX -n 370 --ktype 2
+2026-11-18 05:17:36 [INFO] moomoo kline US.ACN -n 370 --ktype 2
+2026-11-18 05:17:37 [INFO] moomoo kline US.UBS -n 370 --ktype 2
+2026-11-18 05:17:39 [INFO] moomoo kline US.DTEGY -n 370 --ktype 2
+2026-11-18 05:17:39 [WARN]   kline failed for US.DTEGY: Error: get cur kline: [RATE_LIMIT] too many requests, retry after 21s
+2026-11-18 05:17:40 [INFO] moomoo kline US.UL -n 370 --ktype 2
+2026-11-18 05:17:40 [WARN]   kline failed for US.UL: Error: get cur kline: [RATE_LIMIT] too many requests, retry after 20s
+2026-11-18 05:17:40 [INFO] moomoo kline US.UBER -n 370 --ktype 2
+2026-11-18 05:17:41 [WARN]   kline failed for US.UBER: Error: get cur kline: [RATE_LIMIT] too many requests, retry after 19s
+2026-11-18 05:17:41 [INFO] moomoo kline US.BBVA -n 370 --ktype 2
+2026-11-18 05:17:42 [WARN]   kline failed for US.BBVA: Error: get cur kline: [RATE_LIMIT] too many requests, retry after 18s
+2026-11-18 05:17:42 [INFO] moomoo kline US.SAFRY -n 370 --ktype 2
+2026-11-18 05:17:43 [WARN]   kline failed for US.SAFRY: Error: get cur kline: [RATE_LIMIT] too many requests, retry after 17s
+2026-11-18 05:17:43 [INFO] moomoo kline US.LMT -n 370 --ktype 2
+2026-11-18 05:17:43 [WARN]   kline failed for US.LMT: Error: get cur kline: [RATE_LIMIT] too many requests, retry after 16s
+2026-11-18 05:17:44 [INFO] moomoo kline US.PGR -n 370 --ktype 2
+2026-11-18 05:17:44 [WARN]   kline failed for US.PGR: Error: get cur kline: [RATE_LIMIT] too many requests, retry after 15s
+2026-11-18 05:17:45 [INFO] moomoo kline US.UNCRY -n 370 --ktype 2
+2026-11-18 05:17:46 [WARN]   kline failed for US.UNCRY: Error: get cur kline: [RATE_LIMIT] too many requests, retry after 14s
+2026-11-18 05:17:46 [INFO] moomoo kline US.VRTX -n 370 --ktype 2
+2026-11-18 05:17:47 [WARN]   kline failed for US.VRTX: Error: get cur kline: [RATE_LIMIT] too many requests, retry after 13s
+2026-11-18 05:17:47 [INFO] moomoo kline US.HDB -n 370 --ktype 2
+2026-11-18 05:17:48 [WARN]   kline failed for US.HDB: Error: get cur kline: [RATE_LIMIT] too many requests, retry after 12s
+2026-11-18 05:17:48 [INFO] moomoo kline US.AIQUY -n 370 --ktype 2
+2026-11-18 05:17:48 [WARN]   kline failed for US.AIQUY: Error: get cur kline: [RATE_LIMIT] too many requests, retry after 11s
+2026-11-18 05:17:49 [INFO] moomoo kline US.HTHIY -n 370 --ktype 2
+2026-11-18 05:17:49 [WARN]   kline failed for US.HTHIY: Error: get cur kline: [RATE_LIMIT] too many requests, retry after 10s
+2026-11-18 05:17:50 [INFO] moomoo kline US.SCCO -n 370 --ktype 2
+2026-11-18 05:17:50 [WARN]   kline failed for US.SCCO: Error: get cur kline: [RATE_LIMIT] too many requests, retry after 9s
+2026-11-18 05:17:51 [INFO] moomoo kline US.APP -n 370 --ktype 2
+2026-11-18 05:17:51 [WARN]   kline failed for US.APP: Error: get cur kline: [RATE_LIMIT] too many requests, retry after 8s
+2026-11-18 05:17:52 [INFO] moomoo kline US.SPGI -n 370 --ktype 2
+2026-11-18 05:17:52 [WARN]   kline failed for US.SPGI: Error: get cur kline: [RATE_LIMIT] too many requests, retry after 8s
+2026-11-18 05:17:53 [INFO] moomoo kline US.ETN -n 370 --ktype 2
+2026-11-18 05:17:53 [WARN]   kline failed for US.ETN: Error: get cur kline: [RATE_LIMIT] too many requests, retry after 7s
+2026-11-18 05:17:54 [INFO] moomoo kline US.MDT -n 370 --ktype 2
+2026-11-18 05:17:54 [WARN]   kline failed for US.MDT: Error: get cur kline: [RATE_LIMIT] too many requests, retry after 6s
+2026-11-18 05:17:54 [INFO] moomoo kline US.MRVL -n 370 --ktype 2
+2026-11-18 05:17:55 [WARN]   kline failed for US.MRVL: Error: get cur kline: [RATE_LIMIT] too many requests, retry after 5s
+2026-11-18 05:17:55 [INFO] moomoo kline US.IBKR -n 370 --ktype 2
+2026-11-18 05:17:56 [WARN]   kline failed for US.IBKR: Error: get cur kline: [RATE_LIMIT] too many requests, retry after 4s
+2026-11-18 05:17:56 [INFO] moomoo kline US.BA -n 370 --ktype 2
+2026-11-18 05:17:57 [WARN]   kline failed for US.BA: Error: get cur kline: [RATE_LIMIT] too many requests, retry after 3s
+2026-11-18 05:17:57 [INFO]   150 bars cached
+2026-11-18 05:17:57 [INFO] moomoo kline US.RIO -n 370 --ktype 2
+2026-11-18 05:17:58 [WARN]   kline failed for US.RIO: Error: get cur kline: [RATE_LIMIT] too many requests, retry after 2s
+2026-11-18 05:17:58 [INFO] moomoo kline US.MO -n 370 --ktype 2
+2026-11-18 05:17:58 [WARN]   kline failed for US.MO: Error: get cur kline: [RATE_LIMIT] too many requests, retry after 1s
+2026-11-18 05:17:59 [INFO] moomoo kline US.BTI -n 370 --ktype 2
+2026-11-18 05:18:00 [INFO] moomoo kline US.MCK -n 370 --ktype 2
+2026-11-18 05:18:02 [INFO] moomoo kline US.BMY -n 370 --ktype 2
+2026-11-18 05:18:03 [INFO] moomoo kline US.SFTBY -n 370 --ktype 2
+2026-11-18 05:18:05 [INFO] moomoo kline US.IBN -n 370 --ktype 2
+2026-11-18 05:18:06 [INFO] moomoo kline US.SPOT -n 370 --ktype 2
+2026-11-18 05:18:07 [INFO] moomoo kline US.LOW -n 370 --ktype 2
+2026-11-18 05:18:08 [INFO] moomoo kline US.TELWY -n 370 --ktype 2
+2026-11-18 05:18:09 [INFO] moomoo kline US.SBUX -n 370 --ktype 2
+2026-11-18 05:18:11 [INFO] moomoo kline US.ADP -n 370 --ktype 2
+2026-11-18 05:18:12 [INFO] moomoo kline US.SYK -n 370 --ktype 2
+2026-11-18 05:18:13 [INFO] moomoo kline US.CFRUY -n 370 --ktype 2
+2026-11-18 05:18:14 [INFO] moomoo kline US.CSUAY -n 370 --ktype 2
+2026-11-18 05:18:16 [INFO] moomoo kline US.PLD -n 370 --ktype 2
+2026-11-18 05:18:17 [INFO] moomoo kline US.MFG -n 370 --ktype 2
+2026-11-18 05:18:18 [INFO] moomoo kline US.ISNPY -n 370 --ktype 2
+2026-11-18 05:18:20 [INFO] moomoo kline US.SMERY -n 370 --ktype 2
+2026-11-18 05:18:21 [INFO] moomoo kline US.MTSUY -n 370 --ktype 2
+2026-11-18 05:18:22 [INFO] moomoo kline US.PNGAY -n 370 --ktype 2
+2026-11-18 05:18:23 [INFO] moomoo kline US.ATEYY -n 370 --ktype 2
+2026-11-18 05:18:25 [INFO] moomoo kline US.BMO -n 370 --ktype 2
+2026-11-18 05:18:26 [INFO] moomoo kline US.PH -n 370 --ktype 2
+2026-11-18 05:18:27 [INFO] moomoo kline US.ZURVY -n 370 --ktype 2
+2026-11-18 05:18:28 [INFO]   175 bars cached
+2026-11-18 05:18:28 [INFO] moomoo kline US.STX -n 370 --ktype 2
+2026-11-18 05:18:30 [INFO] moomoo kline US.NEM -n 370 --ktype 2
+2026-11-18 05:18:31 [INFO] moomoo kline US.BP -n 370 --ktype 2
+2026-11-18 05:18:32 [INFO] moomoo kline US.BKNG -n 370 --ktype 2
+2026-11-18 05:18:34 [INFO] moomoo kline US.NEMCL -n 370 --ktype 2
+2026-11-18 05:18:34 [WARN]   kline failed for US.NEMCL: The property 'volume' cannot be found on this object. Verify that the property exists.
+2026-11-18 05:18:35 [INFO] moomoo kline US.SNY -n 370 --ktype 2
+2026-11-18 05:18:36 [INFO] moomoo kline US.SNDK -n 370 --ktype 2
+2026-11-18 05:18:37 [INFO] moomoo kline US.BNPQY -n 370 --ktype 2
+2026-11-18 05:18:37 [WARN]   kline failed for US.BNPQY: Error: get cur kline: [RATE_LIMIT] too many requests, retry after 22s
+2026-11-18 05:18:38 [INFO] moomoo kline US.COF -n 370 --ktype 2
+2026-11-18 05:18:38 [WARN]   kline failed for US.COF: Error: get cur kline: [RATE_LIMIT] too many requests, retry after 21s
+2026-11-18 05:18:39 [INFO] moomoo kline US.PBR -n 370 --ktype 2
+2026-11-18 05:18:39 [WARN]   kline failed for US.PBR: Error: get cur kline: [RATE_LIMIT] too many requests, retry after 20s
+2026-11-18 05:18:40 [INFO] moomoo kline US.CME -n 370 --ktype 2
+2026-11-18 05:18:40 [WARN]   kline failed for US.CME: Error: get cur kline: [RATE_LIMIT] too many requests, retry after 19s
+2026-11-18 05:18:41 [INFO] moomoo kline US.PDD -n 370 --ktype 2
+2026-11-18 05:18:41 [WARN]   kline failed for US.PDD: Error: get cur kline: [RATE_LIMIT] too many requests, retry after 19s
+2026-11-18 05:18:42 [INFO] moomoo kline US.CVS -n 370 --ktype 2
+2026-11-18 05:18:42 [WARN]   kline failed for US.CVS: Error: get cur kline: [RATE_LIMIT] too many requests, retry after 18s
+2026-11-18 05:18:43 [INFO] moomoo kline US.SO -n 370 --ktype 2
+2026-11-18 05:18:43 [WARN]   kline failed for US.SO: Error: get cur kline: [RATE_LIMIT] too many requests, retry after 17s
+2026-11-18 05:18:43 [INFO] moomoo kline US.MAR -n 370 --ktype 2
+2026-11-18 05:18:44 [WARN]   kline failed for US.MAR: Error: get cur kline: [RATE_LIMIT] too many requests, retry after 16s
+2026-11-18 05:18:44 [INFO] moomoo kline US.BNS -n 370 --ktype 2
+2026-11-18 05:18:45 [WARN]   kline failed for US.BNS: Error: get cur kline: [RATE_LIMIT] too many requests, retry after 15s
+2026-11-18 05:18:45 [INFO] moomoo kline US.MPC -n 370 --ktype 2
+2026-11-18 05:18:45 [WARN]   kline failed for US.MPC: Error: get cur kline: [RATE_LIMIT] too many requests, retry after 14s
+2026-11-18 05:18:46 [INFO] moomoo kline US.ABNB -n 370 --ktype 2
+2026-11-18 05:18:46 [WARN]   kline failed for US.ABNB: Error: get cur kline: [RATE_LIMIT] too many requests, retry after 13s
+2026-11-18 05:18:47 [INFO] moomoo kline US.WDC -n 370 --ktype 2
+2026-11-18 05:18:47 [WARN]   kline failed for US.WDC: Error: get cur kline: [RATE_LIMIT] too many requests, retry after 12s
+2026-11-18 05:18:48 [INFO] moomoo kline US.ENB -n 370 --ktype 2
+2026-11-18 05:18:48 [WARN]   kline failed for US.ENB: Error: get cur kline: [RATE_LIMIT] too many requests, retry after 11s
+2026-11-18 05:18:49 [INFO] moomoo kline US.HCA -n 370 --ktype 2
+2026-11-18 05:18:49 [WARN]   kline failed for US.HCA: Error: get cur kline: [RATE_LIMIT] too many requests, retry after 11s
+2026-11-18 05:18:50 [INFO] moomoo kline US.ENLAY -n 370 --ktype 2
+2026-11-18 05:18:50 [WARN]   kline failed for US.ENLAY: Error: get cur kline: [RATE_LIMIT] too many requests, retry after 10s
+2026-11-18 05:18:51 [INFO] moomoo kline US.TKOMY -n 370 --ktype 2
+2026-11-18 05:18:51 [WARN]   kline failed for US.TKOMY: Error: get cur kline: [RATE_LIMIT] too many requests, retry after 9s
+2026-11-18 05:18:51 [INFO] moomoo kline US.AXAHY -n 370 --ktype 2
+2026-11-18 05:18:52 [WARN]   kline failed for US.AXAHY: Error: get cur kline: [RATE_LIMIT] too many requests, retry after 8s
+2026-11-18 05:18:52 [INFO] moomoo kline US.EQIX -n 370 --ktype 2
+2026-11-18 05:18:53 [WARN]   kline failed for US.EQIX: Error: get cur kline: [RATE_LIMIT] too many requests, retry after 7s
+2026-11-18 05:18:53 [INFO]   200 bars cached
+2026-11-18 05:18:53 [INFO] moomoo kline US.CM -n 370 --ktype 2
+2026-11-18 05:18:53 [WARN]   kline failed for US.CM: Error: get cur kline: [RATE_LIMIT] too many requests, retry after 6s
+2026-11-18 05:18:54 [INFO] moomoo kline US.NET -n 370 --ktype 2
+2026-11-18 05:18:54 [WARN]   kline failed for US.NET: Error: get cur kline: [RATE_LIMIT] too many requests, retry after 5s
+2026-11-18 05:18:55 [INFO] moomoo kline US.VLO -n 370 --ktype 2
+2026-11-18 05:18:55 [WARN]   kline failed for US.VLO: Error: get cur kline: [RATE_LIMIT] too many requests, retry after 4s
+2026-11-18 05:18:56 [INFO] moomoo kline US.DUK -n 370 --ktype 2
+2026-11-18 05:18:56 [WARN]   kline failed for US.DUK: Error: get cur kline: [RATE_LIMIT] too many requests, retry after 3s
+2026-11-18 05:18:57 [INFO] moomoo kline US.AAGIY -n 370 --ktype 2
+2026-11-18 05:18:57 [WARN]   kline failed for US.AAGIY: Error: get cur kline: [RATE_LIMIT] too many requests, retry after 3s
+2026-11-18 05:18:58 [INFO] moomoo kline US.BNY -n 370 --ktype 2
+2026-11-18 05:18:58 [WARN]   kline failed for US.BNY: Error: get cur kline: [RATE_LIMIT] too many requests, retry after 2s
+2026-11-18 05:18:59 [INFO] moomoo kline US.BCMXY -n 370 --ktype 2
+2026-11-18 05:18:59 [WARN]   kline failed for US.BCMXY: Error: get cur kline: [RATE_LIMIT] too many requests, retry after 1s
+2026-11-18 05:18:59 [INFO] moomoo kline US.ITOCY -n 370 --ktype 2
+2026-11-18 05:19:01 [INFO] moomoo kline US.PSX -n 370 --ktype 2
+2026-11-18 05:19:02 [INFO] moomoo kline US.MGCLY -n 370 --ktype 2
+2026-11-18 05:19:03 [INFO] moomoo kline US.REGN -n 370 --ktype 2
+2026-11-18 05:19:05 [INFO] moomoo kline US.GSK -n 370 --ktype 2
+2026-11-18 05:19:06 [INFO] moomoo kline US.PBR.A -n 370 --ktype 2
+2026-11-18 05:19:07 [INFO] moomoo kline US.EQNR -n 370 --ktype 2
+2026-11-18 05:19:08 [INFO] moomoo kline US.MRSH -n 370 --ktype 2
+2026-11-18 05:19:10 [INFO] moomoo kline US.CNQ -n 370 --ktype 2
+2026-11-18 05:19:11 [INFO] moomoo kline US.XIACY -n 370 --ktype 2
+2026-11-18 05:19:12 [INFO] moomoo kline US.WM -n 370 --ktype 2
+2026-11-18 05:19:14 [INFO] moomoo kline US.NOW -n 370 --ktype 2
+2026-11-18 05:19:15 [INFO] moomoo kline US.SNOW -n 370 --ktype 2
+2026-11-18 05:19:16 [INFO] moomoo kline US.OVCHY -n 370 --ktype 2
+2026-11-18 05:19:17 [INFO] moomoo kline US.ICE -n 370 --ktype 2
+2026-11-18 05:19:19 [INFO] moomoo kline US.GD -n 370 --ktype 2
+2026-11-18 05:19:20 [INFO] moomoo kline US.CSX -n 370 --ktype 2
+2026-11-18 05:19:21 [INFO] moomoo kline US.CEG -n 370 --ktype 2
+2026-11-18 05:19:22 [INFO]   225 bars cached
+2026-11-18 05:19:23 [INFO] moomoo kline US.UPS -n 370 --ktype 2
+2026-11-18 05:19:24 [INFO] moomoo kline US.ELV -n 370 --ktype 2
+2026-11-18 05:19:25 [INFO] moomoo kline US.MMM -n 370 --ktype 2
+2026-11-18 05:19:26 [INFO] moomoo kline US.GLW -n 370 --ktype 2
+2026-11-18 05:19:28 [INFO] moomoo kline US.RACE -n 370 --ktype 2
+2026-11-18 05:19:29 [INFO] moomoo kline US.USB -n 370 --ktype 2
+2026-11-18 05:19:30 [INFO] moomoo kline US.BX -n 370 --ktype 2
+2026-11-18 05:19:31 [INFO] moomoo kline US.ING -n 370 --ktype 2
+2026-11-18 05:19:33 [INFO] moomoo kline US.CAIXY -n 370 --ktype 2
+2026-11-18 05:19:34 [INFO] moomoo kline US.ADBE -n 370 --ktype 2
+2026-11-18 05:19:35 [INFO] moomoo kline US.HNHPF -n 370 --ktype 2
+2026-11-18 05:19:37 [INFO] moomoo kline US.FTNT -n 370 --ktype 2
+2026-11-18 05:19:38 [INFO] moomoo kline US.ATLKY -n 370 --ktype 2
+2026-11-18 05:19:38 [WARN]   kline failed for US.ATLKY: Error: get cur kline: [RATE_LIMIT] too many requests, retry after 22s
+2026-11-18 05:19:39 [INFO] moomoo kline US.GPMXY -n 370 --ktype 2
+2026-11-18 05:19:39 [WARN]   kline failed for US.GPMXY: Error: get cur kline: [RATE_LIMIT] too many requests, retry after 21s
+2026-11-18 05:19:40 [INFO] moomoo kline US.PWR -n 370 --ktype 2
+2026-11-18 05:19:40 [WARN]   kline failed for US.PWR: Error: get cur kline: [RATE_LIMIT] too many requests, retry after 20s
+2026-11-18 05:19:40 [INFO] moomoo kline US.ESLOY -n 370 --ktype 2
+2026-11-18 05:19:41 [WARN]   kline failed for US.ESLOY: Error: get cur kline: [RATE_LIMIT] too many requests, retry after 19s
+2026-11-18 05:19:41 [INFO] moomoo kline US.CMCSA -n 370 --ktype 2
+2026-11-18 05:19:41 [WARN]   kline failed for US.CMCSA: Error: get cur kline: [RATE_LIMIT] too many requests, retry after 18s
+2026-11-18 05:19:42 [INFO] moomoo kline US.PNC -n 370 --ktype 2
+2026-11-18 05:19:42 [WARN]   kline failed for US.PNC: Error: get cur kline: [RATE_LIMIT] too many requests, retry after 17s
+2026-11-18 05:19:43 [INFO] moomoo kline US.TT -n 370 --ktype 2
+2026-11-18 05:19:43 [WARN]   kline failed for US.TT: Error: get cur kline: [RATE_LIMIT] too many requests, retry after 16s
+2026-11-18 05:19:44 [INFO] moomoo kline US.BN -n 370 --ktype 2
+2026-11-18 05:19:44 [WARN]   kline failed for US.BN: Error: get cur kline: [RATE_LIMIT] too many requests, retry after 15s
+2026-11-18 05:19:45 [INFO] moomoo kline US.CHDRY -n 370 --ktype 2
+2026-11-18 05:19:45 [WARN]   kline failed for US.CHDRY: Error: get cur kline: [RATE_LIMIT] too many requests, retry after 14s
+2026-11-18 05:19:46 [INFO] moomoo kline US.CTAS -n 370 --ktype 2
+2026-11-18 05:19:46 [WARN]   kline failed for US.CTAS: Error: get cur kline: [RATE_LIMIT] too many requests, retry after 14s
+2026-11-18 05:19:47 [INFO] moomoo kline US.AEM -n 370 --ktype 2
+2026-11-18 05:19:47 [WARN]   kline failed for US.AEM: Error: get cur kline: [RATE_LIMIT] too many requests, retry after 13s
+2026-11-18 05:19:48 [INFO] moomoo kline US.EMR -n 370 --ktype 2
+2026-11-18 05:19:48 [WARN]   kline failed for US.EMR: Error: get cur kline: [RATE_LIMIT] too many requests, retry after 12s
+2026-11-18 05:19:48 [INFO] moomoo kline US.MNST -n 370 --ktype 2
+2026-11-18 05:19:49 [WARN]   kline failed for US.MNST: Error: get cur kline: [RATE_LIMIT] too many requests, retry after 11s
+2026-11-18 05:19:49 [INFO]   250 bars cached
+2026-11-18 05:19:49 [INFO] moomoo kline US.MSI -n 370 --ktype 2
+2026-11-18 05:19:50 [WARN]   kline failed for US.MSI: Error: get cur kline: [RATE_LIMIT] too many requests, retry after 10s
+2026-11-18 05:19:50 [INFO] moomoo kline US.ZIJMY -n 370 --ktype 2
+2026-11-18 05:19:50 [WARN]   kline failed for US.ZIJMY: Error: get cur kline: [RATE_LIMIT] too many requests, retry after 9s
+2026-11-18 05:19:51 [INFO] moomoo kline US.PSTVY -n 370 --ktype 2
+2026-11-18 05:19:51 [WARN]   kline failed for US.PSTVY: Error: get cur kline: [RATE_LIMIT] too many requests, retry after 8s
+2026-11-18 05:19:52 [INFO] moomoo kline US.INTU -n 370 --ktype 2
+2026-11-18 05:19:52 [WARN]   kline failed for US.INTU: Error: get cur kline: [RATE_LIMIT] too many requests, retry after 7s
+2026-11-18 05:19:53 [INFO] moomoo kline US.WBKCY -n 370 --ktype 2
+2026-11-18 05:19:53 [WARN]   kline failed for US.WBKCY: Error: get cur kline: [RATE_LIMIT] too many requests, retry after 6s
+2026-11-18 05:19:54 [INFO] moomoo kline US.HWM -n 370 --ktype 2
+2026-11-18 05:19:54 [WARN]   kline failed for US.HWM: Error: get cur kline: [RATE_LIMIT] too many requests, retry after 6s
+2026-11-18 05:19:55 [INFO] moomoo kline US.NTTYY -n 370 --ktype 2
+2026-11-18 05:19:55 [WARN]   kline failed for US.NTTYY: Error: get cur kline: [RATE_LIMIT] too many requests, retry after 5s
+2026-11-18 05:19:56 [INFO] moomoo kline US.AMT -n 370 --ktype 2
+2026-11-18 05:19:56 [WARN]   kline failed for US.AMT: Error: get cur kline: [RATE_LIMIT] too many requests, retry after 4s
+2026-11-18 05:19:57 [INFO] moomoo kline US.MITSY -n 370 --ktype 2
+2026-11-18 05:19:57 [WARN]   kline failed for US.MITSY: Error: get cur kline: [RATE_LIMIT] too many requests, retry after 3s
+2026-11-18 05:19:57 [INFO] moomoo kline US.ECL -n 370 --ktype 2
+2026-11-18 05:19:58 [WARN]   kline failed for US.ECL: Error: get cur kline: [RATE_LIMIT] too many requests, retry after 2s
+2026-11-18 05:19:58 [INFO] moomoo kline US.MDLZ -n 370 --ktype 2
+2026-11-18 05:19:59 [WARN]   kline failed for US.MDLZ: Error: get cur kline: [RATE_LIMIT] too many requests, retry after 1s
+2026-11-18 05:19:59 [INFO] moomoo kline US.WMB -n 370 --ktype 2
+2026-11-18 05:20:01 [INFO] moomoo kline US.KKR -n 370 --ktype 2
+2026-11-18 05:20:02 [INFO] moomoo kline US.CDNS -n 370 --ktype 2
+2026-11-18 05:20:04 [INFO] moomoo kline US.MRNA -n 370 --ktype 2
+2026-11-18 05:20:05 [INFO] moomoo kline US.MCO -n 370 --ktype 2
+2026-11-18 05:20:06 [INFO] moomoo kline US.SNPS -n 370 --ktype 2
+2026-11-18 05:20:08 [INFO] moomoo kline US.SHW -n 370 --ktype 2
+2026-11-18 05:20:09 [INFO] moomoo kline US.NGG -n 370 --ktype 2
+2026-11-18 05:20:10 [INFO] moomoo kline US.TRV -n 370 --ktype 2
+2026-11-18 05:20:12 [INFO] moomoo kline US.HLT -n 370 --ktype 2
+2026-11-18 05:20:13 [INFO] moomoo kline US.RCL -n 370 --ktype 2
+2026-11-18 05:20:14 [INFO] moomoo kline US.ANZGY -n 370 --ktype 2
+2026-11-18 05:20:16 [INFO] moomoo kline US.JCI -n 370 --ktype 2
+2026-11-18 05:20:17 [INFO] moomoo kline US.CP -n 370 --ktype 2
+2026-11-18 05:20:18 [INFO]   275 bars cached
+2026-11-18 05:20:19 [INFO] moomoo kline US.EOG -n 370 --ktype 2
+2026-11-18 05:20:20 [INFO] moomoo kline US.BAM -n 370 --ktype 2
+2026-11-18 05:20:22 [INFO] moomoo kline US.E -n 370 --ktype 2
+2026-11-18 05:20:23 [INFO] moomoo kline US.ITW -n 370 --ktype 2
+2026-11-18 05:20:25 [INFO] moomoo kline US.SU -n 370 --ktype 2
+2026-11-18 05:20:26 [INFO] moomoo kline US.ATLCY -n 370 --ktype 2
+2026-11-18 05:20:27 [INFO] moomoo kline US.EPD -n 370 --ktype 2
+2026-11-18 05:20:29 [INFO] moomoo kline US.FCX -n 370 --ktype 2
+2026-11-18 05:20:30 [INFO] moomoo kline US.CL -n 370 --ktype 2
+2026-11-18 05:20:31 [INFO] moomoo kline US.KXIAY -n 370 --ktype 2
+2026-11-18 05:20:33 [INFO] moomoo kline US.NOC -n 370 --ktype 2
+2026-11-18 05:20:34 [INFO] moomoo kline US.PROSY -n 370 --ktype 2
+2026-11-18 05:20:35 [INFO] moomoo kline US.CVNA -n 370 --ktype 2
+2026-11-18 05:20:37 [INFO] moomoo kline US.NABZY -n 370 --ktype 2
+2026-11-18 05:20:38 [INFO] moomoo kline US.CI -n 370 --ktype 2
+2026-11-18 05:20:40 [INFO] moomoo kline US.ITUB -n 370 --ktype 2
+2026-11-18 05:20:41 [INFO] moomoo kline US.RSG -n 370 --ktype 2
+2026-11-18 05:20:41 [WARN]   kline failed for US.RSG: Error: get cur kline: [RATE_LIMIT] too many requests, retry after 18s
+2026-11-18 05:20:42 [INFO] moomoo kline US.AMX -n 370 --ktype 2
+2026-11-18 05:20:42 [WARN]   kline failed for US.AMX: Error: get cur kline: [RATE_LIMIT] too many requests, retry after 17s
+2026-11-18 05:20:43 [INFO] moomoo kline US.CNI -n 370 --ktype 2
+2026-11-18 05:20:43 [WARN]   kline failed for US.CNI: Error: get cur kline: [RATE_LIMIT] too many requests, retry after 16s
+2026-11-18 05:20:44 [INFO] moomoo kline US.NTES -n 370 --ktype 2
+2026-11-18 05:20:44 [WARN]   kline failed for US.NTES: Error: get cur kline: [RATE_LIMIT] too many requests, retry after 16s
+2026-11-18 05:20:45 [INFO] moomoo kline US.CHGCY -n 370 --ktype 2
+2026-11-18 05:20:45 [WARN]   kline failed for US.CHGCY: Error: get cur kline: [RATE_LIMIT] too many requests, retry after 15s
+2026-11-18 05:20:46 [INFO] moomoo kline US.GLNCY -n 370 --ktype 2
+2026-11-18 05:20:46 [WARN]   kline failed for US.GLNCY: Error: get cur kline: [RATE_LIMIT] too many requests, retry after 14s
+2026-11-18 05:20:47 [INFO] moomoo kline US.SPG -n 370 --ktype 2
+2026-11-18 05:20:47 [WARN]   kline failed for US.SPG: Error: get cur kline: [RATE_LIMIT] too many requests, retry after 13s
+2026-11-18 05:20:47 [INFO] moomoo kline US.FDX -n 370 --ktype 2
+2026-11-18 05:20:48 [WARN]   kline failed for US.FDX: Error: get cur kline: [RATE_LIMIT] too many requests, retry after 12s
+2026-11-18 05:20:48 [INFO] moomoo kline US.ORLY -n 370 --ktype 2
+2026-11-18 05:20:48 [WARN]   kline failed for US.ORLY: Error: get cur kline: [RATE_LIMIT] too many requests, retry after 11s
+2026-11-18 05:20:48 [INFO]   300 bars cached
+2026-11-18 05:20:49 [INFO] moomoo kline US.WUXAY -n 370 --ktype 2
+2026-11-18 05:20:50 [WARN]   kline failed for US.WUXAY: Error: get cur kline: [RATE_LIMIT] too many requests, retry after 10s
+2026-11-18 05:20:50 [INFO] Pass 2 for 121 stragglers
+2026-11-18 05:21:11 [INFO] moomoo kline US.RHHBY -n 370 --ktype 2
+2026-11-18 05:21:12 [INFO] moomoo kline US.PLTR -n 370 --ktype 2
+2026-11-18 05:21:13 [INFO] moomoo kline US.CSCO -n 370 --ktype 2
+2026-11-18 05:21:15 [INFO] moomoo kline US.IDCBY -n 370 --ktype 2
+2026-11-18 05:21:16 [INFO] moomoo kline US.MRK -n 370 --ktype 2
+2026-11-18 05:21:18 [INFO] moomoo kline US.CICHY -n 370 --ktype 2
+2026-11-18 05:21:19 [INFO] moomoo kline US.UNH -n 370 --ktype 2
+2026-11-18 05:21:20 [INFO] moomoo kline US.ORCL -n 370 --ktype 2
+2026-11-18 05:21:22 [INFO] moomoo kline US.BAC -n 370 --ktype 2
+2026-11-18 05:21:23 [INFO] moomoo kline US.HD -n 370 --ktype 2
+2026-11-18 05:21:24 [INFO] moomoo kline US.GE -n 370 --ktype 2
+2026-11-18 05:21:26 [INFO] moomoo kline US.ACGBY -n 370 --ktype 2
+2026-11-18 05:21:27 [INFO] moomoo kline US.PM -n 370 --ktype 2
+2026-11-18 05:21:29 [INFO] moomoo kline US.NVS -n 370 --ktype 2
+2026-11-18 05:21:30 [INFO] moomoo kline US.HSBC -n 370 --ktype 2
+2026-11-18 05:21:31 [INFO] moomoo kline US.INTC -n 370 --ktype 2
+2026-11-18 05:21:33 [INFO] moomoo kline US.MS -n 370 --ktype 2
+2026-11-18 05:21:34 [INFO] moomoo kline US.GEV -n 370 --ktype 2
+2026-11-18 05:21:35 [INFO] moomoo kline US.DELL -n 370 --ktype 2
+2026-11-18 05:21:37 [INFO] moomoo kline US.IDEXY -n 370 --ktype 2
+2026-11-18 05:21:38 [INFO] moomoo kline US.DIS -n 370 --ktype 2
+2026-11-18 05:21:39 [INFO] moomoo kline US.C -n 370 --ktype 2
+2026-11-18 05:21:41 [INFO] moomoo kline US.TTE -n 370 --ktype 2
+2026-11-18 05:21:42 [INFO] moomoo kline US.ARM -n 370 --ktype 2
+2026-11-18 05:21:44 [INFO] moomoo kline US.TD -n 370 --ktype 2
+2026-11-18 05:21:45 [INFO] moomoo kline US.MCD -n 370 --ktype 2
+2026-11-18 05:21:46 [INFO] moomoo kline US.PEP -n 370 --ktype 2
+2026-11-18 05:21:48 [INFO] moomoo kline US.ALIZY -n 370 --ktype 2
+2026-11-18 05:21:49 [INFO] moomoo kline US.CMWAY -n 370 --ktype 2
+2026-11-18 05:21:50 [INFO] moomoo kline US.VZ -n 370 --ktype 2
+2026-11-18 05:21:52 [INFO] moomoo kline US.APH -n 370 --ktype 2
+2026-11-18 05:21:52 [WARN]   kline failed for US.APH: Error: get cur kline: [RATE_LIMIT] too many requests, retry after 7s
+2026-11-18 05:21:53 [INFO] moomoo kline US.KLAC -n 370 --ktype 2
+2026-11-18 05:21:53 [WARN]   kline failed for US.KLAC: Error: get cur kline: [RATE_LIMIT] too many requests, retry after 7s
+2026-11-18 05:21:54 [INFO] moomoo kline US.BHP -n 370 --ktype 2
+2026-11-18 05:21:54 [WARN]   kline failed for US.BHP: Error: get cur kline: [RATE_LIMIT] too many requests, retry after 6s
+2026-11-18 05:21:55 [INFO] moomoo kline US.ADI -n 370 --ktype 2
+2026-11-18 05:21:55 [WARN]   kline failed for US.ADI: Error: get cur kline: [RATE_LIMIT] too many requests, retry after 5s
+2026-11-18 05:21:55 [INFO] moomoo kline US.SHOP -n 370 --ktype 2
+2026-11-18 05:21:56 [WARN]   kline failed for US.SHOP: Error: get cur kline: [RATE_LIMIT] too many requests, retry after 4s
+2026-11-18 05:21:56 [INFO] moomoo kline US.BLK -n 370 --ktype 2
+2026-11-18 05:21:57 [WARN]   kline failed for US.BLK: Error: get cur kline: [RATE_LIMIT] too many requests, retry after 3s
+2026-11-18 05:21:57 [INFO] moomoo kline US.NVO -n 370 --ktype 2
+2026-11-18 05:21:57 [WARN]   kline failed for US.NVO: Error: get cur kline: [RATE_LIMIT] too many requests, retry after 2s
+2026-11-18 05:21:58 [INFO] moomoo kline US.ABT -n 370 --ktype 2
+2026-11-18 05:21:58 [WARN]   kline failed for US.ABT: Error: get cur kline: [RATE_LIMIT] too many requests, retry after 1s
+2026-11-18 05:21:59 [INFO] moomoo kline US.WELL -n 370 --ktype 2
+2026-11-18 05:22:00 [INFO] moomoo kline US.DTEGY -n 370 --ktype 2
+2026-11-18 05:22:02 [INFO] moomoo kline US.UL -n 370 --ktype 2
+2026-11-18 05:22:03 [INFO] moomoo kline US.UBER -n 370 --ktype 2
+2026-11-18 05:22:05 [INFO] moomoo kline US.BBVA -n 370 --ktype 2
+2026-11-18 05:22:06 [INFO] moomoo kline US.SAFRY -n 370 --ktype 2
+2026-11-18 05:22:07 [INFO] moomoo kline US.LMT -n 370 --ktype 2
+2026-11-18 05:22:09 [INFO] moomoo kline US.PGR -n 370 --ktype 2
+2026-11-18 05:22:10 [INFO] moomoo kline US.UNCRY -n 370 --ktype 2
+2026-11-18 05:22:12 [INFO] moomoo kline US.VRTX -n 370 --ktype 2
+2026-11-18 05:22:13 [INFO] moomoo kline US.HDB -n 370 --ktype 2
+2026-11-18 05:22:14 [INFO] moomoo kline US.AIQUY -n 370 --ktype 2
+2026-11-18 05:22:16 [INFO] moomoo kline US.HTHIY -n 370 --ktype 2
+2026-11-18 05:22:17 [INFO] moomoo kline US.SCCO -n 370 --ktype 2
+2026-11-18 05:22:19 [INFO] moomoo kline US.APP -n 370 --ktype 2
+2026-11-18 05:22:20 [INFO] moomoo kline US.SPGI -n 370 --ktype 2
+2026-11-18 05:22:22 [INFO] moomoo kline US.ETN -n 370 --ktype 2
+2026-11-18 05:22:23 [INFO] moomoo kline US.MDT -n 370 --ktype 2
+2026-11-18 05:22:25 [INFO] moomoo kline US.MRVL -n 370 --ktype 2
+2026-11-18 05:22:26 [INFO] moomoo kline US.IBKR -n 370 --ktype 2
+2026-11-18 05:22:27 [INFO] moomoo kline US.BA -n 370 --ktype 2
+2026-11-18 05:22:29 [INFO] moomoo kline US.RIO -n 370 --ktype 2
+2026-11-18 05:22:30 [INFO] moomoo kline US.MO -n 370 --ktype 2
+2026-11-18 05:22:31 [INFO] moomoo kline US.NEMCL -n 370 --ktype 2
+2026-11-18 05:22:32 [WARN]   kline failed for US.NEMCL: The property 'volume' cannot be found on this object. Verify that the property exists.
+2026-11-18 05:22:32 [INFO] moomoo kline US.BNPQY -n 370 --ktype 2
+2026-11-18 05:22:34 [INFO] moomoo kline US.COF -n 370 --ktype 2
+2026-11-18 05:22:35 [INFO] moomoo kline US.PBR -n 370 --ktype 2
+2026-11-18 05:22:36 [INFO] moomoo kline US.CME -n 370 --ktype 2
+2026-11-18 05:22:38 [INFO] moomoo kline US.PDD -n 370 --ktype 2
+2026-11-18 05:22:39 [INFO] moomoo kline US.CVS -n 370 --ktype 2
+2026-11-18 05:22:40 [INFO] moomoo kline US.SO -n 370 --ktype 2
+2026-11-18 05:22:41 [WARN]   kline failed for US.SO: Error: get cur kline: [RATE_LIMIT] too many requests, retry after 19s
+2026-11-18 05:22:41 [INFO] moomoo kline US.MAR -n 370 --ktype 2
+2026-11-18 05:22:41 [WARN]   kline failed for US.MAR: Error: get cur kline: [RATE_LIMIT] too many requests, retry after 18s
+2026-11-18 05:22:42 [INFO] moomoo kline US.BNS -n 370 --ktype 2
+2026-11-18 05:22:42 [WARN]   kline failed for US.BNS: Error: get cur kline: [RATE_LIMIT] too many requests, retry after 17s
+2026-11-18 05:22:43 [INFO] moomoo kline US.MPC -n 370 --ktype 2
+2026-11-18 05:22:44 [WARN]   kline failed for US.MPC: Error: get cur kline: [RATE_LIMIT] too many requests, retry after 16s
+2026-11-18 05:22:44 [INFO] moomoo kline US.ABNB -n 370 --ktype 2
+2026-11-18 05:22:45 [WARN]   kline failed for US.ABNB: Error: get cur kline: [RATE_LIMIT] too many requests, retry after 15s
+2026-11-18 05:22:45 [INFO] moomoo kline US.WDC -n 370 --ktype 2
+2026-11-18 05:22:46 [WARN]   kline failed for US.WDC: Error: get cur kline: [RATE_LIMIT] too many requests, retry after 14s
+2026-11-18 05:22:46 [INFO] moomoo kline US.ENB -n 370 --ktype 2
+2026-11-18 05:22:46 [WARN]   kline failed for US.ENB: Error: get cur kline: [RATE_LIMIT] too many requests, retry after 13s
+2026-11-18 05:22:47 [INFO] moomoo kline US.HCA -n 370 --ktype 2
+2026-11-18 05:22:47 [WARN]   kline failed for US.HCA: Error: get cur kline: [RATE_LIMIT] too many requests, retry after 12s
+2026-11-18 05:22:48 [INFO] moomoo kline US.ENLAY -n 370 --ktype 2
+2026-11-18 05:22:48 [WARN]   kline failed for US.ENLAY: Error: get cur kline: [RATE_LIMIT] too many requests, retry after 11s
+2026-11-18 05:22:49 [INFO] moomoo kline US.TKOMY -n 370 --ktype 2
+2026-11-18 05:22:49 [WARN]   kline failed for US.TKOMY: Error: get cur kline: [RATE_LIMIT] too many requests, retry after 10s
+2026-11-18 05:22:50 [INFO] moomoo kline US.AXAHY -n 370 --ktype 2
+2026-11-18 05:22:50 [WARN]   kline failed for US.AXAHY: Error: get cur kline: [RATE_LIMIT] too many requests, retry after 9s
+2026-11-18 05:22:51 [INFO] moomoo kline US.EQIX -n 370 --ktype 2
+2026-11-18 05:22:51 [WARN]   kline failed for US.EQIX: Error: get cur kline: [RATE_LIMIT] too many requests, retry after 9s
+2026-11-18 05:22:52 [INFO] moomoo kline US.CM -n 370 --ktype 2
+2026-11-18 05:22:52 [WARN]   kline failed for US.CM: Error: get cur kline: [RATE_LIMIT] too many requests, retry after 8s
+2026-11-18 05:22:53 [INFO] moomoo kline US.NET -n 370 --ktype 2
+2026-11-18 05:22:53 [WARN]   kline failed for US.NET: Error: get cur kline: [RATE_LIMIT] too many requests, retry after 7s
+2026-11-18 05:22:53 [INFO] moomoo kline US.VLO -n 370 --ktype 2
+2026-11-18 05:22:54 [WARN]   kline failed for US.VLO: Error: get cur kline: [RATE_LIMIT] too many requests, retry after 6s
+2026-11-18 05:22:54 [INFO] moomoo kline US.DUK -n 370 --ktype 2
+2026-11-18 05:22:55 [WARN]   kline failed for US.DUK: Error: get cur kline: [RATE_LIMIT] too many requests, retry after 5s
+2026-11-18 05:22:55 [INFO] moomoo kline US.AAGIY -n 370 --ktype 2
+2026-11-18 05:22:55 [WARN]   kline failed for US.AAGIY: Error: get cur kline: [RATE_LIMIT] too many requests, retry after 4s
+2026-11-18 05:22:56 [INFO] moomoo kline US.BNY -n 370 --ktype 2
+2026-11-18 05:22:56 [WARN]   kline failed for US.BNY: Error: get cur kline: [RATE_LIMIT] too many requests, retry after 3s
+2026-11-18 05:22:57 [INFO] moomoo kline US.BCMXY -n 370 --ktype 2
+2026-11-18 05:22:57 [WARN]   kline failed for US.BCMXY: Error: get cur kline: [RATE_LIMIT] too many requests, retry after 2s
+2026-11-18 05:22:58 [INFO] moomoo kline US.ATLKY -n 370 --ktype 2
+2026-11-18 05:22:58 [WARN]   kline failed for US.ATLKY: Error: get cur kline: [RATE_LIMIT] too many requests, retry after 1s
+2026-11-18 05:22:59 [INFO] moomoo kline US.GPMXY -n 370 --ktype 2
+2026-11-18 05:22:59 [WARN]   kline failed for US.GPMXY: Error: get cur kline: [RATE_LIMIT] too many requests, retry after 1s
+2026-11-18 05:23:00 [INFO] moomoo kline US.PWR -n 370 --ktype 2
+2026-11-18 05:23:01 [INFO] moomoo kline US.ESLOY -n 370 --ktype 2
+2026-11-18 05:23:02 [INFO] moomoo kline US.CMCSA -n 370 --ktype 2
+2026-11-18 05:23:04 [INFO] moomoo kline US.PNC -n 370 --ktype 2
+2026-11-18 05:23:05 [INFO] moomoo kline US.TT -n 370 --ktype 2
+2026-11-18 05:23:07 [INFO] moomoo kline US.BN -n 370 --ktype 2
+2026-11-18 05:23:08 [INFO] moomoo kline US.CHDRY -n 370 --ktype 2
+2026-11-18 05:23:09 [INFO] moomoo kline US.CTAS -n 370 --ktype 2
+2026-11-18 05:23:11 [INFO] moomoo kline US.AEM -n 370 --ktype 2
+2026-11-18 05:23:12 [INFO] moomoo kline US.EMR -n 370 --ktype 2
+2026-11-18 05:23:13 [INFO] moomoo kline US.MNST -n 370 --ktype 2
+2026-11-18 05:23:15 [INFO] moomoo kline US.MSI -n 370 --ktype 2
+2026-11-18 05:23:16 [INFO] moomoo kline US.ZIJMY -n 370 --ktype 2
+2026-11-18 05:23:17 [INFO] moomoo kline US.PSTVY -n 370 --ktype 2
+2026-11-18 05:23:19 [INFO] moomoo kline US.INTU -n 370 --ktype 2
+2026-11-18 05:23:20 [INFO] moomoo kline US.WBKCY -n 370 --ktype 2
+2026-11-18 05:23:21 [INFO] moomoo kline US.HWM -n 370 --ktype 2
+2026-11-18 05:23:23 [INFO] moomoo kline US.NTTYY -n 370 --ktype 2
+2026-11-18 05:23:24 [INFO] moomoo kline US.AMT -n 370 --ktype 2
+2026-11-18 05:23:26 [INFO] moomoo kline US.MITSY -n 370 --ktype 2
+2026-11-18 05:23:27 [INFO] moomoo kline US.ECL -n 370 --ktype 2
+2026-11-18 05:23:29 [INFO] moomoo kline US.MDLZ -n 370 --ktype 2
+2026-11-18 05:23:30 [INFO] moomoo kline US.RSG -n 370 --ktype 2
+2026-11-18 05:23:31 [INFO] moomoo kline US.AMX -n 370 --ktype 2
+2026-11-18 05:23:33 [INFO] moomoo kline US.CNI -n 370 --ktype 2
+2026-11-18 05:23:34 [INFO] moomoo kline US.NTES -n 370 --ktype 2
+2026-11-18 05:23:35 [INFO] moomoo kline US.CHGCY -n 370 --ktype 2
+2026-11-18 05:23:37 [INFO] moomoo kline US.GLNCY -n 370 --ktype 2
+2026-11-18 05:23:38 [INFO] moomoo kline US.SPG -n 370 --ktype 2
+2026-11-18 05:23:40 [INFO] moomoo kline US.FDX -n 370 --ktype 2
+2026-11-18 05:23:41 [INFO] moomoo kline US.ORLY -n 370 --ktype 2
+2026-11-18 05:23:41 [WARN]   kline failed for US.ORLY: Error: get cur kline: [RATE_LIMIT] too many requests, retry after 18s
+2026-11-18 05:23:42 [INFO] moomoo kline US.WUXAY -n 370 --ktype 2
+2026-11-18 05:23:42 [WARN]   kline failed for US.WUXAY: Error: get cur kline: [RATE_LIMIT] too many requests, retry after 17s
+2026-11-18 05:23:42 [INFO] Universe done: 300 members, 267 cached, 0 fresh, 32 failed

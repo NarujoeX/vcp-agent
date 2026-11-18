@@ -1,0 +1,19 @@
+﻿{
+    "positions":  [
+                      {
+                          "buy_avg_price":  "0",
+                          "cost_price":  "0",
+                          "cur_price":  "11.425",
+                          "market":  100,
+                          "mv":  "0",
+                          "profit":  "0.002",
+                          "profit_ratio":  "0",
+                          "pstn_id":  "729367",
+                          "qty":  "0",
+                          "qty_avbl":  "0",
+                          "stock_name":  "Ford Motor",
+                          "symbol":  "F",
+                          "today_turnover":  "0.002"
+                      }
+                  ]
+}

@@ -1,0 +1,53 @@
+{
+  "version": "1.8",
+  "effective": "2026-11-18",
+  "rules": [
+    { "id": "R1", "name": "long_only", "type": "sides", "allowed_sides": ["buy", "sell"], "forbid_short": true, "message": "Long only: entries are buys, exits are sells, no shorts." },
+    { "id": "R2", "name": "instrument_whitelist", "type": "instrument", "allowed": ["US common stock", "US ETF"], "forbidden": ["option", "future", "crypto", "forex", "warrant", "cbbc"], "message": "US-listed stock or ETF only." },
+    { "id": "R3", "name": "cash_only", "type": "funding", "use_margin": false, "message": "Cash only: cost + reserved cash must not exceed the cash balance; never use 2x buying power." },
+    { "id": "R4", "name": "starter_size", "type": "sizing", "pct": 0.035, "tolerance_pct": 0.02, "adds": "winners_only", "message": "Starter 3.5% of equity; adds only to winners." },
+    { "id": "R5", "name": "max_new_per_cycle", "type": "rate", "max": 3, "message": "At most 3 new positions per cycle." },
+    { "id": "R6", "name": "max_open_positions", "type": "exposure", "max": 8, "message": "At most 8 open positions." },
+    { "id": "R7", "name": "single_stock_cap", "type": "exposure", "max_pct": 0.35, "hard_cap_pct": 0.40, "message": "Max 35% of equity per stock (competition hard cap 40%)." },
+    { "id": "R8", "name": "protective_stop", "type": "exit", "min_pct": 0.06, "max_pct": 0.10, "must_be_below_pivot": true, "must_be_live_order": true, "message": "Stop 6-10% below entry, below pivot, submitted as a real order." },
+    { "id": "R9", "name": "conviction_floor", "type": "quality", "min": 0.50, "message": "Conviction must be at least 0.50." },
+    { "id": "R10", "name": "no_averaging_down", "type": "sizing", "forbid_add_when_unrealized_le_zero": true, "message": "Never add to a losing position." },
+    { "id": "R11", "name": "flatten_before_holiday", "type": "calendar", "flatten_deadline": "2026-11-25T16:00:00-05:00", "no_new_entries_from": "2026-11-25", "message": "Flat before Thanksgiving; no new entries from 25 Nov." },
+    { "id": "R12", "name": "event_blackout", "type": "event", "sources": ["earnings"], "message": "No new entries in a name around a scheduled earnings print." },
+    { "id": "R13", "name": "index_regime", "type": "regime", "symbol": "US.SPY", "sma": 50, "forbid_buy_when": "close below a falling 50-day average", "message": "No new buys while the S&P 500 is in a correction (below a falling 50DMA)." },
+    { "id": "R14", "name": "opening_blackout", "type": "calendar", "minutes_after_open": 15, "message": "No new buys in the first 15 minutes of the regular session." },
+    { "id": "R15", "name": "liquidity_floor", "type": "liquidity", "min_dollar_volume": 100000000, "lookback": 20, "message": "Average daily dollar volume must exceed US$100M." }
+  ],
+  "jlaw": {
+    "enabled": true,
+    "min_dollar_volume": 100000000,
+    "heavy_volume_mult": 1.5,
+    "heavy_volume_min_days": 2,
+    "heavy_volume_look": 30,
+    "edge_zone_pct": 0.02,
+    "min_edges": 2,
+    "stop_below_edge_pct": 0.04,
+    "rs_lookback_days": 63,
+    "benchmark": "US.SPY",
+    "regime_sma": 50,
+    "regime_slope_look": 5,
+    "opening_blackout_minutes": 15,
+    "trim_atr_mult": 3.0,
+    "trim_fraction": 0.33,
+    "catalyst_bonus": 0.05,
+    "catalyst_valid_days": 14,
+    "fallback_from": "2026-11-19T09:30:00-05:00",
+    "min_distinct_tickers": 3
+  },
+  "event_blackout": [
+    { "symbol": "US.NVDA", "until": "2026-11-18T16:00:00-05:00", "reason": "NVDA reports after the close on 17 Nov" }
+  ],
+  "competition_limits": {
+    "min_price": 1.0,
+    "min_market_cap": 500000000,
+    "max_executed_orders_per_day": 200,
+    "max_positions": 100,
+    "min_distinct_tickers": 3,
+    "no_trading_after": "2026-11-27T13:00:00-05:00"
+  }
+}

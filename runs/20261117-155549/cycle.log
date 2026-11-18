@@ -1,0 +1,28 @@
+15:55:49 [stopwatch] start
+    FLAT no positions
+
+15:55:51 [stopwatch] done in 1s
+15:55:51 [reconcile] start
+    CASH=100,000.00 EQUITY=100,000.00 POSITIONS=0 ORDERS_TODAY=0
+
+15:55:52 [reconcile] done in 2s
+15:55:52 [scan] start
+    STAGE2=2 VCP=0 BREAKOUTS=0 SETUPS=0 RUNDIR=C:\Users\REDACTED_USER\Documents\Qoder\2026-11-17\6df584d8\runs\2026-11-17\20261117-155553-scan
+
+15:55:54 [scan] done in 1s
+15:55:54 [propose] start
+    RANKED=0 APPROVED=0 ENTRIES_ALLOWED=False RUNDIR=C:\Users\REDACTED_USER\Documents\Qoder\2026-11-17\6df584d8\runs\2026-11-17\20261117-155554-propose
+
+15:55:54 [propose] done in 0s
+15:55:54 [execute] start
+15:55:54 [execute] FAILED: At C:\Users\REDACTED_USER\Documents\Qoder\2026-11-17\6df584d8\engine\5-Execute.ps1:70 char:50
++             catch { Write-Log "cancel failed for $sym: $($_.Exception ...
++                                                  ~~~~~
+Variable reference is not valid. ':' was not followed by a valid variable name character. Consider using ${} to delimit the name.
+at <ScriptBlock>, C:\Users\REDACTED_USER\Documents\Qoder\2026-11-17\6df584d8\engine\Invoke-Cycle.ps1: line 94
+at Step, C:\Users\REDACTED_USER\Documents\Qoder\2026-11-17\6df584d8\engine\Invoke-Cycle.ps1: line 32
+at <ScriptBlock>, C:\Users\REDACTED_USER\Documents\Qoder\2026-11-17\6df584d8\engine\Invoke-Cycle.ps1: line 93
+15:55:54 [dashboard] start
+    DASHBOARD=C:\Users\REDACTED_USER\Documents\Qoder\2026-11-17\6df584d8\dashboard\index.html
+
+15:55:54 [dashboard] done in 0s

@@ -1,0 +1,395 @@
+﻿{
+    "data":  {
+                 "items":  [
+                               {
+                                   "code":  "US.AAPL",
+                                   "name":  "Apple",
+                                   "results":  [
+                                                   {
+                                                       "basic_property_result":  {
+                                                                                     "property":  {
+                                                                                                      "name":  1101
+                                                                                                  },
+                                                                                     "res":  {
+                                                                                                 "result_type":  3,
+                                                                                                 "sval":  "US.AAPL"
+                                                                                             },
+                                                                                     "value":  "US.AAPL"
+                                                                                 }
+                                                   },
+                                                   {
+                                                       "simple_property_result":  {
+                                                                                      "property":  {
+                                                                                                       "name":  2301
+                                                                                                   },
+                                                                                      "res":  {
+                                                                                                  "ival":  "5126663165960000",
+                                                                                                  "result_type":  2
+                                                                                              },
+                                                                                      "value":  "5126663165960000"
+                                                                                  }
+                                                   }
+                                               ],
+                                   "sc_name":  "Φï╣µ₧£",
+                                   "tc_name":  "Φÿïµ₧£"
+                               },
+                               {
+                                   "code":  "US.MSFT",
+                                   "name":  "Microsoft",
+                                   "results":  [
+                                                   {
+                                                       "basic_property_result":  {
+                                                                                     "property":  {
+                                                                                                      "name":  1101
+                                                                                                  },
+                                                                                     "res":  {
+                                                                                                 "result_type":  3,
+                                                                                                 "sval":  "US.MSFT"
+                                                                                             },
+                                                                                     "value":  "US.MSFT"
+                                                                                 }
+                                                   },
+                                                   {
+                                                       "simple_property_result":  {
+                                                                                      "property":  {
+                                                                                                       "name":  2301
+                                                                                                   },
+                                                                                      "res":  {
+                                                                                                  "ival":  "3846694515990480",
+                                                                                                  "result_type":  2
+                                                                                              },
+                                                                                      "value":  "3846694515990480"
+                                                                                  }
+                                                   }
+                                               ],
+                                   "sc_name":  "σ╛«Φ╜»",
+                                   "tc_name":  "σ╛«Φ╗ƒ"
+                               },
+                               {
+                                   "code":  "US.NVDA",
+                                   "name":  "NVIDIA",
+                                   "results":  [
+                                                   {
+                                                       "basic_property_result":  {
+                                                                                     "property":  {
+                                                                                                      "name":  1101
+                                                                                                  },
+                                                                                     "res":  {
+                                                                                                 "result_type":  3,
+                                                                                                 "sval":  "US.NVDA"
+                                                                                             },
+                                                                                     "value":  "US.NVDA"
+                                                                                 }
+                                                   },
+                                                   {
+                                                       "simple_property_result":  {
+                                                                                      "property":  {
+                                                                                                       "name":  2301
+                                                                                                   },
+                                                                                      "res":  {
+                                                                                                  "ival":  "3762974000000000",
+                                                                                                  "result_type":  2
+                                                                                              },
+                                                                                      "value":  "3762974000000000"
+                                                                                  }
+                                                   }
+                                               ],
+                                   "sc_name":  "Φï▒Σ╝ƒΦ╛╛",
+                                   "tc_name":  "Φï▒σüëΘüö"
+                               },
+                               {
+                                   "code":  "US.GOOGL",
+                                   "name":  "Alphabet-A",
+                                   "results":  [
+                                                   {
+                                                       "basic_property_result":  {
+                                                                                     "property":  {
+                                                                                                      "name":  1101
+                                                                                                  },
+                                                                                     "res":  {
+                                                                                                 "result_type":  3,
+                                                                                                 "sval":  "US.GOOGL"
+                                                                                             },
+                                                                                     "value":  "US.GOOGL"
+                                                                                 }
+                                                   },
+                                                   {
+                                                       "simple_property_result":  {
+                                                                                      "property":  {
+                                                                                                       "name":  2301
+                                                                                                   },
+                                                                                      "res":  {
+                                                                                                  "ival":  "3488053680000001",
+                                                                                                  "result_type":  2
+                                                                                              },
+                                                                                      "value":  "3488053680000001"
+                                                                                  }
+                                                   }
+                                               ],
+                                   "sc_name":  "Φ░╖µ¡î-A",
+                                   "tc_name":  "Φ░╖µ¡î-A"
+                               },
+                               {
+                                   "code":  "US.GOOG",
+                                   "name":  "Alphabet-C",
+                                   "results":  [
+                                                   {
+                                                       "basic_property_result":  {
+                                                                                     "property":  {
+                                                                                                      "name":  1101
+                                                                                                  },
+                                                                                     "res":  {
+                                                                                                 "result_type":  3,
+                                                                                                 "sval":  "US.GOOG"
+                                                                                             },
+                                                                                     "value":  "US.GOOG"
+                                                                                 }
+                                                   },
+                                                   {
+                                                       "simple_property_result":  {
+                                                                                      "property":  {
+                                                                                                       "name":  2301
+                                                                                                   },
+                                                                                      "res":  {
+                                                                                                  "ival":  "3457810440000000",
+                                                                                                  "result_type":  2
+                                                                                              },
+                                                                                      "value":  "3457810440000000"
+                                                                                  }
+                                                   }
+                                               ],
+                                   "sc_name":  "Φ░╖µ¡î-C",
+                                   "tc_name":  "Φ░╖µ¡î-C"
+                               },
+                               {
+                                   "code":  "US.AMZN",
+                                   "name":  "Amazon",
+                                   "results":  [
+                                                   {
+                                                       "basic_property_result":  {
+                                                                                     "property":  {
+                                                                                                      "name":  1101
+                                                                                                  },
+                                                                                     "res":  {
+                                                                                                 "result_type":  3,
+                                                                                                 "sval":  "US.AMZN"
+                                                                                             },
+                                                                                     "value":  "US.AMZN"
+                                                                                 }
+                                                   },
+                                                   {
+                                                       "simple_property_result":  {
+                                                                                      "property":  {
+                                                                                                       "name":  2301
+                                                                                                   },
+                                                                                      "res":  {
+                                                                                                  "ival":  "2787086398371500",
+                                                                                                  "result_type":  2
+                                                                                              },
+                                                                                      "value":  "2787086398371500"
+                                                                                  }
+                                                   }
+                                               ],
+                                   "sc_name":  "Σ║ÜΘ⌐¼ΘÇè",
+                                   "tc_name":  "Σ║₧Θª¼Θü£"
+                               },
+                               {
+                                   "code":  "US.TSM",
+                                   "name":  "Taiwan Semiconductor",
+                                   "results":  [
+                                                   {
+                                                       "basic_property_result":  {
+                                                                                     "property":  {
+                                                                                                      "name":  1101
+                                                                                                  },
+                                                                                     "res":  {
+                                                                                                 "result_type":  3,
+                                                                                                 "sval":  "US.TSM"
+                                                                                             },
+                                                                                     "value":  "US.TSM"
+                                                                                 }
+                                                   },
+                                                   {
+                                                       "simple_property_result":  {
+                                                                                      "property":  {
+                                                                                                       "name":  2301
+                                                                                                   },
+                                                                                      "res":  {
+                                                                                                  "ival":  "1936861080000000",
+                                                                                                  "result_type":  2
+                                                                                              },
+                                                                                      "value":  "1936861080000000"
+                                                                                  }
+                                                   }
+                                               ],
+                                   "sc_name":  "σÅ░τº»τö╡",
+                                   "tc_name":  "σÅ░τ⌐ìΘ¢╗"
+                               },
+                               {
+                                   "code":  "US.SPCX",
+                                   "name":  "SpaceX",
+                                   "results":  [
+                                                   {
+                                                       "basic_property_result":  {
+                                                                                     "property":  {
+                                                                                                      "name":  1101
+                                                                                                  },
+                                                                                     "res":  {
+                                                                                                 "result_type":  3,
+                                                                                                 "sval":  "US.SPCX"
+                                                                                             },
+                                                                                     "value":  "US.SPCX"
+                                                                                 }
+                                                   },
+                                                   {
+                                                       "simple_property_result":  {
+                                                                                      "property":  {
+                                                                                                       "name":  2301
+                                                                                                   },
+                                                                                      "res":  {
+                                                                                                  "ival":  "1865494911068240",
+                                                                                                  "result_type":  2
+                                                                                              },
+                                                                                      "value":  "1865494911068240"
+                                                                                  }
+                                                   }
+                                               ],
+                                   "sc_name":  "SpaceX",
+                                   "tc_name":  "SpaceX"
+                               },
+                               {
+                                   "code":  "US.META",
+                                   "name":  "Meta Platforms",
+                                   "results":  [
+                                                   {
+                                                       "basic_property_result":  {
+                                                                                     "property":  {
+                                                                                                      "name":  1101
+                                                                                                  },
+                                                                                     "res":  {
+                                                                                                 "result_type":  3,
+                                                                                                 "sval":  "US.META"
+                                                                                             },
+                                                                                     "value":  "US.META"
+                                                                                 }
+                                                   },
+                                                   {
+                                                       "simple_property_result":  {
+                                                                                      "property":  {
+                                                                                                       "name":  2301
+                                                                                                   },
+                                                                                      "res":  {
+                                                                                                  "ival":  "1601255083291730",
+                                                                                                  "result_type":  2
+                                                                                              },
+                                                                                      "value":  "1601255083291730"
+                                                                                  }
+                                                   }
+                                               ],
+                                   "sc_name":  "Meta Platforms",
+                                   "tc_name":  "Meta Platforms"
+                               },
+                               {
+                                   "code":  "US.AVGO",
+                                   "name":  "Broadcom",
+                                   "results":  [
+                                                   {
+                                                       "basic_property_result":  {
+                                                                                     "property":  {
+                                                                                                      "name":  1101
+                                                                                                  },
+                                                                                     "res":  {
+                                                                                                 "result_type":  3,
+                                                                                                 "sval":  "US.AVGO"
+                                                                                             },
+                                                                                     "value":  "US.AVGO"
+                                                                                 }
+                                                   },
+                                                   {
+                                                       "simple_property_result":  {
+                                                                                      "property":  {
+                                                                                                       "name":  2301
+                                                                                                   },
+                                                                                      "res":  {
+                                                                                                  "ival":  "1591528196991000",
+                                                                                                  "result_type":  2
+                                                                                              },
+                                                                                      "value":  "1591528196991000"
+                                                                                  }
+                                                   }
+                                               ],
+                                   "sc_name":  "σìÜΘÇÜ",
+                                   "tc_name":  "σìÜΘÇÜ"
+                               },
+                               {
+                                   "code":  "US.TSLA",
+                                   "name":  "Tesla",
+                                   "results":  [
+                                                   {
+                                                       "basic_property_result":  {
+                                                                                     "property":  {
+                                                                                                      "name":  1101
+                                                                                                  },
+                                                                                     "res":  {
+                                                                                                 "result_type":  3,
+                                                                                                 "sval":  "US.TSLA"
+                                                                                             },
+                                                                                     "value":  "US.TSLA"
+                                                                                 }
+                                                   },
+                                                   {
+                                                       "simple_property_result":  {
+                                                                                      "property":  {
+                                                                                                       "name":  2301
+                                                                                                   },
+                                                                                      "res":  {
+                                                                                                  "ival":  "1501020302414040",
+                                                                                                  "result_type":  2
+                                                                                              },
+                                                                                      "value":  "1501020302414040"
+                                                                                  }
+                                                   }
+                                               ],
+                                   "sc_name":  "τë╣µû»µïë",
+                                   "tc_name":  "τë╣µû»µïë"
+                               },
+                               {
+                                   "code":  "US.LLY",
+                                   "name":  "Eli Lilly and Co",
+                                   "results":  [
+                                                   {
+                                                       "basic_property_result":  {
+                                                                                     "property":  {
+                                                                                                      "name":  1101
+                                                                                                  },
+                                                                                     "res":  {
+                                                                                                 "result_type":  3,
+                                                                                                 "sval":  "US.LLY"
+                                                                                             },
+                                                                                     "value":  "US.LLY"
+                                                                                 }
+                                                   },
+                                                   {
+                                                       "simple_property_result":  {
+                                                                                      "property":  {
+                                                                                                       "name":  2301
+                                                                                                   },
+                                                                                      "res":  {
+                                                                                                  "ival":  "1346836438531770",
+                                                                                                  "result_type":  2
+                                                                                              },
+                                                                                      "value":  "1346836438531770"
+                                                                                  }
+                                                   }
+                                               ],
+                                   "sc_name":  "τñ╝µ¥Ñ",
+                                   "tc_name":  "τª«Σ╛å"
+                               }
+                           ]
+             },
+    "pagination":  {
+                       "has_more":  true,
+                       "next_key":  "12",
+                       "total":  9503
+                   }
+}

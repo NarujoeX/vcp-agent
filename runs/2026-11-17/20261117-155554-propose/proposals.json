@@ -1,0 +1,50 @@
+﻿{
+    "generated":  "2026-11-17T15:55:54",
+    "session":  {
+                    "session":  "closed",
+                    "reason":  "outside session",
+                    "open":  false
+                },
+    "entriesAllowed":  false,
+    "state":  {
+                  "asOf":  "2026-11-17T15:55:52",
+                  "accountId":  "challenge-account",
+                  "cash":  100000,
+                  "reserved":  0,
+                  "hold":  0,
+                  "equity":  100000,
+                  "longMarketValue":  0,
+                  "investedCost":  0,
+                  "positions":  [
+
+                                ],
+                  "openOrders":  [
+                                     {
+                                         "orderId":  "3265691",
+                                         "symbol":  "US.AAPL",
+                                         "side":  "buy",
+                                         "qty":  1,
+                                         "price":  353,
+                                         "type":  "limit",
+                                         "status":  5
+                                     }
+                                 ],
+                  "today":  {
+                                "date":  "2026-11-17",
+                                "executedOrders":  0,
+                                "approvedBuys":  0
+                            },
+                  "session":  {
+                                  "session":  "closed",
+                                  "reason":  "outside session",
+                                  "open":  false
+                              }
+              },
+    "ranked":  [
+
+               ],
+    "verdicts":  [
+
+                 ],
+    "approvedCount":  0
+}

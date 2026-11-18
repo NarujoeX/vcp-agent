@@ -1,0 +1,64 @@
+﻿{
+    "competition":  {
+                        "name":  "Moomoo x Qoder AI Paper Trading Agent Challenge",
+                        "start":  "2026-11-17",
+                        "end":  "2026-11-27T13:00:00-05:00",
+                        "submission_due":  "2026-11-30T23:59:00+08:00",
+                        "flatten_deadline":  "2026-11-25T16:00:00-05:00",
+                        "no_new_entries_from":  "2026-11-25",
+                        "closed_dates":  [
+                                             "2026-11-26"
+                                         ],
+                        "half_days":  [
+                                          "2026-11-27"
+                                      ]
+                    },
+    "account":  {
+                    "account_id":  "challenge-account",
+                    "account_title":  "Moomoo x Qoder AI Paper Trading Agent Challenge",
+                    "market":  "US",
+                    "market_id":  100,
+                    "equity_baseline":  100000
+                },
+    "risk":  {
+                 "starter_pct":  0.035,
+                 "starter_tolerance_pct":  0.02,
+                 "max_new_per_cycle":  3,
+                 "max_open_positions":  8,
+                 "max_stock_pct":  0.35,
+                 "hard_stock_cap_pct":  0.40,
+                 "stop_min_pct":  0.06,
+                 "stop_max_pct":  0.10,
+                 "conviction_floor":  0.50,
+                 "min_price":  1.0,
+                 "min_mktcap":  500000000,
+                 "max_orders_per_day":  200,
+                 "max_positions":  100,
+                 "no_averaging_down":  true
+             },
+    "strategy":  {
+                     "universe_top_n":  500,
+                     "min_bars":  260,
+                     "rsi_period":  14,
+                     "rsi_min":  50,
+                     "sma_long":  200,
+                     "sma_mid":  50,
+                     "base_lookback":  65,
+                     "swing_threshold_pct":  0.03,
+                     "min_contractions":  2,
+                     "max_contractions":  3,
+                     "min_contraction_pct":  0.02,
+                     "contraction_decay_min":  0.55,
+                     "volume_dryup_ratio":  1.0,
+                     "breakout_volume_mult":  1.5,
+                     "max_extension_pct":  0.05,
+                     "max_hold_days":  10,
+                     "trail_atr_mult":  2.0,
+                     "breakeven_trigger_pct":  0.05,
+                     "slippage_pct":  0.0005,
+                     "half_spread_pct":  0.0002
+                 },
+    "cycle":  {
+                  "interval_minutes":  15
+              }
+}
